@@ -1,0 +1,12 @@
+drop table cashier;
+drop table cleaner;
+drop table customer;
+drop table department;
+drop table guardian;
+drop table indepartment;
+drop table orderdetails;
+drop table orders;
+drop table persondetails;
+drop table products;
+drop table supplier;
+drop table warehouse_arranger;
