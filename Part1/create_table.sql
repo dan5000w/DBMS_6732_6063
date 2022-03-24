@@ -19,7 +19,7 @@ CREATE TABLE Customer
   PRIMARY KEY (CustomerID) 
 ); 
  
-CREATE TABLE Order 
+CREATE TABLE Orders
 ( 
   OrderID VARCHAR(15) NOT NULL, 
   CustomerID VARCHAR(15) NOT NULL, 
@@ -45,7 +45,7 @@ CREATE TABLE OrderDetails
   OrderID VARCHAR(15) NOT NULL, 
   ProductID VARCHAR(15) NOT NULL, 
   PRIMARY KEY (OrderID, ProductID), 
-  FOREIGN KEY (OrderID) REFERENCES Order(OrderID), 
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID), 
   FOREIGN KEY (ProductID) REFERENCES Products(ProductID) 
 ); 
  
@@ -77,7 +77,7 @@ CREATE TABLE Warehouse_arranger
   FOREIGN KEY (WorkerID) REFERENCES PersonDetails(WorkerID) 
 ); 
  
-CREATE TABLE Guard 
+CREATE TABLE Guardian
 ( 
   Armed VARCHAR(15) NOT NULL, 
   WorkerID VARCHAR(15) NOT NULL, 
