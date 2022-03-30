@@ -3000,5 +3000,21 @@ values ('1998', 'Eddie', to_date('22-07-1996', 'dd-mm-yyyy'), '23 West Chester',
 insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
 values ('1999', 'Crispin', to_date('12-05-1996', 'dd-mm-yyyy'), '97 Kretschmann ', '2', 19106, '1000');
 
-commit;
+-- department
 
+insert into WOLPERT.DEPARTMENT (DEPNAME, DEPID)
+values ('Food', '1');
+
+insert into WOLPERT.DEPARTMENT (DEPNAME, DEPID)
+values ('Drinks', '2');
+
+insert into WOLPERT.DEPARTMENT (DEPNAME, DEPID)
+values ('Cleaning', '3');
+
+insert into WOLPERT.DEPARTMENT (DEPNAME, DEPID)
+values ('Electricity', '4');
+
+insert into WOLPERT.DEPARTMENT (DEPNAME, DEPID)
+values ('Furniture', '5');
+
+commit;
