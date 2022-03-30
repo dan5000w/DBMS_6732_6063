@@ -1,3003 +1,3004 @@
 -- persondetails
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1000', 'Yakov', to_date('04-07-1978', 'dd-mm-yyyy'), '35 Tal Blvd', '1', 125000);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1000', 'Yakov', to_date('21-10-1977', 'dd-mm-yyyy'), '556 Dardilly Ro', '1', 125000, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1001', 'Cole', to_date('07-08-1995', 'dd-mm-yyyy'), '80 Keanu Drive', '1', 14014);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1001', 'Isaac', to_date('08-05-1971', 'dd-mm-yyyy'), '78 Williamson D', '2', 16404, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1002', 'Toni', to_date('27-03-1983', 'dd-mm-yyyy'), '373 Elizondo Av', '1', 21751);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1002', 'Lizzy', to_date('08-04-1971', 'dd-mm-yyyy'), '90 Hampton Stre', '2', 35408, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1003', 'Robert', to_date('05-02-1984', 'dd-mm-yyyy'), '99 Lyngby Drive', '2', 7520);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1003', 'Norm', to_date('13-08-1979', 'dd-mm-yyyy'), '560 Marie Road', '1', 42861, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1004', 'Giancarlo', to_date('07-07-1973', 'dd-mm-yyyy'), '20 Merle Street', '1', 16585);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1004', 'Keith', to_date('06-04-1998', 'dd-mm-yyyy'), '863 Art Road', '1', 22747, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1005', 'Mili', to_date('24-01-1981', 'dd-mm-yyyy'), '87 Laura Street', '1', 26731);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1005', 'Nick', to_date('17-04-1977', 'dd-mm-yyyy'), '33 Claude Ave', '1', 22023, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1006', 'Joseph', to_date('07-01-1970', 'dd-mm-yyyy'), '45 Fehr Street', '1', 20850);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1006', 'Miles', to_date('14-12-1998', 'dd-mm-yyyy'), '474 Hope', '2', 32419, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1007', 'Andrew', to_date('31-01-1978', 'dd-mm-yyyy'), '40 Torres Drive', '2', 37369);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1007', 'Sean', to_date('28-03-1984', 'dd-mm-yyyy'), '83 Carrie Road', '1', 16597, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1008', 'Rebeka', to_date('03-07-1987', 'dd-mm-yyyy'), '16 Warren Stree', '1', 6867);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1008', 'Burton', to_date('20-04-1973', 'dd-mm-yyyy'), '3 DiCaprio Driv', '1', 7940, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1009', 'Irene', to_date('03-08-1971', 'dd-mm-yyyy'), '53 Blackmore Ro', '1', 25437);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1009', 'Juliette', to_date('10-03-1978', 'dd-mm-yyyy'), '45 Lucien Road', '1', 13121, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1010', 'Rosanne', to_date('02-07-1984', 'dd-mm-yyyy'), '30 Garland Driv', '1', 22166);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1010', 'Juliette', to_date('03-12-1986', 'dd-mm-yyyy'), '3 Art Road', '1', 33961, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1011', 'Rhea', to_date('01-11-1994', 'dd-mm-yyyy'), '57 Robards Road', '2', 25215);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1011', 'Thomas', to_date('18-04-1997', 'dd-mm-yyyy'), '50 Niles Street', '2', 25514, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1012', 'Leelee', to_date('23-07-1989', 'dd-mm-yyyy'), '51 Lionel Ave', '2', 26416);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1012', 'Praga', to_date('01-03-1973', 'dd-mm-yyyy'), '8 Dushku Road', '2', 23939, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1013', 'Denise', to_date('07-07-1993', 'dd-mm-yyyy'), '42 Oldman Drive', '1', 16888);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1013', 'Jesus', to_date('03-04-1995', 'dd-mm-yyyy'), '53 Quinn Road', '1', 35526, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1014', 'Val', to_date('05-05-1976', 'dd-mm-yyyy'), '52nd Street', '2', 37331);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1014', 'Kay', to_date('05-05-1985', 'dd-mm-yyyy'), '67 Chad', '2', 43610, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1015', 'Derek', to_date('23-03-1975', 'dd-mm-yyyy'), '59 Dustin Drive', '2', 8554);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1015', 'Teena', to_date('28-01-1975', 'dd-mm-yyyy'), '729 Rhodes Ave', '1', 41616, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1016', 'Matt', to_date('12-12-1989', 'dd-mm-yyyy'), '79 Sayer Street', '2', 8465);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1016', 'Eileen', to_date('20-04-1991', 'dd-mm-yyyy'), '63 Williamson R', '2', 24756, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1017', 'Bret', to_date('15-09-1986', 'dd-mm-yyyy'), '72 Flanery Blvd', '2', 43586);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1017', 'Ted', to_date('18-04-1980', 'dd-mm-yyyy'), '1 Lynne Blvd', '1', 15331, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1018', 'Jackson', to_date('30-04-1999', 'dd-mm-yyyy'), '44 Carlisle Roa', '1', 17165);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1018', 'Dermot', to_date('07-06-1984', 'dd-mm-yyyy'), '996 Gary Street', '2', 8188, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1019', 'Sammy', to_date('16-09-1990', 'dd-mm-yyyy'), '63rd Street', '1', 43965);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1019', 'Henry', to_date('25-04-1973', 'dd-mm-yyyy'), '96 Budapest Dri', '2', 28115, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1020', 'Nastassja', to_date('05-10-1996', 'dd-mm-yyyy'), '83rd Street', '1', 22294);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1020', 'Halle', to_date('27-01-1990', 'dd-mm-yyyy'), '62 Akins Drive', '2', 24241, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1021', 'Joshua', to_date('23-12-1990', 'dd-mm-yyyy'), '11st Street', '1', 26638);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1021', 'Thomas', to_date('30-09-1980', 'dd-mm-yyyy'), '49 Duncan Drive', '1', 6382, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1022', 'Hal', to_date('29-10-1995', 'dd-mm-yyyy'), '40 Donald Stree', '1', 12679);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1022', 'Xander', to_date('14-04-1970', 'dd-mm-yyyy'), '3 Fort Lee Driv', '2', 29236, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1023', 'Daryle', to_date('13-10-1973', 'dd-mm-yyyy'), '41 Cummings Ave', '2', 42827);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1023', 'Salma', to_date('01-07-1988', 'dd-mm-yyyy'), '61 Peterson Ave', '2', 30971, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1024', 'Hank', to_date('22-11-1992', 'dd-mm-yyyy'), '40 Hugo Blvd', '2', 41289);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1024', 'Queen', to_date('11-10-1996', 'dd-mm-yyyy'), '593 Steyr Ave', '2', 15719, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1025', 'Leonardo', to_date('12-02-1990', 'dd-mm-yyyy'), '81st Street', '1', 39285);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1025', 'Nastassja', to_date('04-08-1996', 'dd-mm-yyyy'), '30 Freeman Stre', '2', 9538, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1026', 'Ricardo', to_date('02-03-1986', 'dd-mm-yyyy'), '32 King Street', '2', 37968);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1026', 'Miguel', to_date('20-01-1993', 'dd-mm-yyyy'), '5 Conley Drive', '2', 42840, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1027', 'Kiefer', to_date('25-10-1985', 'dd-mm-yyyy'), '75 Chapeco', '2', 30474);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1027', 'Yolanda', to_date('08-09-1984', 'dd-mm-yyyy'), '39 Julio Drive', '2', 25807, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1028', 'Laurie', to_date('09-02-1981', 'dd-mm-yyyy'), '36 Batavia Driv', '1', 24823);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1028', 'Debby', to_date('26-08-1996', 'dd-mm-yyyy'), '87 Fairbanks Ro', '1', 12834, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1029', 'Ceili', to_date('05-04-1971', 'dd-mm-yyyy'), '37 Mac Road', '2', 42721);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1029', 'Elizabeth', to_date('03-04-1985', 'dd-mm-yyyy'), '2 Jackie Street', '2', 43566, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1030', 'Stellan', to_date('12-05-1998', 'dd-mm-yyyy'), '11 Alessandria ', '2', 25397);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1030', 'Sarah', to_date('18-05-1991', 'dd-mm-yyyy'), '15 Fogerty Driv', '1', 40040, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1031', 'Wayman', to_date('07-09-1990', 'dd-mm-yyyy'), '29 Azucar Drive', '2', 42972);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1031', 'Sissy', to_date('30-06-1971', 'dd-mm-yyyy'), '28 Duvall Stree', '2', 8330, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1032', 'Carole', to_date('28-05-1975', 'dd-mm-yyyy'), '69 Aachen Stree', '2', 36783);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1032', 'Solomon', to_date('27-11-1986', 'dd-mm-yyyy'), '57 Spader Road', '2', 8674, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1033', 'Stephen', to_date('05-12-1993', 'dd-mm-yyyy'), '70 Bacharach Av', '1', 44081);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1033', 'Luis', to_date('08-12-1985', 'dd-mm-yyyy'), '7 Henriksen', '2', 16979, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1034', 'Carole', to_date('25-05-1994', 'dd-mm-yyyy'), '29 Pearce Drive', '1', 19134);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1034', 'Mos', to_date('11-03-1974', 'dd-mm-yyyy'), '99 Assante Stre', '1', 10049, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1035', 'Charles', to_date('02-05-1973', 'dd-mm-yyyy'), '868 Redwood Sho', '2', 25530);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1035', 'Colm', to_date('09-07-1999', 'dd-mm-yyyy'), '5 France Road', '2', 36447, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1036', 'Jared', to_date('23-11-1981', 'dd-mm-yyyy'), '5 Jeroen Blvd', '1', 38440);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1036', 'Kurtwood', to_date('26-08-1982', 'dd-mm-yyyy'), '99 Sissy Street', '2', 9647, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1037', 'Leon', to_date('28-06-1998', 'dd-mm-yyyy'), '63rd Street', '2', 44406);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1037', 'Ray', to_date('18-01-1999', 'dd-mm-yyyy'), '20 Ponce Ave', '2', 17469, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1038', 'Brothers', to_date('06-04-1971', 'dd-mm-yyyy'), '68 Dale Road', '2', 44380);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1038', 'Collin', to_date('06-11-1995', 'dd-mm-yyyy'), '868 McGriff Blv', '1', 30033, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1039', 'Bebe', to_date('03-10-1982', 'dd-mm-yyyy'), '340 Fort McMurr', '2', 32118);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1039', 'Jaime', to_date('30-04-1985', 'dd-mm-yyyy'), '96 Dermot Drive', '2', 16521, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1040', 'Dave', to_date('12-02-1986', 'dd-mm-yyyy'), '86 Elche Drive', '1', 37591);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1040', 'Roberta', to_date('01-03-1987', 'dd-mm-yyyy'), '85 Parsippany S', '2', 19746, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1041', 'Cornell', to_date('12-05-1990', 'dd-mm-yyyy'), '89 Coimbra Stre', '2', 43248);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1041', 'Daryle', to_date('30-01-1981', 'dd-mm-yyyy'), '45 Bretzfeld-Wa', '2', 29748, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1042', 'Helen', to_date('09-09-1978', 'dd-mm-yyyy'), '1 Benbrook Stre', '2', 6774);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1042', 'Annie', to_date('12-10-1979', 'dd-mm-yyyy'), '45 Albertina Dr', '1', 11433, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1043', 'Laurence', to_date('11-10-1993', 'dd-mm-yyyy'), '3 Thalwil Stree', '2', 7728);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1043', 'Maura', to_date('05-07-1975', 'dd-mm-yyyy'), '3 Dawson Ave', '1', 19045, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1044', 'Christina', to_date('02-04-1979', 'dd-mm-yyyy'), '48 Branch Stree', '2', 16236);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1044', 'Phoebe', to_date('18-05-1977', 'dd-mm-yyyy'), '11 Jaime Road', '1', 10244, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1045', 'Carlene', to_date('08-10-1981', 'dd-mm-yyyy'), '58 Peabo Street', '1', 18568);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1045', 'Demi', to_date('24-12-1991', 'dd-mm-yyyy'), '562 Nils Street', '1', 13115, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1046', 'Ned', to_date('28-09-1994', 'dd-mm-yyyy'), '26 Karachi Stre', '1', 6313);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1046', 'Irene', to_date('16-03-1992', 'dd-mm-yyyy'), '66 Nightingale ', '1', 16912, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1047', 'Campbell', to_date('12-06-1993', 'dd-mm-yyyy'), '31 Tsettos Driv', '1', 24449);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1047', 'Elvis', to_date('08-09-1981', 'dd-mm-yyyy'), '71 Lucy Drive', '2', 17699, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1048', 'Sinead', to_date('31-01-1971', 'dd-mm-yyyy'), '65 Amarillo Dri', '1', 8530);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1048', 'Roger', to_date('19-11-1994', 'dd-mm-yyyy'), '710 Latin Road', '2', 14824, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1049', 'Mos', to_date('23-01-1988', 'dd-mm-yyyy'), '63 Wehrheim Blv', '2', 40032);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1049', 'Alessandro', to_date('14-11-1999', 'dd-mm-yyyy'), '92nd Street', '2', 12254, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1050', 'Neil', to_date('07-07-1981', 'dd-mm-yyyy'), '52nd Street', '2', 9520);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1050', 'Christian', to_date('14-03-1987', 'dd-mm-yyyy'), '63 Salt Lake Ci', '1', 10681, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1051', 'Joanna', to_date('08-05-1970', 'dd-mm-yyyy'), '76 Guest Blvd', '1', 14957);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1051', 'Christine', to_date('23-01-1978', 'dd-mm-yyyy'), '66 Boone Street', '1', 12451, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1052', 'Simon', to_date('12-10-1977', 'dd-mm-yyyy'), '32 Erlangen Blv', '1', 14751);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1052', 'Wayne', to_date('21-08-1988', 'dd-mm-yyyy'), '66 Thompson Dri', '1', 11513, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1053', 'Spencer', to_date('30-05-1977', 'dd-mm-yyyy'), '65 Orlando Driv', '2', 42380);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1053', 'Dorry', to_date('25-10-1975', 'dd-mm-yyyy'), '88 Tara Drive', '2', 11057, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1054', 'Kathleen', to_date('02-02-1975', 'dd-mm-yyyy'), '41 Appenzell Dr', '2', 32690);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1054', 'Ruth', to_date('16-12-1993', 'dd-mm-yyyy'), '55 David Street', '2', 27970, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1055', 'Will', to_date('15-12-1974', 'dd-mm-yyyy'), '69 Herne Street', '1', 19957);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1055', 'Latin', to_date('24-03-1984', 'dd-mm-yyyy'), '64 Guest Road', '2', 9831, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1056', 'Rowan', to_date('02-05-1981', 'dd-mm-yyyy'), '62nd Street', '2', 14185);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1056', 'Jay', to_date('09-09-1983', 'dd-mm-yyyy'), '47 Trejo Road', '2', 41833, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1057', 'Rosco', to_date('12-08-1970', 'dd-mm-yyyy'), '909 Stephen Blv', '2', 28969);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1057', 'Chad', to_date('24-07-1987', 'dd-mm-yyyy'), '41 Colombes Str', '1', 24266, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1058', 'Julio', to_date('23-01-1971', 'dd-mm-yyyy'), '57 Santa Clarat', '1', 20226);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1058', 'Angelina', to_date('16-02-1984', 'dd-mm-yyyy'), '73rd Street', '2', 23595, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1059', 'Denny', to_date('20-12-1984', 'dd-mm-yyyy'), '60 Franks Drive', '2', 10448);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1059', 'Anne', to_date('10-07-1998', 'dd-mm-yyyy'), '233 Allan Drive', '2', 38949, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1060', 'Jaime', to_date('13-08-1994', 'dd-mm-yyyy'), '38 Hatfield', '2', 28530);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1060', 'Anna', to_date('09-04-1999', 'dd-mm-yyyy'), '70 Miriam', '2', 30021, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1061', 'Lenny', to_date('18-11-1992', 'dd-mm-yyyy'), '89 Rua eteno Dr', '2', 24234);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1061', 'Kirsten', to_date('09-01-1996', 'dd-mm-yyyy'), '61st Street', '2', 16005, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1062', 'Rich', to_date('28-03-1999', 'dd-mm-yyyy'), '56 Badalucco Av', '1', 29180);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1062', 'Dermot', to_date('24-07-1983', 'dd-mm-yyyy'), '81 Simon Road', '1', 15347, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1063', 'Johnny', to_date('23-09-1976', 'dd-mm-yyyy'), '4 Angers Street', '1', 10539);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1063', 'Angela', to_date('22-08-1976', 'dd-mm-yyyy'), '671 Robert Blvd', '1', 12429, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1064', 'Stevie', to_date('13-08-1976', 'dd-mm-yyyy'), '70 Sainte-Marie', '2', 18148);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1064', 'Naomi', to_date('28-07-1999', 'dd-mm-yyyy'), '39 Michelle Roa', '2', 7830, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1065', 'Lee', to_date('20-12-1983', 'dd-mm-yyyy'), '29 Cox Road', '2', 44289);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1065', 'Ike', to_date('12-10-1974', 'dd-mm-yyyy'), '11st Street', '2', 37636, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1066', 'Stewart', to_date('17-05-1990', 'dd-mm-yyyy'), '61 urban Ave', '2', 15868);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1066', 'Busta', to_date('01-10-1994', 'dd-mm-yyyy'), '59 Lea', '1', 34567, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1067', 'Junior', to_date('16-10-1975', 'dd-mm-yyyy'), '59 Altstהtten', '2', 40423);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1067', 'Carlene', to_date('30-11-1986', 'dd-mm-yyyy'), '70 West Windsor', '1', 17085, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1068', 'Rachid', to_date('08-02-1977', 'dd-mm-yyyy'), '815 Grant Drive', '2', 13521);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1068', 'Fiona', to_date('03-09-1978', 'dd-mm-yyyy'), '39 Fiorentino S', '2', 9173, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1069', 'Angelina', to_date('22-03-1994', 'dd-mm-yyyy'), '55 Macy Street', '2', 21799);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1069', 'Latin', to_date('27-09-1981', 'dd-mm-yyyy'), '25 Jamie Street', '2', 7455, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1070', 'Susan', to_date('19-04-1972', 'dd-mm-yyyy'), '43 Loreena Road', '2', 14629);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1070', 'Annie', to_date('18-02-1986', 'dd-mm-yyyy'), '466 Kweller Ave', '1', 16008, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1071', 'Tamala', to_date('10-09-1970', 'dd-mm-yyyy'), '89 Stephen Stre', '2', 20415);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1071', 'Mary Beth', to_date('22-04-1977', 'dd-mm-yyyy'), '84 Candy Street', '1', 23224, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1072', 'Jake', to_date('20-05-1998', 'dd-mm-yyyy'), '40 Lowe Ave', '1', 31840);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1072', 'Bret', to_date('16-12-1981', 'dd-mm-yyyy'), '590 Beckinsale ', '2', 20961, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1073', 'Roy', to_date('07-05-1993', 'dd-mm-yyyy'), '66 Loring Stree', '2', 25497);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1073', 'Frederic', to_date('04-05-1971', 'dd-mm-yyyy'), '41 Mary Beth Dr', '2', 7490, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1074', 'Stephen', to_date('17-02-1987', 'dd-mm-yyyy'), '42 Wuerzburg Dr', '1', 38138);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1074', 'Stockard', to_date('03-12-1979', 'dd-mm-yyyy'), '95 McKean Road', '1', 13524, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1075', 'Kieran', to_date('07-01-1996', 'dd-mm-yyyy'), '82nd Street', '1', 14555);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1075', 'Jessica', to_date('27-04-1991', 'dd-mm-yyyy'), '58 Jann Road', '1', 38646, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1076', 'Jet', to_date('30-03-1987', 'dd-mm-yyyy'), '37 Curtis Drive', '2', 21394);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1076', 'Marty', to_date('02-02-1981', 'dd-mm-yyyy'), '97 Van Shelton ', '2', 22710, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1077', 'Deborah', to_date('29-03-1982', 'dd-mm-yyyy'), '64 Austin Road', '2', 35152);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1077', 'Percy', to_date('28-08-1981', 'dd-mm-yyyy'), '863 Spike Road', '2', 29814, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1078', 'Leonardo', to_date('22-11-1998', 'dd-mm-yyyy'), '40 Portland Roa', '1', 8368);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1078', 'Brian', to_date('01-12-1987', 'dd-mm-yyyy'), '22 Henry Street', '2', 7563, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1079', 'Julie', to_date('05-11-1991', 'dd-mm-yyyy'), '70 Krabbe Ave', '1', 22227);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1079', 'Cloris', to_date('06-05-1971', 'dd-mm-yyyy'), '840 Ringwood Ro', '2', 9070, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1080', 'Lionel', to_date('18-03-1974', 'dd-mm-yyyy'), '75 Billy Blvd', '2', 11392);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1080', 'Fred', to_date('21-10-1988', 'dd-mm-yyyy'), '69 Yulin Drive', '1', 6668, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1081', 'Ramsey', to_date('31-03-1984', 'dd-mm-yyyy'), '72 Torino Road', '1', 35372);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1081', 'Joseph', to_date('06-01-1983', 'dd-mm-yyyy'), '26 Bradley Road', '1', 19826, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1082', 'Nanci', to_date('04-09-1975', 'dd-mm-yyyy'), '63rd Street', '2', 23945);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1082', 'France', to_date('15-08-1974', 'dd-mm-yyyy'), '48 Skaggs Road', '1', 7937, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1083', 'Freddie', to_date('15-01-1986', 'dd-mm-yyyy'), '15 Pearce Stree', '1', 39118);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1083', 'Aaron', to_date('07-01-1996', 'dd-mm-yyyy'), '627 Luongo Road', '1', 6625, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1084', 'Benjamin', to_date('06-02-1972', 'dd-mm-yyyy'), '27 Mantegna Str', '2', 8497);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1084', 'Benjamin', to_date('05-02-1996', 'dd-mm-yyyy'), '793 Bielefeld S', '1', 21081, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1085', 'Shawn', to_date('20-01-1984', 'dd-mm-yyyy'), '5 Armatrading B', '2', 18533);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1085', 'Sharon', to_date('25-02-1970', 'dd-mm-yyyy'), '29 Witherspoon ', '1', 38565, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1086', 'Ryan', to_date('18-11-1973', 'dd-mm-yyyy'), '71st Street', '2', 23647);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1086', 'Julio', to_date('12-01-1992', 'dd-mm-yyyy'), '74 Englewood Cl', '2', 34369, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1087', 'Ben', to_date('25-12-1991', 'dd-mm-yyyy'), '32 Amos Blvd', '1', 25749);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1087', 'Andrae', to_date('23-11-1989', 'dd-mm-yyyy'), '99 Rhett Street', '2', 11557, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1088', 'Rosie', to_date('13-04-1994', 'dd-mm-yyyy'), '61 Herdecke Roa', '2', 25599);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1088', 'Ellen', to_date('29-09-1991', 'dd-mm-yyyy'), '685 Khan Drive', '1', 37980, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1089', 'Lucy', to_date('23-09-1992', 'dd-mm-yyyy'), '893 Scottsdale ', '2', 35454);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1089', 'Clarence', to_date('26-06-1978', 'dd-mm-yyyy'), '36 Scorsese', '2', 31917, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1090', 'Lupe', to_date('19-03-1989', 'dd-mm-yyyy'), '31st Street', '2', 42045);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1090', 'Aidan', to_date('27-12-1980', 'dd-mm-yyyy'), '61 Berry Drive', '1', 34939, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1091', 'Jessica', to_date('20-08-1971', 'dd-mm-yyyy'), '23rd Street', '2', 18596);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1091', 'Stevie', to_date('09-06-1977', 'dd-mm-yyyy'), '64 Boucherville', '2', 38390, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1092', 'Mili', to_date('30-12-1970', 'dd-mm-yyyy'), '4 Voight Road', '1', 13035);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1092', 'Noah', to_date('27-07-1992', 'dd-mm-yyyy'), '23 Bobbi Drive', '1', 38488, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1093', 'Sophie', to_date('12-02-1990', 'dd-mm-yyyy'), '92nd Street', '1', 8394);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1093', 'Hazel', to_date('05-12-1978', 'dd-mm-yyyy'), '61st Street', '2', 18341, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1094', 'Hilary', to_date('24-07-1984', 'dd-mm-yyyy'), '98 Day', '2', 22610);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1094', 'Eddie', to_date('24-01-1991', 'dd-mm-yyyy'), '52nd Street', '2', 6176, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1095', 'Nancy', to_date('06-09-1981', 'dd-mm-yyyy'), '25 Gaza Road', '1', 7250);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1095', 'Louise', to_date('18-05-1977', 'dd-mm-yyyy'), '85 Crouse Drive', '2', 38617, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1096', 'Brent', to_date('17-01-1983', 'dd-mm-yyyy'), '847 Sawa Ave', '1', 25909);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1096', 'Marina', to_date('24-06-1973', 'dd-mm-yyyy'), '62 Will Street', '2', 35175, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1097', 'Marie', to_date('29-03-1971', 'dd-mm-yyyy'), '51st Street', '2', 7559);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1097', 'Gordon', to_date('16-12-1974', 'dd-mm-yyyy'), '364 Bedelia Roa', '2', 42492, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1098', 'Andy', to_date('24-11-1980', 'dd-mm-yyyy'), '37 Kattan Road', '2', 10353);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1098', 'Toshiro', to_date('13-09-1972', 'dd-mm-yyyy'), '22 Keen Street', '2', 10654, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1099', 'Nikka', to_date('07-02-1985', 'dd-mm-yyyy'), '52 Phil', '1', 22449);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1099', 'Carole', to_date('08-06-1983', 'dd-mm-yyyy'), '25 Sledge Road', '1', 29610, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1100', 'Chrissie', to_date('17-02-1977', 'dd-mm-yyyy'), '97 Cuba Road', '1', 20081);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1100', 'Jesus', to_date('21-04-1977', 'dd-mm-yyyy'), '62 Kattan Stree', '1', 13090, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1101', 'Jet', to_date('12-05-1980', 'dd-mm-yyyy'), '611 Bridget Roa', '1', 34784);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1101', 'Nathan', to_date('02-01-1975', 'dd-mm-yyyy'), '70 Busta Road', '2', 35958, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1102', 'Terrence', to_date('17-08-1971', 'dd-mm-yyyy'), '19 Giraldo Driv', '1', 23847);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1102', 'Tal', to_date('23-02-1990', 'dd-mm-yyyy'), '29 Marley Ave', '2', 23761, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1103', 'Vonda', to_date('28-03-1985', 'dd-mm-yyyy'), '26 Uma Street', '1', 25991);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1103', 'Gaby', to_date('10-02-1983', 'dd-mm-yyyy'), '68 Karyo Road', '2', 38211, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1104', 'Vienna', to_date('05-09-1975', 'dd-mm-yyyy'), '33 Mount Olive ', '1', 29014);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1104', 'Sam', to_date('15-08-1970', 'dd-mm-yyyy'), '83 Campbell Roa', '2', 37764, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1105', 'Olympia', to_date('12-02-1997', 'dd-mm-yyyy'), '9 Gaynor', '2', 35092);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1105', 'Samantha', to_date('07-07-1995', 'dd-mm-yyyy'), '32 Rain Ave', '1', 43792, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1106', 'Val', to_date('06-02-1996', 'dd-mm-yyyy'), '71 Jon Drive', '1', 15413);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1106', 'Rascal', to_date('20-09-1991', 'dd-mm-yyyy'), '35 Diaz Road', '2', 12920, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1107', 'Ritchie', to_date('17-02-1988', 'dd-mm-yyyy'), '59 Edward Stree', '1', 26120);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1107', 'Jonny Lee', to_date('03-08-1996', 'dd-mm-yyyy'), '71st Street', '1', 44558, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1108', 'Sissy', to_date('10-10-1984', 'dd-mm-yyyy'), '8 Avril Blvd', '1', 30080);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1108', 'Cuba', to_date('03-10-1986', 'dd-mm-yyyy'), '63 Blades Stree', '2', 42378, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1109', 'Yolanda', to_date('25-02-1983', 'dd-mm-yyyy'), '45 Jonze Road', '2', 15314);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1109', 'Zooey', to_date('01-06-1990', 'dd-mm-yyyy'), '71 Bountiful Av', '2', 25185, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1110', 'Maureen', to_date('01-11-1986', 'dd-mm-yyyy'), '83rd Street', '1', 42518);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1110', 'Donna', to_date('30-05-1987', 'dd-mm-yyyy'), '36 Dreyfuss Str', '1', 29397, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1111', 'Peter', to_date('08-02-1992', 'dd-mm-yyyy'), '53rd Street', '1', 16554);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1111', 'Sammy', to_date('19-10-1972', 'dd-mm-yyyy'), '29 Kansas City ', '2', 11583, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1112', 'Stevie', to_date('26-11-1979', 'dd-mm-yyyy'), '97 Checker Stre', '1', 15469);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1112', 'Lonnie', to_date('26-10-1983', 'dd-mm-yyyy'), '97 Demi Street', '2', 9052, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1113', 'Tzi', to_date('26-04-1993', 'dd-mm-yyyy'), '62nd Street', '2', 26079);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1113', 'April', to_date('13-05-1988', 'dd-mm-yyyy'), '244 Ruiz Street', '2', 43666, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1114', 'Malcolm', to_date('21-11-1986', 'dd-mm-yyyy'), '88 Armand Road', '2', 23636);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1114', 'Jane', to_date('30-08-1981', 'dd-mm-yyyy'), '44 Domino Drive', '2', 38769, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1115', 'Alex', to_date('16-04-1999', 'dd-mm-yyyy'), '23 Lizzy', '2', 16263);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1115', 'Angela', to_date('12-08-1994', 'dd-mm-yyyy'), '9 Rowlands Road', '1', 37349, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1116', 'Kirsten', to_date('30-10-1979', 'dd-mm-yyyy'), '30 Walken Blvd', '1', 40072);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1116', 'Kirk', to_date('12-12-1998', 'dd-mm-yyyy'), '535 Vannelli Dr', '2', 44582, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1117', 'Junior', to_date('23-02-1988', 'dd-mm-yyyy'), '88 Matthew Stre', '2', 16454);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1117', 'Lindsay', to_date('27-01-1977', 'dd-mm-yyyy'), '30 Voight Drive', '1', 7197, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1118', 'Michael', to_date('08-08-1972', 'dd-mm-yyyy'), '2 Wes Drive', '1', 9358);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1118', 'Walter', to_date('06-11-1985', 'dd-mm-yyyy'), '48 Alicia Stree', '2', 43876, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1119', 'Tanya', to_date('08-05-1999', 'dd-mm-yyyy'), '29 Helsinki Str', '2', 35048);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1119', 'Leslie', to_date('01-01-1997', 'dd-mm-yyyy'), '71st Street', '1', 8447, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1120', 'Lindsey', to_date('10-07-1987', 'dd-mm-yyyy'), '9 Cazale Ave', '2', 34424);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1120', 'Jared', to_date('15-02-1973', 'dd-mm-yyyy'), '18 Fort Saskatc', '1', 21701, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1121', 'Ben', to_date('10-08-1980', 'dd-mm-yyyy'), '4 Xander', '1', 28987);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1121', 'Tia', to_date('27-07-1970', 'dd-mm-yyyy'), '46 Whitehouse S', '2', 44023, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1122', 'Brenda', to_date('01-01-1994', 'dd-mm-yyyy'), '98 Weaving Driv', '1', 11671);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1122', 'Sam', to_date('19-05-1996', 'dd-mm-yyyy'), '71 Breslin Road', '2', 28296, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1123', 'Brent', to_date('03-04-1985', 'dd-mm-yyyy'), '346 N. ft. Myer', '2', 35592);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1123', 'Harry', to_date('08-09-1996', 'dd-mm-yyyy'), '49 Schreiber', '2', 28990, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1124', 'Rob', to_date('28-02-1973', 'dd-mm-yyyy'), '4 Hedaya Road', '1', 32648);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1124', 'Emmylou', to_date('02-12-1970', 'dd-mm-yyyy'), '901 Carrie Road', '1', 11893, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1125', 'Stewart', to_date('14-06-1999', 'dd-mm-yyyy'), '68 Lee Drive', '1', 16772);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1125', 'Halle', to_date('07-07-1994', 'dd-mm-yyyy'), '20 Todd Ave', '2', 42666, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1126', 'Mia', to_date('25-04-1978', 'dd-mm-yyyy'), '76 Rhodes Stree', '1', 7810);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1126', 'Wade', to_date('29-08-1997', 'dd-mm-yyyy'), '20 Jackson Stre', '1', 33404, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1127', 'Antonio', to_date('10-07-1994', 'dd-mm-yyyy'), '97 Rickman Stre', '2', 27577);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1127', 'Daryle', to_date('17-11-1975', 'dd-mm-yyyy'), '161 Connelly Ro', '2', 42122, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1128', 'Radney', to_date('05-07-1995', 'dd-mm-yyyy'), '53 Anne Road', '2', 40133);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1128', 'Nickel', to_date('25-07-1999', 'dd-mm-yyyy'), '50 Cronin Drive', '1', 18918, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1129', 'Cloris', to_date('03-01-1992', 'dd-mm-yyyy'), '20 Arkenstone R', '1', 42764);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1129', 'Neneh', to_date('28-09-1990', 'dd-mm-yyyy'), '597 Nikki Ave', '2', 41183, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1130', 'Praga', to_date('14-03-1998', 'dd-mm-yyyy'), '50 Charles Road', '1', 14892);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1130', 'Vickie', to_date('20-10-1978', 'dd-mm-yyyy'), '42nd Street', '1', 9297, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1131', 'Ron', to_date('07-02-1972', 'dd-mm-yyyy'), '63 Luke Blvd', '2', 19500);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1131', 'Edie', to_date('28-08-1985', 'dd-mm-yyyy'), '19 Sean Road', '1', 22053, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1132', 'Steve', to_date('06-05-1977', 'dd-mm-yyyy'), '50 Bruneck Stre', '1', 24400);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1132', 'Sarah', to_date('16-03-1992', 'dd-mm-yyyy'), '12nd Street', '2', 6748, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1133', 'Swoosie', to_date('22-08-1989', 'dd-mm-yyyy'), '4 Grant Ave', '2', 9897);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1133', 'Giovanni', to_date('05-02-1987', 'dd-mm-yyyy'), '50 King Drive', '2', 16306, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1134', 'Dan', to_date('17-05-1973', 'dd-mm-yyyy'), '80 Ian Street', '2', 40788);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1134', 'Samantha', to_date('09-12-1988', 'dd-mm-yyyy'), '35 Matthau Blvd', '2', 30497, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1135', 'Aidan', to_date('18-02-1993', 'dd-mm-yyyy'), '54 Veruca Road', '2', 10795);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1135', 'Aimee', to_date('07-09-1986', 'dd-mm-yyyy'), '43 Avital Ave', '2', 27200, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1136', 'Remy', to_date('14-12-1982', 'dd-mm-yyyy'), '61 Keanu Road', '1', 39659);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1136', 'Carl', to_date('01-07-1975', 'dd-mm-yyyy'), '60 Kimberly Dri', '2', 29744, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1137', 'Aaron', to_date('21-06-1997', 'dd-mm-yyyy'), '24 Visnjic', '2', 28785);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1137', 'Wesley', to_date('21-06-1972', 'dd-mm-yyyy'), '52 Scottsdale R', '2', 17909, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1138', 'Salma', to_date('29-12-1970', 'dd-mm-yyyy'), '817 Niven Drive', '1', 15402);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1138', 'Marty', to_date('01-09-1994', 'dd-mm-yyyy'), '24 Sainte-Marie', '1', 9458, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1139', 'Mena', to_date('22-10-1979', 'dd-mm-yyyy'), '82 Ashland Blvd', '2', 15593);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1139', 'Elle', to_date('10-08-1994', 'dd-mm-yyyy'), '72 Ruth Drive', '2', 18919, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1140', 'Loretta', to_date('26-10-1979', 'dd-mm-yyyy'), '831 Sayer', '2', 9951);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1140', 'Will', to_date('30-08-1994', 'dd-mm-yyyy'), '42 Blackwell Ro', '2', 42405, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1141', 'Willem', to_date('15-02-1977', 'dd-mm-yyyy'), '482 Crowe Stree', '1', 17419);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1141', 'Gena', to_date('20-09-1979', 'dd-mm-yyyy'), '33 Kahn Street', '2', 32139, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1142', 'Ron', to_date('07-09-1972', 'dd-mm-yyyy'), '89 Szazhalombat', '2', 17642);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1142', 'Marty', to_date('01-02-1983', 'dd-mm-yyyy'), '62 DiCaprio Roa', '2', 29876, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1143', 'Arturo', to_date('13-12-1981', 'dd-mm-yyyy'), '46 Maria Road', '1', 10289);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1143', 'Jimmy', to_date('25-08-1995', 'dd-mm-yyyy'), '53 Hopkins Stre', '1', 12155, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1144', 'Merillee', to_date('17-04-1973', 'dd-mm-yyyy'), '81 Dresden Stre', '1', 10041);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1144', 'Simon', to_date('22-11-1984', 'dd-mm-yyyy'), '43rd Street', '2', 7141, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1145', 'Sean', to_date('06-06-1999', 'dd-mm-yyyy'), '49 Rea Street', '2', 26984);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1145', 'Joe', to_date('04-12-1975', 'dd-mm-yyyy'), '79 Nanaimo Road', '2', 43243, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1146', 'Miles', to_date('15-10-1975', 'dd-mm-yyyy'), '27 Wצrth Blvd', '2', 12899);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1146', 'Wesley', to_date('12-12-1981', 'dd-mm-yyyy'), '55 Embeth Road', '2', 20162, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1147', 'Chi', to_date('10-02-1983', 'dd-mm-yyyy'), '56 Page Drive', '2', 37096);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1147', 'Gordie', to_date('02-04-1984', 'dd-mm-yyyy'), '706 Amarillo Dr', '1', 34414, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1148', 'Edgar', to_date('16-11-1993', 'dd-mm-yyyy'), '224 Giraldo Roa', '2', 8743);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1148', 'Brent', to_date('02-03-1979', 'dd-mm-yyyy'), '78 Lipnicki Dri', '1', 26776, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1149', 'Laurence', to_date('17-12-1992', 'dd-mm-yyyy'), '53 Vega Street', '1', 25211);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1149', 'Patricia', to_date('31-05-1971', 'dd-mm-yyyy'), '42 Houston Road', '1', 39226, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1150', 'Nicky', to_date('09-06-1974', 'dd-mm-yyyy'), '34 Cheshire Str', '2', 23367);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1150', 'Warren', to_date('16-09-1988', 'dd-mm-yyyy'), '17 Aiken Road', '2', 24180, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1151', 'Micky', to_date('30-08-1974', 'dd-mm-yyyy'), '14 Sirtis Road', '1', 29298);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1151', 'Aimee', to_date('30-11-1980', 'dd-mm-yyyy'), '42 Goran Street', '2', 15219, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1152', 'Denise', to_date('02-07-1980', 'dd-mm-yyyy'), '96 Dunst Road', '2', 12801);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1152', 'Roddy', to_date('05-07-1972', 'dd-mm-yyyy'), '536 Los Alamos ', '1', 23007, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1153', 'Peabo', to_date('20-09-1974', 'dd-mm-yyyy'), '1 Mould Ave', '2', 37161);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1153', 'Candice', to_date('21-12-1975', 'dd-mm-yyyy'), '19 LuPone Blvd', '2', 37244, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1154', 'Larry', to_date('26-08-1989', 'dd-mm-yyyy'), '47 Colton Drive', '1', 26242);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1154', 'Nik', to_date('22-03-1990', 'dd-mm-yyyy'), '35 Whitman Ave', '1', 42975, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1155', 'Stephen', to_date('21-07-1974', 'dd-mm-yyyy'), '798 Perrineau A', '1', 32941);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1155', 'Gailard', to_date('09-10-1976', 'dd-mm-yyyy'), '59 Eisenhttens', '2', 18477, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1156', 'Emm', to_date('25-06-1978', 'dd-mm-yyyy'), '62 Bobby Drive', '2', 24969);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1156', 'Rosie', to_date('19-06-1990', 'dd-mm-yyyy'), '13 Bullock Stre', '1', 30581, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1157', 'Adrien', to_date('24-03-1982', 'dd-mm-yyyy'), '41 Studi Road', '2', 16439);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1157', 'Miriam', to_date('14-05-1979', 'dd-mm-yyyy'), '417 Phillips Ro', '2', 18502, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1158', 'Geraldine', to_date('20-05-1974', 'dd-mm-yyyy'), '41st Street', '1', 25851);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1158', 'Beth', to_date('08-01-1983', 'dd-mm-yyyy'), '67 Hatchet Road', '2', 34465, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1159', 'Allison', to_date('23-10-1979', 'dd-mm-yyyy'), '43 Ratzenberger', '1', 8237);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1159', 'Steve', to_date('09-12-1973', 'dd-mm-yyyy'), '71 Davy Street', '2', 16990, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1160', 'Marty', to_date('22-12-1994', 'dd-mm-yyyy'), '90 Todd Ave', '1', 44540);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1160', 'Barry', to_date('10-05-1979', 'dd-mm-yyyy'), '33 Goldberg Str', '2', 32664, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1161', 'Kay', to_date('06-12-1991', 'dd-mm-yyyy'), '64 Jann Road', '1', 26638);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1161', 'Cole', to_date('17-10-1977', 'dd-mm-yyyy'), '20 Gwyneth Stre', '1', 14892, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1162', 'Adina', to_date('06-03-1994', 'dd-mm-yyyy'), '58 Runcorn Road', '1', 15121);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1162', 'Cuba', to_date('10-10-1995', 'dd-mm-yyyy'), '9 Bates Ave', '1', 34991, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1163', 'Hookah', to_date('11-06-1973', 'dd-mm-yyyy'), '74 Willie Drive', '1', 6920);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1163', 'Roddy', to_date('28-04-1986', 'dd-mm-yyyy'), '69 Ribisi Road', '1', 17151, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1164', 'Randy', to_date('22-09-1974', 'dd-mm-yyyy'), '13rd Street', '2', 27854);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1164', 'Suzanne', to_date('19-08-1981', 'dd-mm-yyyy'), '54 McIntyre Blv', '1', 34477, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1165', 'Aida', to_date('11-08-1991', 'dd-mm-yyyy'), '80 Peniston Blv', '2', 18946);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1165', 'Kenny', to_date('15-02-1970', 'dd-mm-yyyy'), '32 Joseph Stree', '2', 9439, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1166', 'Russell', to_date('03-07-1980', 'dd-mm-yyyy'), '63 Barrymore St', '2', 21508);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1166', 'Carole', to_date('06-04-1977', 'dd-mm-yyyy'), '60 Aaron Street', '2', 8518, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1167', 'Rhett', to_date('06-11-1986', 'dd-mm-yyyy'), '63rd Street', '2', 36923);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1167', 'Brenda', to_date('02-03-1984', 'dd-mm-yyyy'), '66 Gavin Road', '1', 31967, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1168', 'Jack', to_date('14-02-1974', 'dd-mm-yyyy'), '100 Waite Stree', '1', 13160);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1168', 'Boz', to_date('12-09-1978', 'dd-mm-yyyy'), '28 Crowell Stre', '2', 37627, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1169', 'Vickie', to_date('22-08-1982', 'dd-mm-yyyy'), '34 Spike Blvd', '2', 16637);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1169', 'Stellan', to_date('30-03-1994', 'dd-mm-yyyy'), '77 Vinton', '1', 35440, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1170', 'Austin', to_date('22-06-1984', 'dd-mm-yyyy'), '35 Maxwell Stre', '2', 13070);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1170', 'Rosie', to_date('16-06-1977', 'dd-mm-yyyy'), '5 Kazem', '1', 44138, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1171', 'Ming-Na', to_date('08-03-1971', 'dd-mm-yyyy'), '395 Close Stree', '2', 28996);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1171', 'Trick', to_date('24-12-1999', 'dd-mm-yyyy'), '42 Draper', '1', 19970, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1172', 'Freddy', to_date('03-12-1975', 'dd-mm-yyyy'), '47 Leachman', '1', 39018);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1172', 'Franz', to_date('31-03-1997', 'dd-mm-yyyy'), '27 Shand Road', '2', 37204, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1173', 'Morris', to_date('25-02-1994', 'dd-mm-yyyy'), '93 Paltrow Driv', '2', 36213);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1173', 'Colin', to_date('31-08-1989', 'dd-mm-yyyy'), '46 Night', '2', 10158, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1174', 'Stephen', to_date('22-10-1995', 'dd-mm-yyyy'), '5 Scorsese Driv', '1', 16761);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1174', 'Tom', to_date('25-12-1995', 'dd-mm-yyyy'), '9 Clarence Ave', '2', 43548, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1175', 'Horace', to_date('28-07-1987', 'dd-mm-yyyy'), '95 Flack', '2', 27194);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1175', 'Denzel', to_date('05-04-1993', 'dd-mm-yyyy'), '42 Rankin Blvd', '1', 9024, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1176', 'Zooey', to_date('18-05-1987', 'dd-mm-yyyy'), '18 San Jose Dri', '1', 6512);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1176', 'George', to_date('26-08-1977', 'dd-mm-yyyy'), '88 Lesley Stree', '2', 12145, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1177', 'Bob', to_date('14-06-1997', 'dd-mm-yyyy'), '41 Page Street', '1', 43625);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1177', 'Lili', to_date('12-02-1989', 'dd-mm-yyyy'), '44 Vern Street', '2', 8015, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1178', 'Casey', to_date('16-11-1982', 'dd-mm-yyyy'), '10 Phil Ave', '1', 35675);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1178', 'Burton', to_date('07-06-1993', 'dd-mm-yyyy'), '39 Platt Road', '1', 24414, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1179', 'Miguel', to_date('30-04-1974', 'dd-mm-yyyy'), '21st Street', '2', 22460);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1179', 'Fred', to_date('24-10-1996', 'dd-mm-yyyy'), '75 Andrea Road', '2', 16014, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1180', 'Glenn', to_date('28-03-1989', 'dd-mm-yyyy'), '989 Sander Blvd', '2', 38284);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1180', 'Elvis', to_date('24-05-1979', 'dd-mm-yyyy'), '76 Bale Road', '1', 42313, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1181', 'Terrence', to_date('06-09-1979', 'dd-mm-yyyy'), '11 Tucker Blvd', '1', 11204);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1181', 'Ceili', to_date('15-02-1985', 'dd-mm-yyyy'), '95 Javon', '2', 37336, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1182', 'Carrie', to_date('15-06-1984', 'dd-mm-yyyy'), '68 LaBelle', '2', 16871);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1182', 'Stephanie', to_date('08-10-1989', 'dd-mm-yyyy'), '800 Cole Road', '2', 41864, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1183', 'Doug', to_date('17-10-1997', 'dd-mm-yyyy'), '89 Williams Roa', '1', 24316);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1183', 'Holly', to_date('03-12-1970', 'dd-mm-yyyy'), '21st Street', '1', 22097, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1184', 'Charlie', to_date('14-04-1977', 'dd-mm-yyyy'), '63 Miles Road', '2', 10768);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1184', 'Mickey', to_date('19-12-1988', 'dd-mm-yyyy'), '27 Nivola Stree', '1', 23930, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1185', 'Rosanna', to_date('13-01-1974', 'dd-mm-yyyy'), '91 Uma Street', '1', 31944);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1185', 'Ronnie', to_date('06-10-1982', 'dd-mm-yyyy'), '34 Julianna Str', '1', 30040, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1186', 'Maury', to_date('23-04-1996', 'dd-mm-yyyy'), '13 Ceasar Road', '2', 15978);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1186', 'Will', to_date('11-11-1984', 'dd-mm-yyyy'), '809 Ramis Drive', '1', 30117, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1187', 'Giovanni', to_date('17-02-1971', 'dd-mm-yyyy'), '59 Walken Drive', '2', 25690);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1187', 'Mike', to_date('25-08-1997', 'dd-mm-yyyy'), '80 Newman Drive', '2', 32436, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1188', 'Marisa', to_date('21-12-1993', 'dd-mm-yyyy'), '84 Lucas Street', '1', 6995);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1188', 'Robbie', to_date('13-12-1982', 'dd-mm-yyyy'), '26 Schiavelli D', '2', 31747, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1189', 'Wesley', to_date('01-02-1972', 'dd-mm-yyyy'), '25 Rain', '2', 24211);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1189', 'Neneh', to_date('17-09-1980', 'dd-mm-yyyy'), '6 McAnally', '1', 37590, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1190', 'Salma', to_date('22-02-1985', 'dd-mm-yyyy'), '73rd Street', '2', 39185);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1190', 'Max', to_date('04-04-1987', 'dd-mm-yyyy'), '51 Darius Road', '1', 44266, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1191', 'James', to_date('22-12-1979', 'dd-mm-yyyy'), '93 Howie Road', '1', 40427);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1191', 'Gladys', to_date('02-12-1974', 'dd-mm-yyyy'), '89 Huston Ave', '1', 23256, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1192', 'Rueben', to_date('30-05-1970', 'dd-mm-yyyy'), '897 Bautzen Roa', '1', 6605);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1192', 'Yaphet', to_date('13-11-1976', 'dd-mm-yyyy'), '37 Carol Street', '1', 21971, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1193', 'Deborah', to_date('15-04-1993', 'dd-mm-yyyy'), '26 Moss Street', '1', 27961);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1193', 'Rade', to_date('05-11-1974', 'dd-mm-yyyy'), '69 Lucca Street', '1', 30177, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1194', 'Harvey', to_date('03-09-1989', 'dd-mm-yyyy'), '41 Springfield ', '1', 8575);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1194', 'Carrie', to_date('03-04-1970', 'dd-mm-yyyy'), '28 Parma Drive', '2', 37874, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1195', 'Henry', to_date('02-02-1977', 'dd-mm-yyyy'), '34 Vern Street', '1', 28524);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1195', 'Garland', to_date('14-05-1988', 'dd-mm-yyyy'), '66 Haggard Blvd', '2', 37021, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1196', 'Mika', to_date('13-01-1989', 'dd-mm-yyyy'), '22nd Street', '2', 43132);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1196', 'Cevin', to_date('16-12-1972', 'dd-mm-yyyy'), '72nd Street', '1', 14536, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1197', 'Harry', to_date('08-08-1985', 'dd-mm-yyyy'), '569 Bonneville ', '2', 10208);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1197', 'Suzi', to_date('19-07-1985', 'dd-mm-yyyy'), '804 Banbury Str', '2', 25392, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1198', 'Bobby', to_date('23-10-1976', 'dd-mm-yyyy'), '63rd Street', '1', 32451);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1198', 'Joaquim', to_date('05-04-1974', 'dd-mm-yyyy'), '48 Bend Street', '2', 34388, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1199', 'Robert', to_date('11-12-1988', 'dd-mm-yyyy'), '65 Evett Road', '2', 9478);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1199', 'Forest', to_date('04-08-1996', 'dd-mm-yyyy'), '538 Hank Road', '1', 25902, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1200', 'Kazem', to_date('09-09-1978', 'dd-mm-yyyy'), '2 Jonny Lee Blv', '2', 40157);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1200', 'Armand', to_date('03-09-1994', 'dd-mm-yyyy'), '22 Macclesfield', '2', 13250, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1201', 'Art', to_date('30-09-1997', 'dd-mm-yyyy'), '18 Athens Stree', '2', 32019);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1201', 'Jonathan', to_date('04-09-1980', 'dd-mm-yyyy'), '48 Media Road', '1', 25316, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1202', 'Tyrone', to_date('16-04-1975', 'dd-mm-yyyy'), '72 Leoni Drive', '2', 34824);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1202', 'Mekhi', to_date('25-06-1971', 'dd-mm-yyyy'), '31 Aglukark Str', '1', 28322, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1203', 'Cesar', to_date('26-03-1991', 'dd-mm-yyyy'), '83 Rozenburg St', '2', 39912);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1203', 'Rachel', to_date('16-03-1988', 'dd-mm-yyyy'), '240 Popper Stre', '1', 15675, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1204', 'Judi', to_date('03-09-1978', 'dd-mm-yyyy'), '72nd Street', '1', 10726);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1204', 'Kathleen', to_date('03-03-1990', 'dd-mm-yyyy'), '843 Laredo Road', '2', 10432, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1205', 'Debra', to_date('29-08-1990', 'dd-mm-yyyy'), '208 Ralph Drive', '2', 37141);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1205', 'Bobbi', to_date('15-10-1972', 'dd-mm-yyyy'), '446 Emily Stree', '1', 25130, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1206', 'Scott', to_date('28-09-1972', 'dd-mm-yyyy'), '62 Storrington ', '2', 39723);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1206', 'Ann', to_date('08-06-1999', 'dd-mm-yyyy'), '77 Flemyng Road', '1', 22277, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1207', 'Lara', to_date('17-10-1989', 'dd-mm-yyyy'), '832 Rawlins Ave', '2', 6108);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1207', 'Nikki', to_date('05-04-1974', 'dd-mm-yyyy'), '9 Pacino Blvd', '1', 32979, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1208', 'Trini', to_date('23-02-1990', 'dd-mm-yyyy'), '41st Street', '2', 37959);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1208', 'Pelvic', to_date('22-09-1998', 'dd-mm-yyyy'), '59 Delta Street', '2', 31696, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1209', 'Buddy', to_date('24-07-1989', 'dd-mm-yyyy'), '10 Sharon Stree', '2', 39236);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1209', 'Benjamin', to_date('19-10-1979', 'dd-mm-yyyy'), '16 Brosnan Stre', '1', 10754, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1210', 'Merrilee', to_date('21-09-1999', 'dd-mm-yyyy'), '96 Whoopi Road', '1', 20576);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1210', 'Gran', to_date('15-09-1996', 'dd-mm-yyyy'), '120 Landau Stre', '2', 14639, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1211', 'Dionne', to_date('05-08-1977', 'dd-mm-yyyy'), '324 Houston Roa', '2', 18005);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1211', 'Juan', to_date('01-07-1988', 'dd-mm-yyyy'), '61 Minneapolis ', '2', 30933, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1212', 'Isaac', to_date('09-11-1995', 'dd-mm-yyyy'), '7 Crystal Stree', '2', 26989);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1212', 'Rutger', to_date('26-04-1979', 'dd-mm-yyyy'), '6 Rutger', '1', 28539, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1213', 'Rolando', to_date('04-09-1993', 'dd-mm-yyyy'), '797 Alda Road', '1', 6776);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1213', 'Ellen', to_date('06-11-1998', 'dd-mm-yyyy'), '79 Easton Stree', '1', 19730, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1214', 'Javon', to_date('29-10-1980', 'dd-mm-yyyy'), '180 Fleet', '2', 21880);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1214', 'Aaron', to_date('15-06-1995', 'dd-mm-yyyy'), '77 Manu Blvd', '2', 37215, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1215', 'Kathleen', to_date('05-05-1996', 'dd-mm-yyyy'), '274 Affleck Str', '1', 20278);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1215', 'Tal', to_date('20-02-1971', 'dd-mm-yyyy'), '41st Street', '2', 16412, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1216', 'Leon', to_date('04-05-1976', 'dd-mm-yyyy'), '91 Chao Blvd', '1', 31575);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1216', 'Gordon', to_date('26-03-1970', 'dd-mm-yyyy'), '6 Furay Street', '2', 34710, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1217', 'Marc', to_date('12-11-1972', 'dd-mm-yyyy'), '32 Summer Stree', '2', 24191);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1217', 'Mika', to_date('26-11-1992', 'dd-mm-yyyy'), '24 Matthau Road', '2', 19476, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1218', 'Lena', to_date('17-07-1996', 'dd-mm-yyyy'), '90 Chaam Ave', '2', 31014);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1218', 'Juliet', to_date('20-04-1989', 'dd-mm-yyyy'), '54 Salt Lake Ci', '2', 21310, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1219', 'Bo', to_date('19-06-1980', 'dd-mm-yyyy'), '65 Holiday Driv', '2', 35604);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1219', 'Colleen', to_date('27-01-1985', 'dd-mm-yyyy'), '57 Donal Road', '2', 7800, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1220', 'Dermot', to_date('17-12-1992', 'dd-mm-yyyy'), '32 urban Road', '1', 22881);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1220', 'Patti', to_date('19-06-1980', 'dd-mm-yyyy'), '52 Torino Road', '2', 23980, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1221', 'Garry', to_date('12-05-1982', 'dd-mm-yyyy'), '79 Odense Road', '1', 6219);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1221', 'Lou', to_date('06-02-1981', 'dd-mm-yyyy'), '80 Cleary Stree', '1', 7150, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1222', 'Stephanie', to_date('12-03-1985', 'dd-mm-yyyy'), '99 Chesnutt Dri', '2', 7329);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1222', 'Nicholas', to_date('04-07-1986', 'dd-mm-yyyy'), '32nd Street', '1', 27222, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1223', 'Uma', to_date('15-12-1979', 'dd-mm-yyyy'), '803 Grier', '1', 30341);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1223', 'Elle', to_date('30-03-1976', 'dd-mm-yyyy'), '71 Short Drive', '1', 11890, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1224', 'Cameron', to_date('10-11-1977', 'dd-mm-yyyy'), '52nd Street', '1', 39470);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1224', 'Manu', to_date('07-12-1983', 'dd-mm-yyyy'), '55 Mac Street', '1', 12263, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1225', 'Taylor', to_date('17-02-1999', 'dd-mm-yyyy'), '75 Larnelle', '1', 13430);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1225', 'Blair', to_date('13-03-1980', 'dd-mm-yyyy'), '40 Meniketti St', '2', 26801, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1226', 'Rawlins', to_date('05-11-1987', 'dd-mm-yyyy'), '815 Ty Road', '1', 34190);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1226', 'Rik', to_date('22-07-1973', 'dd-mm-yyyy'), '66 California', '2', 9033, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1227', 'Harry', to_date('24-12-1995', 'dd-mm-yyyy'), '20 Barbengo Dri', '2', 15428);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1227', 'Jarvis', to_date('21-03-1978', 'dd-mm-yyyy'), '37 Adrien Road', '2', 11166, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1228', 'Fisher', to_date('19-06-1994', 'dd-mm-yyyy'), '96 Kinski', '2', 10710);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1228', 'Pamela', to_date('30-05-1985', 'dd-mm-yyyy'), '51 Key Biscayne', '2', 25616, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1229', 'Sylvester', to_date('30-09-1980', 'dd-mm-yyyy'), '93rd Street', '2', 43151);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1229', 'Will', to_date('01-03-1971', 'dd-mm-yyyy'), '25 Cesar Road', '2', 29732, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1230', 'Rose', to_date('31-03-1989', 'dd-mm-yyyy'), '39 Streep', '1', 37296);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1230', 'Kirk', to_date('02-07-1971', 'dd-mm-yyyy'), '55 Derrick Road', '2', 41764, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1231', 'Gran', to_date('24-05-1990', 'dd-mm-yyyy'), '75 Fornacette R', '2', 42259);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1231', 'Praga', to_date('31-08-1998', 'dd-mm-yyyy'), '16 Richard Driv', '1', 31969, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1232', 'Sara', to_date('19-09-1988', 'dd-mm-yyyy'), '2 Oszajca Ave', '1', 15680);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1232', 'Maura', to_date('30-03-1971', 'dd-mm-yyyy'), '27 Fisher Ave', '2', 15600, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1233', 'Tzi', to_date('03-05-1986', 'dd-mm-yyyy'), '13 Beck Ave', '2', 42707);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1233', 'Ray', to_date('20-07-1992', 'dd-mm-yyyy'), '174 Berkeley', '1', 37403, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1234', 'Heather', to_date('26-06-1972', 'dd-mm-yyyy'), '79 Marx Drive', '2', 35458);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1234', 'Famke', to_date('03-02-1998', 'dd-mm-yyyy'), '10 Joaquim Blvd', '2', 24010, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1235', 'Jack', to_date('04-10-1990', 'dd-mm-yyyy'), '67 Prinze Drive', '1', 33247);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1235', 'Harriet', to_date('14-10-1994', 'dd-mm-yyyy'), '61 Skarsgard Bl', '1', 30611, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1236', 'Harold', to_date('15-02-1976', 'dd-mm-yyyy'), '39 Rupert', '1', 19470);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1236', 'Geena', to_date('02-10-1993', 'dd-mm-yyyy'), '50 Coppell Stre', '2', 6689, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1237', 'Freddy', to_date('08-05-1976', 'dd-mm-yyyy'), '10 Adkins Stree', '2', 24633);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1237', 'Madeline', to_date('10-10-1980', 'dd-mm-yyyy'), '97 Carla Street', '1', 8123, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1238', 'Maureen', to_date('21-09-1982', 'dd-mm-yyyy'), '48 Eisenhttens', '1', 21202);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1238', 'Suzy', to_date('08-04-1978', 'dd-mm-yyyy'), '99 Tallahassee ', '2', 29508, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1239', 'Debby', to_date('26-12-1978', 'dd-mm-yyyy'), '52nd Street', '2', 20080);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1239', 'Oro', to_date('30-08-1974', 'dd-mm-yyyy'), '560 Clea Street', '2', 7032, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1240', 'Kate', to_date('16-02-1989', 'dd-mm-yyyy'), '54 LaSalle Road', '2', 19816);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1240', 'Natasha', to_date('19-04-1985', 'dd-mm-yyyy'), '91st Street', '1', 42667, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1241', 'Mel', to_date('21-04-1990', 'dd-mm-yyyy'), '177 Sellers Str', '1', 36438);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1241', 'William', to_date('03-03-1990', 'dd-mm-yyyy'), '12 Mount Laurel', '1', 30732, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1242', 'Cloris', to_date('17-11-1979', 'dd-mm-yyyy'), '30 Vance Road', '2', 36305);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1242', 'Phil', to_date('27-02-1983', 'dd-mm-yyyy'), '1 Nordhausen Ro', '1', 25713, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1243', 'Nicholas', to_date('19-03-1993', 'dd-mm-yyyy'), '93 Gavin Road', '1', 34805);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1243', 'Terrence', to_date('13-12-1976', 'dd-mm-yyyy'), '80 Sidney Stree', '2', 22776, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1244', 'Viggo', to_date('23-04-1995', 'dd-mm-yyyy'), '88 Guzman', '2', 42779);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1244', 'Ethan', to_date('09-02-1997', 'dd-mm-yyyy'), '40 Angelina', '2', 29923, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1245', 'Chaka', to_date('27-06-1977', 'dd-mm-yyyy'), '23 Belo Horizon', '2', 36127);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1245', 'Nastassja', to_date('01-04-1989', 'dd-mm-yyyy'), '12nd Street', '2', 41773, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1246', 'Eddie', to_date('21-11-1985', 'dd-mm-yyyy'), '2 Newton Road', '1', 42710);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1246', 'Jonathan', to_date('07-04-1990', 'dd-mm-yyyy'), '42 Conners Road', '2', 11245, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1247', 'Mary', to_date('07-01-1992', 'dd-mm-yyyy'), '787 East sussex', '1', 20646);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1247', 'Gabriel', to_date('10-11-1977', 'dd-mm-yyyy'), '63rd Street', '1', 17436, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1248', 'Pelvic', to_date('25-05-1972', 'dd-mm-yyyy'), '91st Street', '1', 23235);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1248', 'Hope', to_date('18-04-1979', 'dd-mm-yyyy'), '72nd Street', '2', 19932, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1249', 'Alicia', to_date('12-07-1979', 'dd-mm-yyyy'), '63 Sawa Drive', '2', 19820);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1249', 'Kyra', to_date('06-11-1986', 'dd-mm-yyyy'), '82 Edison Drive', '2', 36062, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1250', 'Mike', to_date('08-05-1997', 'dd-mm-yyyy'), '56 Cypress Stre', '2', 22956);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1250', 'Simon', to_date('30-08-1990', 'dd-mm-yyyy'), '607 Clark', '2', 15913, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1251', 'Ceili', to_date('25-10-1982', 'dd-mm-yyyy'), '50 Alpharetta R', '2', 15580);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1251', 'Alec', to_date('02-05-1990', 'dd-mm-yyyy'), '2 Romijn-Stamos', '2', 36298, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1252', 'Udo', to_date('13-03-1985', 'dd-mm-yyyy'), '6 Levert Street', '2', 7912);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1252', 'Rick', to_date('03-09-1978', 'dd-mm-yyyy'), '23 Bloomington ', '1', 11120, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1253', 'Samantha', to_date('18-02-1976', 'dd-mm-yyyy'), '41 Burr Ridge S', '1', 8110);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1253', 'Fats', to_date('21-03-1976', 'dd-mm-yyyy'), '100 Patti Stree', '2', 31505, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1254', 'Eric', to_date('10-03-1996', 'dd-mm-yyyy'), '59 Lois Road', '1', 30308);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1254', 'Noah', to_date('06-03-1990', 'dd-mm-yyyy'), '26 Del Toro Roa', '1', 12935, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1255', 'Aimee', to_date('30-09-1983', 'dd-mm-yyyy'), '97 Randy Street', '1', 38046);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1255', 'Keanu', to_date('09-02-1990', 'dd-mm-yyyy'), '487 Jean-Claude', '1', 32102, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1256', 'Kieran', to_date('29-04-1993', 'dd-mm-yyyy'), '76 Coolidge Ave', '1', 8476);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1256', 'Rich', to_date('02-11-1996', 'dd-mm-yyyy'), '54 Keith Street', '2', 20797, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1257', 'Gwyneth', to_date('23-12-1995', 'dd-mm-yyyy'), '52nd Street', '1', 39863);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1257', 'Mika', to_date('29-05-1990', 'dd-mm-yyyy'), '721 Kris Road', '2', 18399, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1258', 'Aaron', to_date('15-11-1988', 'dd-mm-yyyy'), '28 Angela Blvd', '2', 7668);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1258', 'Jena', to_date('03-06-1978', 'dd-mm-yyyy'), '2 Flemyng Stree', '2', 43458, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1259', 'Todd', to_date('01-03-1980', 'dd-mm-yyyy'), '81 Kenny Road', '1', 8046);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1259', 'Marianne', to_date('15-02-1982', 'dd-mm-yyyy'), '46 Crouch Stree', '1', 17627, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1260', 'Beverley', to_date('07-12-1985', 'dd-mm-yyyy'), '12 Hartmannsdor', '1', 19873);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1260', 'Carlene', to_date('21-03-1976', 'dd-mm-yyyy'), '51 Cle Elum Str', '2', 24016, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1261', 'Carlene', to_date('26-01-1997', 'dd-mm-yyyy'), '81 Wavre Road', '2', 27045);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1261', 'Allan', to_date('13-01-1973', 'dd-mm-yyyy'), '51 Marianne Roa', '2', 44366, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1262', 'Frederic', to_date('24-08-1971', 'dd-mm-yyyy'), '65 Whitehouse S', '2', 27762);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1262', 'Roy', to_date('05-12-1972', 'dd-mm-yyyy'), '98 Devon Street', '1', 44268, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1263', 'Nancy', to_date('23-11-1976', 'dd-mm-yyyy'), '66 Thornton Dri', '1', 18339);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1263', 'LeVar', to_date('17-11-1989', 'dd-mm-yyyy'), '95 Paxton Stree', '2', 42617, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1264', 'Jay', to_date('26-10-1999', 'dd-mm-yyyy'), '4 Nashua Road', '1', 32049);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1264', 'Ronny', to_date('30-05-1973', 'dd-mm-yyyy'), '59 Highlands Ra', '2', 41529, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1265', 'Miranda', to_date('12-11-1985', 'dd-mm-yyyy'), '356 Tyson Drive', '2', 20440);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1265', 'Carole', to_date('07-10-1974', 'dd-mm-yyyy'), '65 Michaels Ave', '2', 14125, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1266', 'Janeane', to_date('08-04-1997', 'dd-mm-yyyy'), '154 Lane Drive', '1', 17106);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1266', 'Allison', to_date('21-09-1971', 'dd-mm-yyyy'), '29 Dalton Ave', '1', 9955, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1267', 'Lesley', to_date('01-08-1986', 'dd-mm-yyyy'), '38 Dern Drive', '2', 15833);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1267', 'Gilberto', to_date('21-01-1982', 'dd-mm-yyyy'), '585 Zappacosta', '1', 41588, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1268', 'Kyra', to_date('02-10-1986', 'dd-mm-yyyy'), '43 Wolf Street', '2', 33370);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1268', 'Rhett', to_date('07-01-1991', 'dd-mm-yyyy'), '38 Quinones Blv', '1', 8520, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1269', 'Diane', to_date('26-09-1986', 'dd-mm-yyyy'), '132 Wallace Str', '1', 41680);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1269', 'Jeffrey', to_date('28-06-1979', 'dd-mm-yyyy'), '91 Duchovny Roa', '1', 23459, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1270', 'Jon', to_date('02-07-1998', 'dd-mm-yyyy'), '58 Max Drive', '2', 14784);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1270', 'Samuel', to_date('29-07-1992', 'dd-mm-yyyy'), '37 Dysart Stree', '2', 22830, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1271', 'Neneh', to_date('30-04-1980', 'dd-mm-yyyy'), '54 Playboys Blv', '2', 22864);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1271', 'Courtney', to_date('22-02-1985', 'dd-mm-yyyy'), '61 Galecki Road', '1', 34704, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1272', 'Nicole', to_date('05-04-1976', 'dd-mm-yyyy'), '56 Zipf Ave', '1', 34982);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1272', 'Paul', to_date('22-08-1995', 'dd-mm-yyyy'), '68 Glendale Str', '2', 12457, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1273', 'Laurence', to_date('11-08-1971', 'dd-mm-yyyy'), '60 Jay', '2', 17836);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1273', 'Tia', to_date('08-08-1996', 'dd-mm-yyyy'), '41st Street', '2', 23244, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1274', 'Marty', to_date('01-02-1997', 'dd-mm-yyyy'), '7 Moorer Road', '2', 12044);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1274', 'Rosario', to_date('06-04-1987', 'dd-mm-yyyy'), '90 Ismaning Dri', '2', 14625, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1275', 'Oro', to_date('06-03-1971', 'dd-mm-yyyy'), '364 Gallant', '1', 27871);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1275', 'Cheryl', to_date('12-03-1982', 'dd-mm-yyyy'), '24 Bo Road', '1', 34673, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1276', 'Fats', to_date('05-12-1971', 'dd-mm-yyyy'), '9 Scheider Road', '2', 42104);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1276', 'Emm', to_date('09-04-1982', 'dd-mm-yyyy'), '74 David Drive', '2', 18268, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1277', 'Jimmie', to_date('28-04-1997', 'dd-mm-yyyy'), '600 Bogguss Str', '1', 12749);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1277', 'Robbie', to_date('27-10-1983', 'dd-mm-yyyy'), '64 Toyama Stree', '2', 39288, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1278', 'Mickey', to_date('09-05-1972', 'dd-mm-yyyy'), '53 Smith Drive', '2', 34095);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1278', 'Roberta', to_date('02-01-1971', 'dd-mm-yyyy'), '410 Stiller Dri', '2', 43362, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1279', 'Giovanni', to_date('11-07-1975', 'dd-mm-yyyy'), '8 Cheryl Street', '2', 25788);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1279', 'Sandra', to_date('09-07-1981', 'dd-mm-yyyy'), '79 Biel Road', '2', 32874, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1280', 'Gord', to_date('03-09-1985', 'dd-mm-yyyy'), '83 Schwarzenegg', '1', 28714);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1280', 'Cheryl', to_date('26-05-1994', 'dd-mm-yyyy'), '39 Weston Road', '1', 25474, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1281', 'Mitchell', to_date('16-08-1991', 'dd-mm-yyyy'), '36 Cube Road', '2', 37478);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1281', 'Micky', to_date('01-03-1995', 'dd-mm-yyyy'), '84 Law Road', '1', 42794, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1282', 'Nina', to_date('21-05-1988', 'dd-mm-yyyy'), '19 Roy Parnell ', '1', 37589);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1282', 'Mekhi', to_date('01-03-1979', 'dd-mm-yyyy'), '813 Burns Drive', '2', 32403, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1283', 'Davis', to_date('03-09-1986', 'dd-mm-yyyy'), '150 Ving Street', '2', 13329);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1283', 'Miko', to_date('22-08-1993', 'dd-mm-yyyy'), '24 Wopat Drive', '1', 17042, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1284', 'Christmas', to_date('08-09-1973', 'dd-mm-yyyy'), '776 Popper Stre', '2', 18037);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1284', 'Debi', to_date('07-08-1979', 'dd-mm-yyyy'), '64 Brando Stree', '1', 39405, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1285', 'Nils', to_date('23-07-1991', 'dd-mm-yyyy'), '43 Wade Road', '1', 10862);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1285', 'Kelly', to_date('02-03-1970', 'dd-mm-yyyy'), '56 Elliott Road', '2', 12732, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1286', 'Nils', to_date('20-01-1980', 'dd-mm-yyyy'), '72 Larry Road', '1', 35826);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1286', 'Freddie', to_date('18-12-1991', 'dd-mm-yyyy'), '81 Cuba Drive', '1', 25221, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1287', 'Kyle', to_date('26-01-1980', 'dd-mm-yyyy'), '28 Machine Driv', '2', 29587);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1287', 'Raul', to_date('12-08-1994', 'dd-mm-yyyy'), '2 Sara', '1', 36796, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1288', 'Heather', to_date('11-10-1974', 'dd-mm-yyyy'), '423 Myles Drive', '1', 7841);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1288', 'Veruca', to_date('17-05-1972', 'dd-mm-yyyy'), '93 Sarasota Dri', '2', 35006, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1289', 'Vin', to_date('14-08-1999', 'dd-mm-yyyy'), '36 Laws', '1', 29280);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1289', 'Arnold', to_date('26-07-1972', 'dd-mm-yyyy'), '92nd Street', '2', 35173, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1290', 'Loreena', to_date('18-08-1989', 'dd-mm-yyyy'), '85 Trejo Street', '1', 29428);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1290', 'Xander', to_date('15-12-1996', 'dd-mm-yyyy'), '12 Menlo Park R', '2', 15797, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1291', 'Andrea', to_date('10-05-1983', 'dd-mm-yyyy'), '55 Weisberg Dri', '2', 10759);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1291', 'Rhett', to_date('08-01-1995', 'dd-mm-yyyy'), '411 Maxwell Str', '1', 40930, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1292', 'Joshua', to_date('14-06-1970', 'dd-mm-yyyy'), '98 Bugnon Stree', '1', 43924);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1292', 'Fats', to_date('14-07-1983', 'dd-mm-yyyy'), '53rd Street', '1', 26156, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1293', 'Sigourney', to_date('19-07-1989', 'dd-mm-yyyy'), '738 Colombes Bl', '1', 15323);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1293', 'Leelee', to_date('16-08-1989', 'dd-mm-yyyy'), '17 Jann Road', '2', 43300, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1294', 'Sarah', to_date('04-07-1995', 'dd-mm-yyyy'), '40 Tim Blvd', '2', 23121);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1294', 'Connie', to_date('15-03-1992', 'dd-mm-yyyy'), '5 Leslie Street', '1', 22497, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1295', 'Jamie', to_date('28-10-1987', 'dd-mm-yyyy'), '53 Singletary', '1', 41493);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1295', 'Josh', to_date('24-11-1975', 'dd-mm-yyyy'), '84 Rhames Road', '2', 32968, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1296', 'Tia', to_date('07-01-1971', 'dd-mm-yyyy'), '77 New Castle A', '2', 29038);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1296', 'Gabrielle', to_date('11-08-1990', 'dd-mm-yyyy'), '8 Kylie Road', '2', 44477, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1297', 'Jack', to_date('04-06-1981', 'dd-mm-yyyy'), '561 Los Alamos ', '2', 21115);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1297', 'Rhett', to_date('07-03-1985', 'dd-mm-yyyy'), '78 Lupe Street', '1', 25719, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1298', 'Gordie', to_date('27-01-1996', 'dd-mm-yyyy'), '53rd Street', '2', 15699);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1298', 'Garland', to_date('31-08-1974', 'dd-mm-yyyy'), '18 Gil Street', '2', 15778, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1299', 'Jean-Luc', to_date('03-02-1995', 'dd-mm-yyyy'), '492 Chambery St', '2', 28265);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1299', 'Brenda', to_date('09-11-1990', 'dd-mm-yyyy'), '594 Brickell Bl', '1', 8582, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1300', 'Robin', to_date('18-01-1993', 'dd-mm-yyyy'), '410 urban Road', '2', 10686);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1300', 'Derrick', to_date('05-09-1987', 'dd-mm-yyyy'), '95 Womack Stree', '1', 12435, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1301', 'Robbie', to_date('26-05-1991', 'dd-mm-yyyy'), '117 Favreau Str', '1', 38787);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1301', 'Mena', to_date('02-06-1974', 'dd-mm-yyyy'), '95 Hidalgo Driv', '2', 28919, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1302', 'Alannah', to_date('16-12-1976', 'dd-mm-yyyy'), '42 Sally Street', '2', 40937);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1302', 'Alfred', to_date('11-09-1986', 'dd-mm-yyyy'), '31 Cherry', '2', 19747, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1303', 'Lisa', to_date('28-05-1995', 'dd-mm-yyyy'), '40 Glendale Blv', '1', 17656);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1303', 'Stephanie', to_date('24-07-1999', 'dd-mm-yyyy'), '42 Atkinson Dri', '1', 31137, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1304', 'Vanessa', to_date('01-05-1970', 'dd-mm-yyyy'), '10 Campana Driv', '1', 31514);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1304', 'Hugo', to_date('07-02-1982', 'dd-mm-yyyy'), '882 Webb Road', '2', 43945, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1305', 'Hope', to_date('23-09-1970', 'dd-mm-yyyy'), '68 Tanon Drive', '2', 17739);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1305', 'Bobbi', to_date('31-12-1992', 'dd-mm-yyyy'), '47 Folds Drive', '2', 15220, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1306', 'Denis', to_date('04-05-1996', 'dd-mm-yyyy'), '49 Sanders Blvd', '2', 26937);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1306', 'Julianna', to_date('10-03-1971', 'dd-mm-yyyy'), '69 Cheshire Roa', '2', 33824, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1307', 'Alec', to_date('27-02-1992', 'dd-mm-yyyy'), '823 Colombo Str', '1', 34124);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1307', 'Jose', to_date('27-08-1975', 'dd-mm-yyyy'), '81 Roddy Street', '2', 34560, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1308', 'Rosie', to_date('26-07-1973', 'dd-mm-yyyy'), '60 Adler Street', '1', 43356);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1308', 'Moe', to_date('17-07-1978', 'dd-mm-yyyy'), '56 Soul Ave', '1', 21211, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1309', 'Randall', to_date('14-12-1997', 'dd-mm-yyyy'), '99 Leipzig', '2', 42093);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1309', 'Randall', to_date('13-12-1995', 'dd-mm-yyyy'), '744 Sale Drive', '1', 37943, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1310', 'Sam', to_date('09-02-1971', 'dd-mm-yyyy'), '86 Powers Ave', '1', 8813);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1310', 'Jason', to_date('01-10-1987', 'dd-mm-yyyy'), '44 Unger Drive', '2', 6208, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1311', 'Emmylou', to_date('12-01-1982', 'dd-mm-yyyy'), '48 Cleese Road', '1', 21152);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1311', 'Juliet', to_date('24-10-1980', 'dd-mm-yyyy'), '85 Yogyakarta S', '2', 32882, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1312', 'Clint', to_date('17-04-1992', 'dd-mm-yyyy'), '98 Adelaide', '2', 6383);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1312', 'Pelvic', to_date('21-07-1995', 'dd-mm-yyyy'), '64 Himmelman Ro', '2', 10409, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1313', 'Kyra', to_date('28-12-1979', 'dd-mm-yyyy'), '15 Teri Drive', '1', 42448);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1313', 'Heather', to_date('29-10-1992', 'dd-mm-yyyy'), '11st Street', '2', 18598, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1314', 'First', to_date('10-07-1988', 'dd-mm-yyyy'), '59 Farrell', '1', 38074);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1314', 'Patty', to_date('22-08-1985', 'dd-mm-yyyy'), '21 Benet Ave', '2', 7121, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1315', 'Ed', to_date('22-07-1987', 'dd-mm-yyyy'), '91st Street', '2', 32999);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1315', 'Rose', to_date('10-07-1974', 'dd-mm-yyyy'), '47 Leigh', '2', 10963, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1316', 'Chely', to_date('30-07-1990', 'dd-mm-yyyy'), '66 Armin Street', '2', 27648);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1316', 'Bernie', to_date('18-12-1973', 'dd-mm-yyyy'), '239 Jackson Dri', '2', 12698, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1317', 'Brent', to_date('27-11-1973', 'dd-mm-yyyy'), '197 Elizondo Ro', '2', 40148);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1317', 'Suzy', to_date('25-02-1982', 'dd-mm-yyyy'), '160 Randal Stre', '1', 14265, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1318', 'Lili', to_date('14-03-1979', 'dd-mm-yyyy'), '11 Alfie Street', '2', 24183);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1318', 'Lila', to_date('13-12-1988', 'dd-mm-yyyy'), '78 Hong Street', '1', 39956, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1319', 'Sigourney', to_date('09-01-1984', 'dd-mm-yyyy'), '66 Tadley', '1', 16253);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1319', 'Kiefer', to_date('18-08-1977', 'dd-mm-yyyy'), '60 Nicholson Ro', '1', 9550, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1320', 'Rosario', to_date('31-08-1971', 'dd-mm-yyyy'), '62 Roy Blvd', '1', 14596);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1320', 'Hank', to_date('17-03-1984', 'dd-mm-yyyy'), '92 Redmond Driv', '1', 20598, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1321', 'Elijah', to_date('29-12-1983', 'dd-mm-yyyy'), '33 Galecki Blvd', '2', 18000);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1321', 'Andre', to_date('17-12-1992', 'dd-mm-yyyy'), '30 Gill Road', '1', 13575, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1322', 'Jason', to_date('29-11-1970', 'dd-mm-yyyy'), '155 Kotto Stree', '2', 12919);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1322', 'Donald', to_date('17-11-1971', 'dd-mm-yyyy'), '87 Harsum Drive', '1', 23150, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1323', 'Barry', to_date('16-06-1998', 'dd-mm-yyyy'), '63 Posener Road', '1', 19201);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1323', 'Nastassja', to_date('16-10-1992', 'dd-mm-yyyy'), '89 Tanon Street', '2', 30062, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1324', 'Goran', to_date('17-06-1993', 'dd-mm-yyyy'), '80 Hohenfels', '1', 21800);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1324', 'Udo', to_date('17-07-1993', 'dd-mm-yyyy'), '31 Mann Road', '1', 15562, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1325', 'Chaka', to_date('15-09-1983', 'dd-mm-yyyy'), '46 Kirkwood Roa', '2', 26357);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1325', 'Ian', to_date('05-08-1991', 'dd-mm-yyyy'), '77 Shawnee Driv', '1', 23151, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1326', 'Rip', to_date('18-02-1983', 'dd-mm-yyyy'), '48 Gryner', '1', 34556);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1326', 'Treat', to_date('14-03-1992', 'dd-mm-yyyy'), '971 Clark Stree', '2', 25615, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1327', 'Lena', to_date('20-02-1989', 'dd-mm-yyyy'), '92 Tankard Road', '1', 18958);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1327', 'Howie', to_date('21-10-1991', 'dd-mm-yyyy'), '93rd Street', '1', 33613, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1328', 'Giovanni', to_date('02-06-1983', 'dd-mm-yyyy'), '387 Lachey Stre', '1', 21288);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1328', 'Gerald', to_date('19-10-1971', 'dd-mm-yyyy'), '35 Tal Road', '1', 41502, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1329', 'Halle', to_date('06-12-1995', 'dd-mm-yyyy'), '872 Shaw Road', '1', 43412);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1329', 'Ving', to_date('12-02-1979', 'dd-mm-yyyy'), '6 Stallone Road', '1', 27525, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1330', 'Lee', to_date('16-08-1992', 'dd-mm-yyyy'), '33 Tankard Ave', '2', 14039);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1330', 'Ronnie', to_date('06-11-1980', 'dd-mm-yyyy'), '77 McIntosh Str', '1', 11658, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1331', 'Jody', to_date('20-02-1986', 'dd-mm-yyyy'), '37 Tyrone Road', '2', 24127);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1331', 'Danni', to_date('16-04-1978', 'dd-mm-yyyy'), '31 Astin Street', '1', 38736, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1332', 'Morgan', to_date('13-02-1970', 'dd-mm-yyyy'), '37 Buddy Ave', '1', 39165);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1332', 'Debi', to_date('30-07-1999', 'dd-mm-yyyy'), '98 Mohr Drive', '2', 43632, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1333', 'Robby', to_date('09-09-1987', 'dd-mm-yyyy'), '15 Wesley Drive', '1', 38881);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1333', 'Cheech', to_date('25-06-1971', 'dd-mm-yyyy'), '48 Lucy Road', '1', 31670, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1334', 'Ahmad', to_date('18-08-1978', 'dd-mm-yyyy'), '52nd Street', '2', 7597);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1334', 'Lea', to_date('08-06-1974', 'dd-mm-yyyy'), '53rd Street', '2', 12261, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1335', 'LeVar', to_date('29-03-1982', 'dd-mm-yyyy'), '312 Trace Drive', '1', 19975);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1335', 'Illeana', to_date('17-10-1974', 'dd-mm-yyyy'), '40 Stanley Ave', '1', 30182, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1336', 'Vanessa', to_date('23-10-1990', 'dd-mm-yyyy'), '20 Johnson', '1', 38105);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1336', 'Mel', to_date('25-03-1973', 'dd-mm-yyyy'), '22nd Street', '1', 20970, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1337', 'Mindy', to_date('06-10-1994', 'dd-mm-yyyy'), '36 Penelope Dri', '2', 14375);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1337', 'Rascal', to_date('10-09-1977', 'dd-mm-yyyy'), '11 Freddie Stre', '2', 19612, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1338', 'Cary', to_date('06-07-1994', 'dd-mm-yyyy'), '30 Coldmeece St', '2', 22875);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1338', 'Sheena', to_date('25-10-1994', 'dd-mm-yyyy'), '80 Pearce Road', '1', 38475, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1339', 'Gilbert', to_date('09-02-1990', 'dd-mm-yyyy'), '14 Stuermer Dri', '1', 25299);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1339', 'Derrick', to_date('01-02-1989', 'dd-mm-yyyy'), '28 Marley Stree', '2', 29611, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1340', 'Kay', to_date('28-06-1985', 'dd-mm-yyyy'), '58 Ian Drive', '2', 32368);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1340', 'Donna', to_date('12-04-1990', 'dd-mm-yyyy'), '47 Matt Drive', '1', 34553, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1341', 'Freda', to_date('03-02-1995', 'dd-mm-yyyy'), '51 Carrey Stree', '2', 19433);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1341', 'Gates', to_date('08-03-1989', 'dd-mm-yyyy'), '10 Sayer Street', '2', 17140, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1342', 'Johnnie', to_date('17-11-1986', 'dd-mm-yyyy'), '982 Himmelman S', '2', 18549);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1342', 'Nora', to_date('27-04-1984', 'dd-mm-yyyy'), '825 Stans Drive', '1', 42726, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1343', 'Johnnie', to_date('03-03-1973', 'dd-mm-yyyy'), '73 Oyten Drive', '1', 35241);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1343', 'Salma', to_date('27-07-1987', 'dd-mm-yyyy'), '71 Overstreet R', '2', 19833, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1344', 'Goldie', to_date('03-09-1999', 'dd-mm-yyyy'), '64 Suffern Stre', '1', 29543);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1344', 'Jeremy', to_date('14-04-1978', 'dd-mm-yyyy'), '160 Pride Stree', '2', 29004, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1345', 'Gary', to_date('30-07-1977', 'dd-mm-yyyy'), '467 Ranger Stre', '2', 38353);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1345', 'Rupert', to_date('06-01-1986', 'dd-mm-yyyy'), '31 Colman', '1', 36807, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1346', 'Collective', to_date('10-01-1992', 'dd-mm-yyyy'), '309 Cherry Driv', '2', 15329);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1346', 'Mia', to_date('18-09-1987', 'dd-mm-yyyy'), '89 Whitmore Ave', '2', 44490, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1347', 'Goldie', to_date('24-10-1991', 'dd-mm-yyyy'), '499 Travers Roa', '1', 15691);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1347', 'Brendan', to_date('28-10-1984', 'dd-mm-yyyy'), '59 Wariner Road', '2', 26442, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1348', 'Linda', to_date('12-09-1997', 'dd-mm-yyyy'), '42 Tankard Road', '2', 44828);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1348', 'Nikki', to_date('21-12-1974', 'dd-mm-yyyy'), '100 MacIsaac St', '1', 9909, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1349', 'Gordon', to_date('21-11-1988', 'dd-mm-yyyy'), '87 Sayer Road', '2', 29758);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1349', 'Karon', to_date('19-09-1993', 'dd-mm-yyyy'), '634 Brasםlia Bl', '2', 35573, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1350', 'Harris', to_date('27-04-1995', 'dd-mm-yyyy'), '324 Toyama Road', '1', 41556);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1350', 'Rebeka', to_date('07-06-1976', 'dd-mm-yyyy'), '89 Lauren', '1', 9544, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1351', 'Ice', to_date('09-05-1987', 'dd-mm-yyyy'), '7 Moraz', '1', 11997);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1351', 'Gailard', to_date('15-09-1970', 'dd-mm-yyyy'), '41 Gano Blvd', '1', 22967, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1352', 'Campbell', to_date('05-11-1989', 'dd-mm-yyyy'), '48 Marie Drive', '2', 24875);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1352', 'Donna', to_date('29-12-1998', 'dd-mm-yyyy'), '54 Reston Stree', '2', 10950, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1353', 'Eddie', to_date('28-04-1988', 'dd-mm-yyyy'), '771 Davidtz Roa', '2', 7907);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1353', 'Melba', to_date('28-02-1983', 'dd-mm-yyyy'), '32 Longueuil', '1', 44933, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1354', 'Nils', to_date('02-11-1971', 'dd-mm-yyyy'), '4 Vinton', '2', 6131);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1354', 'Mary Beth', to_date('26-12-1998', 'dd-mm-yyyy'), '36 Marshall Dri', '1', 18537, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1355', 'Larry', to_date('25-12-1987', 'dd-mm-yyyy'), '263 Albertina S', '2', 26192);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1355', 'Oded', to_date('24-09-1994', 'dd-mm-yyyy'), '85 Reiner Drive', '2', 38556, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1356', 'Joy', to_date('24-12-1976', 'dd-mm-yyyy'), '72nd Street', '2', 24759);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1356', 'Bridget', to_date('18-11-1971', 'dd-mm-yyyy'), '30 Molina Drive', '1', 29855, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1357', 'Joshua', to_date('05-12-1979', 'dd-mm-yyyy'), '68 Hutch Street', '1', 11089);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1357', 'Jack', to_date('02-05-1988', 'dd-mm-yyyy'), '15 Kansas City ', '2', 39126, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1358', 'Kyle', to_date('07-03-1988', 'dd-mm-yyyy'), '16 Coyote Blvd', '2', 29535);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1358', 'Jamie', to_date('03-01-1981', 'dd-mm-yyyy'), '74 Caine Street', '1', 27562, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1359', 'Mekhi', to_date('09-12-1996', 'dd-mm-yyyy'), '69 Night Drive', '1', 36198);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1359', 'Mel', to_date('11-04-1989', 'dd-mm-yyyy'), '96 Krabbe Road', '2', 40036, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1360', 'Jessica', to_date('02-03-1996', 'dd-mm-yyyy'), '2 Salonga Road', '1', 20668);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1360', 'Lucy', to_date('04-12-1979', 'dd-mm-yyyy'), '100 Polito Stre', '2', 41140, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1361', 'Miles', to_date('24-02-1997', 'dd-mm-yyyy'), '194 Bountiful S', '1', 11358);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1361', 'Derrick', to_date('08-09-1985', 'dd-mm-yyyy'), '84 Stevie Drive', '1', 16607, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1362', 'Pelvic', to_date('19-02-1973', 'dd-mm-yyyy'), '82 McFadden', '1', 11030);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1362', 'Judi', to_date('09-07-1978', 'dd-mm-yyyy'), '97 Oro Drive', '1', 27877, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1363', 'Elizabeth', to_date('05-06-1977', 'dd-mm-yyyy'), '830 Gilliam Dri', '1', 7839);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1363', 'Dermot', to_date('07-07-1972', 'dd-mm-yyyy'), '33 Gliwice Stre', '1', 17441, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1364', 'Emmylou', to_date('04-01-1992', 'dd-mm-yyyy'), '27 Bright Road', '1', 44344);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1364', 'Cary', to_date('02-04-1973', 'dd-mm-yyyy'), '75 Telford Road', '2', 24779, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1365', 'Luke', to_date('13-08-1987', 'dd-mm-yyyy'), '149 Holland Dri', '1', 19545);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1365', 'Janice', to_date('06-05-1975', 'dd-mm-yyyy'), '66 Dunn Drive', '1', 20415, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1366', 'Wesley', to_date('03-07-1987', 'dd-mm-yyyy'), '37 Brown Road', '2', 44012);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1366', 'Casey', to_date('22-04-1978', 'dd-mm-yyyy'), '19 Jolie Ave', '1', 15776, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1367', 'Claude', to_date('03-05-1972', 'dd-mm-yyyy'), '68 Bobby', '1', 25538);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1367', 'Colleen', to_date('17-11-1981', 'dd-mm-yyyy'), '900 Dan Drive', '2', 20855, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1368', 'Hal', to_date('23-04-1974', 'dd-mm-yyyy'), '49 Stafford Roa', '2', 19328);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1368', 'Jane', to_date('24-06-1984', 'dd-mm-yyyy'), '1 Prowse Street', '2', 19845, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1369', 'Devon', to_date('24-06-1992', 'dd-mm-yyyy'), '60 Spiner Stree', '1', 31519);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1369', 'Marlon', to_date('17-02-1976', 'dd-mm-yyyy'), '34 Billy Road', '1', 40390, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1370', 'Christian', to_date('18-07-1979', 'dd-mm-yyyy'), '62nd Street', '1', 23409);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1370', 'Boz', to_date('21-10-1981', 'dd-mm-yyyy'), '71 Hampton Road', '1', 36672, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1371', 'Liv', to_date('20-04-1998', 'dd-mm-yyyy'), '716 Bolzano Dri', '1', 21218);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1371', 'Rhea', to_date('07-12-1993', 'dd-mm-yyyy'), '891 Juliette St', '2', 38567, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1372', 'Denis', to_date('29-10-1992', 'dd-mm-yyyy'), '372 Nugent Road', '1', 35227);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1372', 'Aimee', to_date('17-08-1972', 'dd-mm-yyyy'), '65 Pusan-city A', '1', 33537, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1373', 'Graham', to_date('15-09-1995', 'dd-mm-yyyy'), '20 Tate Blvd', '1', 25746);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1373', 'Loretta', to_date('07-05-1970', 'dd-mm-yyyy'), '95 Kennedy Driv', '1', 36429, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1374', 'Hazel', to_date('10-03-1980', 'dd-mm-yyyy'), '986 Rhodes Driv', '1', 15322);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1374', 'Rachel', to_date('17-07-1981', 'dd-mm-yyyy'), '55 McElhone', '1', 15198, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1375', 'Nils', to_date('08-01-1981', 'dd-mm-yyyy'), '72 Mandy Drive', '1', 39700);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1375', 'Toshiro', to_date('02-12-1993', 'dd-mm-yyyy'), '87 Jesse Street', '1', 24113, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1376', 'Rascal', to_date('02-05-1980', 'dd-mm-yyyy'), '4 Cheech Street', '2', 21111);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1376', 'Todd', to_date('04-02-1976', 'dd-mm-yyyy'), '78 McDonald Dri', '2', 20804, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1377', 'Moe', to_date('08-12-1994', 'dd-mm-yyyy'), '62 Naestved Roa', '2', 23618);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1377', 'Brittany', to_date('13-03-1984', 'dd-mm-yyyy'), '236 Sedaka Blvd', '1', 40117, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1378', 'Stewart', to_date('18-05-1989', 'dd-mm-yyyy'), '945 Gertner Str', '2', 32768);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1378', 'Irene', to_date('28-03-1996', 'dd-mm-yyyy'), '15 Metcalf Stre', '2', 17959, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1379', 'Mitchell', to_date('27-05-1989', 'dd-mm-yyyy'), '52 Eindhoven', '2', 19663);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1379', 'Tim', to_date('21-08-1976', 'dd-mm-yyyy'), '31 Kristin Stre', '1', 10912, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1380', 'Armin', to_date('13-02-1990', 'dd-mm-yyyy'), '25 Foley', '2', 38664);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1380', 'Martha', to_date('15-08-1979', 'dd-mm-yyyy'), '13 Bartlett', '1', 15777, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1381', 'Colm', to_date('23-10-1985', 'dd-mm-yyyy'), '224 Green bay R', '2', 20064);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1381', 'Illeana', to_date('26-12-1980', 'dd-mm-yyyy'), '912 Vienna Stre', '2', 23856, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1382', 'Jann', to_date('14-03-1990', 'dd-mm-yyyy'), '96 Colombes Str', '1', 31268);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1382', 'Marisa', to_date('26-06-1983', 'dd-mm-yyyy'), '645 Horizon Str', '1', 12545, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1383', 'Rosie', to_date('31-01-1978', 'dd-mm-yyyy'), '41 Fierstein St', '1', 24410);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1383', 'Ashley', to_date('09-08-1990', 'dd-mm-yyyy'), '64 Berkeley Dri', '2', 10036, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1384', 'Miguel', to_date('05-02-1979', 'dd-mm-yyyy'), '49 Shandling', '1', 11659);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1384', 'Frank', to_date('10-10-1987', 'dd-mm-yyyy'), '170 Oliver Stre', '2', 37900, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1385', 'Andre', to_date('21-08-1999', 'dd-mm-yyyy'), '97 Madeleine Dr', '1', 39844);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1385', 'Jared', to_date('18-04-1987', 'dd-mm-yyyy'), '22nd Street', '2', 21177, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1386', 'Harvey', to_date('11-10-1991', 'dd-mm-yyyy'), '11st Street', '2', 27475);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1386', 'Jonathan', to_date('27-08-1989', 'dd-mm-yyyy'), '22 Parm Drive', '1', 22763, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1387', 'Jay', to_date('03-08-1972', 'dd-mm-yyyy'), '12nd Street', '2', 9325);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1387', 'Chi', to_date('10-03-1980', 'dd-mm-yyyy'), '337 Rueil-Malma', '1', 17248, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1388', 'Adina', to_date('17-07-1976', 'dd-mm-yyyy'), '46 Springfield ', '1', 6850);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1388', 'Richard', to_date('04-09-1979', 'dd-mm-yyyy'), '82nd Street', '2', 40419, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1389', 'Timothy', to_date('18-09-1970', 'dd-mm-yyyy'), '720 Speaks Stre', '2', 10378);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1389', 'Elvis', to_date('02-07-1997', 'dd-mm-yyyy'), '95 Botti Road', '2', 11380, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1390', 'Ice', to_date('29-10-1996', 'dd-mm-yyyy'), '77 Ron Street', '1', 37419);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1390', 'Diane', to_date('22-01-1991', 'dd-mm-yyyy'), '6 Rutger Drive', '1', 39484, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1391', 'Garry', to_date('05-04-1976', 'dd-mm-yyyy'), '91 Merrilee Str', '2', 28728);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1391', 'Ty', to_date('29-04-1997', 'dd-mm-yyyy'), '45 Caviezel Roa', '1', 35389, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1392', 'Ivan', to_date('04-10-1977', 'dd-mm-yyyy'), '10 Chet Road', '1', 40949);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1392', 'Hal', to_date('14-10-1978', 'dd-mm-yyyy'), '31st Street', '2', 34987, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1393', 'Lena', to_date('09-12-1977', 'dd-mm-yyyy'), '68 Munich Road', '1', 17604);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1393', 'Dan', to_date('03-01-1980', 'dd-mm-yyyy'), '92nd Street', '2', 6038, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1394', 'Selma', to_date('09-08-1998', 'dd-mm-yyyy'), '770 Weir Road', '2', 28210);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1394', 'Kurt', to_date('08-04-1970', 'dd-mm-yyyy'), '59 Tia Drive', '1', 25527, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1395', 'Mira', to_date('13-08-1975', 'dd-mm-yyyy'), '40 Balaban Road', '2', 24030);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1395', 'Gavin', to_date('04-08-1974', 'dd-mm-yyyy'), '56 Coldmeece Dr', '1', 12358, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1396', 'James', to_date('12-09-1985', 'dd-mm-yyyy'), '83 Idol', '2', 44152);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1396', 'Rik', to_date('14-09-1995', 'dd-mm-yyyy'), '19 Sally Road', '2', 11278, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1397', 'Davis', to_date('01-04-1974', 'dd-mm-yyyy'), '3 Newton Road', '2', 16509);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1397', 'Lisa', to_date('09-10-1996', 'dd-mm-yyyy'), '692 Salisbury S', '2', 31619, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1398', 'Nile', to_date('03-12-1990', 'dd-mm-yyyy'), '57 Betty Ave', '1', 41263);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1398', 'Ruth', to_date('29-07-1993', 'dd-mm-yyyy'), '83 Himmelman St', '2', 43417, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1399', 'Nicolas', to_date('13-07-1997', 'dd-mm-yyyy'), '16 McKennitt Dr', '1', 43121);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1399', 'Xander', to_date('28-11-1996', 'dd-mm-yyyy'), '51st Street', '2', 6819, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1400', 'Gladys', to_date('01-01-1973', 'dd-mm-yyyy'), '38 Gabriel Road', '2', 40517);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1400', 'Lily', to_date('11-05-1992', 'dd-mm-yyyy'), '721 Sugar Land ', '1', 27819, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1401', 'Woody', to_date('28-01-1971', 'dd-mm-yyyy'), '56 Dolenz Drive', '1', 15028);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1401', 'Herbie', to_date('26-06-1992', 'dd-mm-yyyy'), '171 Pleasence S', '2', 19277, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1402', 'Tcheky', to_date('16-12-1978', 'dd-mm-yyyy'), '65 Wakeling Roa', '2', 42537);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1402', 'Mena', to_date('29-07-1979', 'dd-mm-yyyy'), '52 Salvador Roa', '1', 36575, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1403', 'Franco', to_date('16-10-1972', 'dd-mm-yyyy'), '52 DeGraw Drive', '2', 8312);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1403', 'Teri', to_date('19-12-1971', 'dd-mm-yyyy'), '37 Paחo de Arco', '1', 35373, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1404', 'Catherine', to_date('08-06-1997', 'dd-mm-yyyy'), '34 Ontiveros St', '2', 9563);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1404', 'Pam', to_date('31-08-1997', 'dd-mm-yyyy'), '74 Checker Stre', '1', 6273, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1405', 'Percy', to_date('29-12-1995', 'dd-mm-yyyy'), '38 Guinness Str', '2', 26384);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1405', 'Fiona', to_date('03-01-1993', 'dd-mm-yyyy'), '209 Stockard Dr', '2', 18309, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1406', 'Rick', to_date('14-10-1989', 'dd-mm-yyyy'), '5 Nanci Blvd', '1', 28464);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1406', 'Victoria', to_date('17-11-1970', 'dd-mm-yyyy'), '720 Schneider R', '1', 30835, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1407', 'Bob', to_date('15-03-1990', 'dd-mm-yyyy'), '15 Walker Stree', '2', 35688);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1407', 'Marlon', to_date('07-12-1981', 'dd-mm-yyyy'), '255 Clint Ave', '1', 10110, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1408', 'Pierce', to_date('19-04-1996', 'dd-mm-yyyy'), '99 Kudrow Ave', '2', 7630);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1408', 'Brooke', to_date('22-04-1993', 'dd-mm-yyyy'), '34 Jose Road', '1', 34722, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1409', 'Philip', to_date('19-02-1987', 'dd-mm-yyyy'), '996 Driver Stre', '1', 44991);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1409', 'Charlie', to_date('14-08-1994', 'dd-mm-yyyy'), '301 King Ave', '2', 20130, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1410', 'Ashley', to_date('06-06-1998', 'dd-mm-yyyy'), '16 White Street', '2', 16681);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1410', 'Harrison', to_date('24-11-1997', 'dd-mm-yyyy'), '53 Ellen Road', '2', 18285, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1411', 'Elvis', to_date('03-11-1970', 'dd-mm-yyyy'), '38 Coppell Stre', '1', 43542);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1411', 'Shirley', to_date('06-05-1978', 'dd-mm-yyyy'), '16 Farina Drive', '2', 14037, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1412', 'Goran', to_date('19-08-1998', 'dd-mm-yyyy'), '985 Sossamon Ro', '2', 9269);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1412', 'Rascal', to_date('12-01-1998', 'dd-mm-yyyy'), '16 Royersford R', '1', 15085, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1413', 'Belinda', to_date('03-04-1976', 'dd-mm-yyyy'), '68 Dern Ave', '2', 31555);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1413', 'Celia', to_date('13-06-1988', 'dd-mm-yyyy'), '83rd Street', '2', 39105, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1414', 'Emma', to_date('12-09-1973', 'dd-mm-yyyy'), '42 Roberta Driv', '1', 21526);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1414', 'Saffron', to_date('01-02-1975', 'dd-mm-yyyy'), '95 Prague Stree', '2', 22521, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1415', 'Jeremy', to_date('12-09-1972', 'dd-mm-yyyy'), '14 Colorado Spr', '1', 30300);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1415', 'Hugh', to_date('21-11-1981', 'dd-mm-yyyy'), '92 Gino Drive', '1', 39848, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1416', 'Dabney', to_date('16-01-1971', 'dd-mm-yyyy'), '79 Armatrading ', '1', 18908);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1416', 'Madeleine', to_date('05-06-1975', 'dd-mm-yyyy'), '88 Stockard Dri', '2', 44892, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1417', 'Nick', to_date('01-11-1979', 'dd-mm-yyyy'), '2 Osborne Road', '2', 33347);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1417', 'Ice', to_date('19-06-1973', 'dd-mm-yyyy'), '6 Sara Road', '2', 21511, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1418', 'Terri', to_date('16-11-1972', 'dd-mm-yyyy'), '27 Trejo Street', '1', 6561);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1418', 'Eileen', to_date('29-01-1990', 'dd-mm-yyyy'), '8 Berenger Road', '2', 17814, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1419', 'Gilberto', to_date('01-12-1981', 'dd-mm-yyyy'), '88 Madeleine', '1', 25453);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1419', 'Tori', to_date('03-07-1993', 'dd-mm-yyyy'), '36 Stigers Road', '1', 29742, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1420', 'Candice', to_date('04-09-1981', 'dd-mm-yyyy'), '17 McDonnell Bl', '1', 31617);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1420', 'Brenda', to_date('15-08-1983', 'dd-mm-yyyy'), '88 Mac Drive', '1', 7538, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1421', 'Marina', to_date('14-10-1997', 'dd-mm-yyyy'), '14 Helsingborg ', '1', 30758);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1421', 'Chubby', to_date('22-07-1993', 'dd-mm-yyyy'), '891 Bachman Dri', '1', 35683, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1422', 'Andy', to_date('15-03-1972', 'dd-mm-yyyy'), '45 Luedenscheid', '1', 29819);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1422', 'Carla', to_date('26-07-1971', 'dd-mm-yyyy'), '94 Wainwright S', '2', 20556, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1423', 'Wes', to_date('15-09-1970', 'dd-mm-yyyy'), '9 Ravensburg St', '1', 21491);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1423', 'Trace', to_date('21-10-1999', 'dd-mm-yyyy'), '59 Oak park Str', '1', 43903, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1424', 'Kristin', to_date('26-08-1985', 'dd-mm-yyyy'), '67 Schreiber St', '2', 40938);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1424', 'Chet', to_date('26-06-1982', 'dd-mm-yyyy'), '36 Scarlett Dri', '1', 22194, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1425', 'Ramsey', to_date('31-01-1989', 'dd-mm-yyyy'), '45 Seoul Road', '1', 26076);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1425', 'Jackson', to_date('01-09-1992', 'dd-mm-yyyy'), '32nd Street', '2', 24683, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1426', 'Bruce', to_date('15-07-1999', 'dd-mm-yyyy'), '82 Idle Street', '2', 37640);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1426', 'Davis', to_date('30-10-1981', 'dd-mm-yyyy'), '820 Plymouth Me', '2', 44866, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1427', 'Tobey', to_date('02-05-1994', 'dd-mm-yyyy'), '72 Jeff Street', '2', 39515);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1427', 'Merillee', to_date('18-05-1973', 'dd-mm-yyyy'), '815 Durban Driv', '1', 33024, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1428', 'Irene', to_date('12-11-1971', 'dd-mm-yyyy'), '83 Lin Street', '1', 31825);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1428', 'Gena', to_date('10-04-1992', 'dd-mm-yyyy'), '72nd Street', '1', 10340, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1429', 'Howie', to_date('10-04-1981', 'dd-mm-yyyy'), '47 Howard Road', '2', 16094);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1429', 'Nik', to_date('14-03-1981', 'dd-mm-yyyy'), '165 Ford Drive', '1', 15638, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1430', 'Clea', to_date('01-02-1989', 'dd-mm-yyyy'), '21 Miles Ave', '1', 43991);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1430', 'Emilio', to_date('01-10-1978', 'dd-mm-yyyy'), '31 Eat World Ro', '1', 37365, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1431', 'Salma', to_date('07-06-1992', 'dd-mm-yyyy'), '35 Rockwell Roa', '1', 34941);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1431', 'Miriam', to_date('30-07-1981', 'dd-mm-yyyy'), '46 Masur Road', '2', 31549, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1432', 'Bryan', to_date('08-11-1970', 'dd-mm-yyyy'), '49 Paige Street', '2', 13980);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1432', 'Lennie', to_date('04-10-1982', 'dd-mm-yyyy'), '30 Horace Road', '2', 30033, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1433', 'Adina', to_date('06-08-1971', 'dd-mm-yyyy'), '39 Zurich', '2', 13696);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1433', 'Lari', to_date('07-07-1975', 'dd-mm-yyyy'), '69 Latin Street', '2', 30923, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1434', 'Willem', to_date('15-07-1979', 'dd-mm-yyyy'), '73 Potter', '2', 33542);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1434', 'Vivica', to_date('05-05-1990', 'dd-mm-yyyy'), '28 Campbell Dri', '1', 24037, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1435', 'Hex', to_date('06-07-1991', 'dd-mm-yyyy'), '54 Atlanta Stre', '2', 38911);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1435', 'Dean', to_date('04-03-1992', 'dd-mm-yyyy'), '92 Winslet Blvd', '2', 19524, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1436', 'Bobbi', to_date('08-01-1989', 'dd-mm-yyyy'), '957 Rowlands Ro', '1', 10454);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1436', 'Wallace', to_date('27-12-1992', 'dd-mm-yyyy'), '92 Lydia Street', '2', 38727, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1437', 'Harrison', to_date('11-08-1973', 'dd-mm-yyyy'), '56 Cathy Drive', '1', 27061);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1437', 'Olympia', to_date('21-08-1986', 'dd-mm-yyyy'), '17 Winterthur D', '1', 28021, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1438', 'Morgan', to_date('05-08-1973', 'dd-mm-yyyy'), '83 Timonium Dri', '1', 9043);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1438', 'Marlon', to_date('29-11-1983', 'dd-mm-yyyy'), '63 Manchester R', '1', 17485, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1439', 'Juliette', to_date('24-03-1999', 'dd-mm-yyyy'), '69 Allison Driv', '1', 43075);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1439', 'Chloe', to_date('21-04-1989', 'dd-mm-yyyy'), '550 Tommy Stree', '1', 28512, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1440', 'Loren', to_date('10-05-1977', 'dd-mm-yyyy'), '2 Irving Street', '2', 8329);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1440', 'Dom', to_date('03-03-1997', 'dd-mm-yyyy'), '82 Orlando', '1', 8405, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1441', 'Heather', to_date('02-06-1978', 'dd-mm-yyyy'), '9 Louisville Dr', '1', 16342);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1441', 'Clea', to_date('04-12-1995', 'dd-mm-yyyy'), '68 Michaels Roa', '2', 41132, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1442', 'Andrea', to_date('21-01-1987', 'dd-mm-yyyy'), '436 McCready', '1', 14990);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1442', 'Cheech', to_date('17-03-1986', 'dd-mm-yyyy'), '270 Lake Oswego', '1', 32477, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1443', 'Darius', to_date('10-04-1982', 'dd-mm-yyyy'), '1 Folds Blvd', '1', 26416);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1443', 'Matthew', to_date('25-01-1989', 'dd-mm-yyyy'), '10 Queen Road', '1', 15288, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1444', 'Regina', to_date('18-09-1994', 'dd-mm-yyyy'), '91 Redford Driv', '2', 12073);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1444', 'Phoebe', to_date('24-02-1979', 'dd-mm-yyyy'), '14 Montrיal Roa', '2', 15751, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1445', 'Spencer', to_date('15-12-1988', 'dd-mm-yyyy'), '21 Davis', '2', 13790);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1445', 'Christian', to_date('12-05-1999', 'dd-mm-yyyy'), '772 Rome Drive', '2', 44259, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1446', 'Wally', to_date('25-07-1980', 'dd-mm-yyyy'), '493 Lewis Road', '2', 37069);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1446', 'Dionne', to_date('31-07-1985', 'dd-mm-yyyy'), '82nd Street', '2', 29733, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1447', 'Nickel', to_date('16-12-1971', 'dd-mm-yyyy'), '669 Page', '1', 23965);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1447', 'Ty', to_date('15-01-1994', 'dd-mm-yyyy'), '6 Baker Street', '2', 16546, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1448', 'Oro', to_date('15-07-1990', 'dd-mm-yyyy'), '20 Brent Drive', '2', 26138);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1448', 'Antonio', to_date('19-05-1991', 'dd-mm-yyyy'), '29 Angelina Blv', '1', 11449, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1449', 'Neneh', to_date('08-06-1975', 'dd-mm-yyyy'), '7 Claude Street', '1', 7991);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1449', 'Clay', to_date('27-05-1993', 'dd-mm-yyyy'), '16 Zwolle Stree', '2', 19908, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1450', 'Wesley', to_date('24-08-1970', 'dd-mm-yyyy'), '52nd Street', '1', 36747);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1450', 'Louise', to_date('25-07-1985', 'dd-mm-yyyy'), '23 Nikka', '1', 11838, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1451', 'Red', to_date('13-01-1996', 'dd-mm-yyyy'), '965 Mos Drive', '1', 40997);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1451', 'Claire', to_date('26-05-1974', 'dd-mm-yyyy'), '91 Gosdin Road', '1', 30139, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1452', 'Phil', to_date('26-04-1976', 'dd-mm-yyyy'), '47 Dwight Road', '2', 33234);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1452', 'Quentin', to_date('29-03-1986', 'dd-mm-yyyy'), '23rd Street', '1', 32476, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1453', 'Queen', to_date('23-01-1986', 'dd-mm-yyyy'), '48 Cate Road', '2', 10116);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1453', 'Lesley', to_date('17-05-1978', 'dd-mm-yyyy'), '767 Speaks Ave', '1', 43748, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1454', 'George', to_date('26-04-1993', 'dd-mm-yyyy'), '2 Madonna Drive', '1', 9011);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1454', 'Nik', to_date('30-03-1981', 'dd-mm-yyyy'), '7 Cagle Road', '2', 28801, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1455', 'Nick', to_date('31-01-1979', 'dd-mm-yyyy'), '10 Avalon Drive', '2', 31687);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1455', 'Trey', to_date('24-07-1978', 'dd-mm-yyyy'), '8 Chiba Road', '1', 11538, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1456', 'Kevin', to_date('13-03-1997', 'dd-mm-yyyy'), '345 Hirsch Ave', '1', 8286);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1456', 'Jeffrey', to_date('20-06-1997', 'dd-mm-yyyy'), '86 Russell Stre', '2', 35907, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1457', 'Kevn', to_date('28-07-1990', 'dd-mm-yyyy'), '48 Goldberg Str', '1', 34059);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1457', 'Campbell', to_date('13-10-1995', 'dd-mm-yyyy'), '119 Ferrell Ave', '2', 16283, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1458', 'Tara', to_date('15-08-1995', 'dd-mm-yyyy'), '97 Shearer Driv', '2', 19272);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1458', 'Natalie', to_date('08-10-1988', 'dd-mm-yyyy'), '95 Patty Ave', '1', 9207, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1459', 'Robert', to_date('10-08-1971', 'dd-mm-yyyy'), '58 Newton-le-wi', '2', 30349);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1459', 'Armin', to_date('26-10-1983', 'dd-mm-yyyy'), '89 Pride Blvd', '1', 17474, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1460', 'Petula', to_date('11-12-1998', 'dd-mm-yyyy'), '46 Isaiah Road', '1', 6198);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1460', 'Lennie', to_date('06-07-1974', 'dd-mm-yyyy'), '33rd Street', '2', 32051, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1461', 'Lizzy', to_date('15-06-1995', 'dd-mm-yyyy'), '25 Mollard Blvd', '1', 13812);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1461', 'Shirley', to_date('12-10-1974', 'dd-mm-yyyy'), '35 Stevens Stre', '1', 42188, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1462', 'Robby', to_date('17-06-1970', 'dd-mm-yyyy'), '15 Aaron', '2', 41239);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1462', 'Eliza', to_date('12-10-1992', 'dd-mm-yyyy'), '56 Junior', '2', 33784, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1463', 'Brenda', to_date('13-11-1996', 'dd-mm-yyyy'), '66 Sheryl Road', '1', 21070);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1463', 'Tzi', to_date('29-02-1972', 'dd-mm-yyyy'), '48 Pearland Roa', '1', 31254, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1464', 'Edward', to_date('14-07-1997', 'dd-mm-yyyy'), '22 Hilary Road', '2', 14474);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1464', 'Shelby', to_date('04-12-1988', 'dd-mm-yyyy'), '69 Emmett Blvd', '1', 21372, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1465', 'Julie', to_date('08-01-1981', 'dd-mm-yyyy'), '62 Sendai Stree', '2', 43406);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1465', 'Gabrielle', to_date('10-01-1984', 'dd-mm-yyyy'), '73 Arkenstone D', '1', 15139, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1466', 'Kid', to_date('06-11-1976', 'dd-mm-yyyy'), '91 Rains Road', '1', 11572);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1466', 'Rachel', to_date('12-12-1979', 'dd-mm-yyyy'), '81st Street', '1', 35393, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1467', 'Kirsten', to_date('03-07-1987', 'dd-mm-yyyy'), '94 Murray Stree', '1', 9189);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1467', 'Bebe', to_date('01-05-1986', 'dd-mm-yyyy'), '66 Gilley Road', '1', 26940, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1468', 'Judge', to_date('25-07-1977', 'dd-mm-yyyy'), '12 Moreno Drive', '2', 9978);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1468', 'Ewan', to_date('10-08-1986', 'dd-mm-yyyy'), '57 Masur', '2', 16800, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1469', 'Ernest', to_date('19-06-1999', 'dd-mm-yyyy'), '79 Judy Road', '2', 11734);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1469', 'Pelvic', to_date('27-07-1976', 'dd-mm-yyyy'), '1 Weber', '2', 19510, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1470', 'Jonathan', to_date('13-02-1995', 'dd-mm-yyyy'), '88 Sandler Ave', '2', 28530);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1470', 'Mac', to_date('22-12-1987', 'dd-mm-yyyy'), '802 Harris Road', '1', 41119, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1471', 'Isaac', to_date('06-09-1991', 'dd-mm-yyyy'), '62nd Street', '2', 19809);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1471', 'Rip', to_date('18-05-1981', 'dd-mm-yyyy'), '26 Viterelli', '2', 39322, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1472', 'Embeth', to_date('31-01-1994', 'dd-mm-yyyy'), '994 Greenville ', '2', 21516);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1472', 'Renee', to_date('07-02-1971', 'dd-mm-yyyy'), '45 Furay Blvd', '2', 29308, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1473', 'Chloe', to_date('12-03-1993', 'dd-mm-yyyy'), '22 Mahood Road', '2', 30169);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1473', 'Sally', to_date('21-05-1992', 'dd-mm-yyyy'), '94 Durban Ave', '1', 21691, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1474', 'Stellan', to_date('01-09-1980', 'dd-mm-yyyy'), '737 Kinnear Dri', '1', 25084);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1474', 'Harold', to_date('14-10-1997', 'dd-mm-yyyy'), '15 Nolte Blvd', '1', 30682, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1475', 'Rolando', to_date('26-01-1994', 'dd-mm-yyyy'), '94 Dardilly Roa', '2', 30196);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1475', 'Ashley', to_date('12-06-1997', 'dd-mm-yyyy'), '43rd Street', '1', 39055, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1476', 'Carole', to_date('14-05-1977', 'dd-mm-yyyy'), '83 Suchet Stree', '1', 28014);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1476', 'Suzanne', to_date('07-05-1976', 'dd-mm-yyyy'), '270 Brookfield ', '2', 7781, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1477', 'Richie', to_date('19-08-1982', 'dd-mm-yyyy'), '90 Dorval Stree', '1', 10236);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1477', 'Tilda', to_date('04-05-1973', 'dd-mm-yyyy'), '100 Harary Stre', '2', 32503, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1478', 'Chuck', to_date('18-11-1979', 'dd-mm-yyyy'), '40 Lennox Stree', '1', 7331);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1478', 'Will', to_date('10-08-1999', 'dd-mm-yyyy'), '18 Boz Street', '1', 21398, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1479', 'Laurie', to_date('05-06-1993', 'dd-mm-yyyy'), '13rd Street', '2', 7668);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1479', 'Vienna', to_date('31-07-1971', 'dd-mm-yyyy'), '97 Avenged Driv', '2', 14376, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1480', 'Brittany', to_date('30-10-1993', 'dd-mm-yyyy'), '32nd Street', '2', 41365);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1480', 'Linda', to_date('02-01-1981', 'dd-mm-yyyy'), '23rd Street', '1', 13726, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1481', 'Gordon', to_date('17-12-1971', 'dd-mm-yyyy'), '27 Arlington St', '2', 32951);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1481', 'Suzy', to_date('20-03-1995', 'dd-mm-yyyy'), '83 Rebecca', '1', 17524, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1482', 'Loreena', to_date('31-01-1996', 'dd-mm-yyyy'), '666 Nolte Road', '1', 10760);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1482', 'Aida', to_date('21-04-1977', 'dd-mm-yyyy'), '35 Roth Drive', '2', 32168, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1483', 'Hector', to_date('31-05-1972', 'dd-mm-yyyy'), '100 King Street', '1', 7459);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1483', 'Chaka', to_date('27-05-1974', 'dd-mm-yyyy'), '74 Andrea Stree', '2', 44121, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1484', 'Anjelica', to_date('04-11-1993', 'dd-mm-yyyy'), '45 Holland Stre', '2', 42297);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1484', 'Herbie', to_date('04-04-1992', 'dd-mm-yyyy'), '14 Payton Road', '1', 39037, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1485', 'Chantי', to_date('12-03-1976', 'dd-mm-yyyy'), '41st Street', '1', 17983);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1485', 'Courtney', to_date('28-12-1982', 'dd-mm-yyyy'), '95 Clark Blvd', '1', 31774, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1486', 'Judi', to_date('07-07-1970', 'dd-mm-yyyy'), '1 Nancy Street', '2', 39533);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1486', 'Rene', to_date('10-05-1996', 'dd-mm-yyyy'), '74 Garland Stre', '1', 41818, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1487', 'Vincent', to_date('16-11-1994', 'dd-mm-yyyy'), '84 Oldwick Road', '2', 6457);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1487', 'Diane', to_date('03-07-1974', 'dd-mm-yyyy'), '70 Pamela', '1', 10386, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1488', 'Charlton', to_date('27-06-1984', 'dd-mm-yyyy'), '53 Dresden Blvd', '1', 10116);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1488', 'Ani', to_date('28-06-1974', 'dd-mm-yyyy'), '440 Davis Drive', '1', 12426, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1489', 'Casey', to_date('30-08-1991', 'dd-mm-yyyy'), '770 Merle', '1', 38618);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1489', 'Claire', to_date('09-06-1981', 'dd-mm-yyyy'), '19 Esposito Str', '2', 29490, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1490', 'Robby', to_date('26-06-1989', 'dd-mm-yyyy'), '251 Mint Road', '2', 34923);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1490', 'Ashton', to_date('09-05-1972', 'dd-mm-yyyy'), '58 Gino Road', '1', 16479, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1491', 'Ming-Na', to_date('02-03-1986', 'dd-mm-yyyy'), '25 Davidson', '2', 37719);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1491', 'Natasha', to_date('27-08-1979', 'dd-mm-yyyy'), '28 Billund', '1', 6589, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1492', 'Gilbert', to_date('14-05-1981', 'dd-mm-yyyy'), '63 North Yorksh', '2', 33324);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1492', 'Chubby', to_date('21-02-1977', 'dd-mm-yyyy'), '77 Cooper Stree', '1', 26553, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1493', 'Larry', to_date('21-05-1998', 'dd-mm-yyyy'), '89 Tadley Road', '1', 10850);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1493', 'Geoffrey', to_date('11-04-1985', 'dd-mm-yyyy'), '4 Reston Drive', '1', 16710, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1494', 'Reese', to_date('20-06-1973', 'dd-mm-yyyy'), '46 Wakayama Str', '2', 19634);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1494', 'Busta', to_date('04-06-1983', 'dd-mm-yyyy'), '42 Brad Road', '1', 12813, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1495', 'Gaby', to_date('20-10-1972', 'dd-mm-yyyy'), '86 Lindsey Blvd', '1', 10882);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1495', 'Maxine', to_date('09-01-1999', 'dd-mm-yyyy'), '15 Taipei Stree', '2', 9285, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1496', 'Elisabeth', to_date('27-09-1979', 'dd-mm-yyyy'), '22 James Drive', '2', 30714);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1496', 'Ming-Na', to_date('04-04-1987', 'dd-mm-yyyy'), '43 Kylie Street', '2', 16958, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1497', 'Taryn', to_date('03-03-1980', 'dd-mm-yyyy'), '468 Dearborn Av', '1', 37562);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1497', 'Clarence', to_date('30-11-1981', 'dd-mm-yyyy'), '77 Woodbridge D', '2', 7466, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1498', 'Eileen', to_date('22-11-1972', 'dd-mm-yyyy'), '204 Belles Driv', '2', 29588);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1498', 'Darren', to_date('12-04-1987', 'dd-mm-yyyy'), '8 Nikki Street', '2', 11004, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1499', 'Brenda', to_date('15-03-1992', 'dd-mm-yyyy'), '33 Fichtner Str', '1', 37261);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1499', 'Kim', to_date('22-09-1976', 'dd-mm-yyyy'), '22 Vai Road', '2', 13196, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1500', 'Clive', to_date('08-08-1986', 'dd-mm-yyyy'), '664 Rita Drive', '1', 31927);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1500', 'Rueben', to_date('15-06-1977', 'dd-mm-yyyy'), '398 Whitman Str', '2', 13531, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1501', 'Ryan', to_date('09-10-1999', 'dd-mm-yyyy'), '26 Paltrow Road', '2', 36698);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1501', 'Mili', to_date('18-09-1994', 'dd-mm-yyyy'), '15 Warsaw', '1', 21950, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1502', 'Nastassja', to_date('01-03-1993', 'dd-mm-yyyy'), '80 Oosterhout A', '2', 19313);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1502', 'Dylan', to_date('20-07-1989', 'dd-mm-yyyy'), '127 Purefoy Blv', '2', 25229, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1503', 'Rachael', to_date('23-07-1995', 'dd-mm-yyyy'), '904 Bad Oeynhau', '1', 17839);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1503', 'Paul', to_date('22-10-1999', 'dd-mm-yyyy'), '62 Dave Drive', '1', 29514, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1504', 'Colleen', to_date('29-05-1980', 'dd-mm-yyyy'), '3 Sewell Road', '1', 24232);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1504', 'Angela', to_date('06-01-1971', 'dd-mm-yyyy'), '45 Phifer Ave', '2', 28878, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1505', 'Kristin', to_date('12-07-1989', 'dd-mm-yyyy'), '34 Flack Blvd', '2', 7280);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1505', 'Ashley', to_date('04-02-1985', 'dd-mm-yyyy'), '81 Bonneville D', '1', 24253, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1506', 'Hugo', to_date('28-05-1978', 'dd-mm-yyyy'), '576 Aaron', '1', 30308);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1506', 'Bernard', to_date('11-08-1982', 'dd-mm-yyyy'), '88 Hamburg Road', '1', 25986, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1507', 'Desmond', to_date('10-08-1992', 'dd-mm-yyyy'), '75 Dietikon Roa', '2', 16745);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1507', 'Lindsey', to_date('05-02-1974', 'dd-mm-yyyy'), '379 Reisterstow', '2', 28062, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1508', 'Bobbi', to_date('21-11-1974', 'dd-mm-yyyy'), '28 Robbins Stre', '2', 31203);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1508', 'Liev', to_date('04-03-1991', 'dd-mm-yyyy'), '74 Marsden Road', '1', 14876, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1509', 'Delroy', to_date('13-08-1991', 'dd-mm-yyyy'), '32 Fariq Drive', '2', 43861);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1509', 'Oro', to_date('20-02-1974', 'dd-mm-yyyy'), '49 Morse Street', '1', 6734, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1510', 'Randy', to_date('08-07-1970', 'dd-mm-yyyy'), '68 Hurley Ave', '1', 35284);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1510', 'Rhea', to_date('21-04-1996', 'dd-mm-yyyy'), '23 Miko', '1', 27639, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1511', 'Amy', to_date('18-05-1990', 'dd-mm-yyyy'), '552 Frampton Ro', '1', 21630);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1511', 'Geena', to_date('13-10-1975', 'dd-mm-yyyy'), '47 Naestved Str', '1', 15197, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1512', 'Buddy', to_date('16-04-1990', 'dd-mm-yyyy'), '52 Romijn-Stamo', '2', 42791);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1512', 'Rita', to_date('22-08-1996', 'dd-mm-yyyy'), '57 Jerry Drive', '1', 33446, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1513', 'Lydia', to_date('09-02-1998', 'dd-mm-yyyy'), '83rd Street', '1', 16763);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1513', 'Wes', to_date('10-09-1991', 'dd-mm-yyyy'), '53 Stallone Blv', '1', 9613, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1514', 'Gerald', to_date('03-04-1982', 'dd-mm-yyyy'), '51 Flemyng Road', '1', 44976);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1514', 'Jake', to_date('07-04-1984', 'dd-mm-yyyy'), '9 Schenectady D', '1', 38224, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1515', 'Jimmy', to_date('01-02-1971', 'dd-mm-yyyy'), '206 Pony Road', '1', 13500);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1515', 'Jaime', to_date('08-03-1987', 'dd-mm-yyyy'), '16 Essex Blvd', '1', 10025, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1516', 'Davy', to_date('27-12-1991', 'dd-mm-yyyy'), '53 Studi Drive', '1', 6990);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1516', 'Teena', to_date('02-06-1972', 'dd-mm-yyyy'), '54 Cypress Stre', '1', 13392, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1517', 'Simon', to_date('27-09-1970', 'dd-mm-yyyy'), '23 Forest Park ', '1', 39641);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1517', 'Morgan', to_date('04-06-1984', 'dd-mm-yyyy'), '58 McDormand Dr', '2', 42901, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1518', 'Lloyd', to_date('13-11-1971', 'dd-mm-yyyy'), '80 Palmer Road', '1', 29534);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1518', 'Anthony', to_date('28-05-1980', 'dd-mm-yyyy'), '91 Trey Road', '2', 7486, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1519', 'Hikaru', to_date('20-01-1971', 'dd-mm-yyyy'), '63 MacDonald Bl', '2', 34722);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1519', 'Marie', to_date('03-09-1985', 'dd-mm-yyyy'), '25 Perrineau Dr', '2', 22043, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1520', 'Arturo', to_date('08-01-1997', 'dd-mm-yyyy'), '849 Colm Street', '2', 32687);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1520', 'Nikki', to_date('07-06-1974', 'dd-mm-yyyy'), '82 Saint Paul R', '2', 28665, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1521', 'Chris', to_date('21-08-1998', 'dd-mm-yyyy'), '62nd Street', '2', 25393);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1521', 'Ethan', to_date('12-03-1994', 'dd-mm-yyyy'), '75 Tal Road', '1', 11039, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1522', 'Beth', to_date('13-10-1989', 'dd-mm-yyyy'), '22 Loreena Driv', '1', 26235);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1522', 'Jason', to_date('28-06-1976', 'dd-mm-yyyy'), '92nd Street', '1', 18769, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1523', 'Nick', to_date('13-12-1974', 'dd-mm-yyyy'), '91 Knoxville', '2', 24454);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1523', 'Clea', to_date('22-12-1988', 'dd-mm-yyyy'), '70 Plimpton Str', '1', 40536, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1524', 'Carole', to_date('09-03-1986', 'dd-mm-yyyy'), '88 Levine', '1', 21260);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1524', 'Jet', to_date('21-04-1984', 'dd-mm-yyyy'), '99 Berkshire Dr', '2', 38148, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1525', 'Drew', to_date('07-04-1987', 'dd-mm-yyyy'), '71st Street', '2', 41523);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1525', 'Alfie', to_date('16-06-1988', 'dd-mm-yyyy'), '90 Torino Stree', '2', 9926, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1526', 'Joshua', to_date('04-03-1985', 'dd-mm-yyyy'), '73 Lakeville St', '1', 27986);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1526', 'Bridgette', to_date('08-02-1974', 'dd-mm-yyyy'), '6 Jennifer Driv', '2', 27160, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1527', 'Blair', to_date('04-04-1998', 'dd-mm-yyyy'), '80 Ed Road', '2', 31323);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1527', 'Frankie', to_date('18-06-1976', 'dd-mm-yyyy'), '851 Pastore Blv', '1', 33590, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1528', 'Miguel', to_date('23-05-1981', 'dd-mm-yyyy'), '85 Briscoe Blvd', '2', 16195);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1528', 'Elle', to_date('23-11-1992', 'dd-mm-yyyy'), '4 Hines Ave', '1', 39562, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1529', 'Vondie', to_date('23-10-1980', 'dd-mm-yyyy'), '9 Spears Street', '1', 30239);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1529', 'Jason', to_date('15-08-1979', 'dd-mm-yyyy'), '24 Sepulveda Ro', '2', 7973, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1530', 'Lynn', to_date('01-05-1977', 'dd-mm-yyyy'), '29 Kevelaer Blv', '1', 16626);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1530', 'Paula', to_date('24-08-1993', 'dd-mm-yyyy'), '11 Close Road', '2', 28106, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1531', 'Allan', to_date('07-07-1971', 'dd-mm-yyyy'), '613 Ferry Road', '2', 17061);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1531', 'Ashley', to_date('18-07-1989', 'dd-mm-yyyy'), '30 Orbit Drive', '1', 30031, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1532', 'Grant', to_date('07-08-1996', 'dd-mm-yyyy'), '63 Tyne & Wear ', '1', 24668);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1532', 'Rob', to_date('11-03-1976', 'dd-mm-yyyy'), '33rd Street', '1', 33478, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1533', 'Hank', to_date('15-04-1992', 'dd-mm-yyyy'), '26 Sample Drive', '2', 10132);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1533', 'Rita', to_date('04-10-1970', 'dd-mm-yyyy'), '87 Reid Ave', '1', 7392, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1534', 'Terrence', to_date('25-01-1993', 'dd-mm-yyyy'), '866 Thora Stree', '2', 35795);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1534', 'Jesse', to_date('12-08-1975', 'dd-mm-yyyy'), '54 Peachtree Ci', '1', 44323, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1535', 'Adam', to_date('25-01-1992', 'dd-mm-yyyy'), '26 Caan Street', '1', 36551);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1535', 'Kimberly', to_date('02-09-1994', 'dd-mm-yyyy'), '703 Detmer Road', '1', 22325, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1536', 'Nickel', to_date('17-03-1975', 'dd-mm-yyyy'), '24 Zaandam Stre', '2', 17269);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1536', 'Steven', to_date('08-09-1971', 'dd-mm-yyyy'), '237 Beckham Ave', '1', 8506, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1537', 'Suzi', to_date('05-06-1996', 'dd-mm-yyyy'), '83 Leonardo Str', '1', 29734);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1537', 'Christine', to_date('25-01-1992', 'dd-mm-yyyy'), '957 Dianne Road', '2', 43505, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1538', 'Carrie-Anne', to_date('25-08-1990', 'dd-mm-yyyy'), '77 Stigers Stre', '1', 12212);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1538', 'Salma', to_date('20-02-1985', 'dd-mm-yyyy'), '79 Gladys Ave', '1', 44779, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1539', 'Amanda', to_date('24-01-1992', 'dd-mm-yyyy'), '23 Battle Creek', '2', 19056);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1539', 'Shannon', to_date('25-02-1973', 'dd-mm-yyyy'), '91 Newton-le-wi', '1', 42622, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1540', 'Victoria', to_date('17-03-1972', 'dd-mm-yyyy'), '81st Street', '2', 39675);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1540', 'Jeroen', to_date('10-06-1983', 'dd-mm-yyyy'), '72nd Street', '1', 26247, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1541', 'Billy', to_date('01-01-1996', 'dd-mm-yyyy'), '1 Curtis Road', '1', 10098);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1541', 'Nile', to_date('02-12-1983', 'dd-mm-yyyy'), '17 Chan Street', '2', 17743, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1542', 'Jay', to_date('02-11-1978', 'dd-mm-yyyy'), '82 Thצrishaus A', '2', 36793);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1542', 'Alfred', to_date('18-02-1976', 'dd-mm-yyyy'), '9 Yamagata Driv', '1', 22549, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1543', 'Louise', to_date('08-09-1984', 'dd-mm-yyyy'), '527 Schneider S', '2', 40875);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1543', 'Andrea', to_date('30-08-1981', 'dd-mm-yyyy'), '66 Zaandam Road', '1', 13837, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1544', 'Catherine', to_date('04-04-1986', 'dd-mm-yyyy'), '114 Blair', '2', 22874);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1544', 'Doug', to_date('20-06-1972', 'dd-mm-yyyy'), '162 Holland Ave', '2', 41092, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1545', 'Spencer', to_date('26-07-1976', 'dd-mm-yyyy'), '49 Neil Drive', '2', 35960);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1545', 'Raymond', to_date('22-06-1990', 'dd-mm-yyyy'), '74 Lipnicki Str', '1', 23296, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1546', 'Arnold', to_date('04-07-1980', 'dd-mm-yyyy'), '3 Holliday Road', '2', 39687);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1546', 'Raul', to_date('18-10-1979', 'dd-mm-yyyy'), '997 Gilley Ave', '1', 20838, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1547', 'Meredith', to_date('07-05-1991', 'dd-mm-yyyy'), '88 Knutsford Ro', '2', 27217);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1547', 'Joanna', to_date('07-01-1991', 'dd-mm-yyyy'), '56 Kopavogur Ro', '2', 12655, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1548', 'Garth', to_date('29-09-1999', 'dd-mm-yyyy'), '64 Beverley Blv', '1', 14549);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1548', 'Jeff', to_date('03-10-1978', 'dd-mm-yyyy'), '241 Oliver', '2', 24045, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1549', 'Famke', to_date('06-07-1991', 'dd-mm-yyyy'), '56 Almaty Drive', '1', 7094);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1549', 'Sara', to_date('24-02-1994', 'dd-mm-yyyy'), '33rd Street', '2', 18991, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1550', 'Andrea', to_date('02-12-1986', 'dd-mm-yyyy'), '94 Fort Saskatc', '2', 21419);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1550', 'Juliet', to_date('25-10-1983', 'dd-mm-yyyy'), '64 Singh Drive', '2', 22942, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1551', 'Raymond', to_date('08-05-1992', 'dd-mm-yyyy'), '58 Branagh', '1', 41754);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1551', 'Seann', to_date('18-07-1974', 'dd-mm-yyyy'), '9 Pיtion-ville ', '1', 22058, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1552', 'Will', to_date('04-07-1993', 'dd-mm-yyyy'), '56 Fishburne St', '2', 23670);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1552', 'Leslie', to_date('04-03-1998', 'dd-mm-yyyy'), '35 San Jose Dri', '2', 42724, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1553', 'Amy', to_date('10-09-1999', 'dd-mm-yyyy'), '42 Ronny Street', '1', 25446);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1553', 'Burt', to_date('17-01-1975', 'dd-mm-yyyy'), '3 Danger', '1', 33402, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1554', 'Marina', to_date('26-04-1978', 'dd-mm-yyyy'), '95 Utrecht Road', '1', 34129);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1554', 'Alan', to_date('03-02-1980', 'dd-mm-yyyy'), '36 Powers Ave', '2', 43074, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1555', 'Ben', to_date('30-03-1992', 'dd-mm-yyyy'), '81 Blige Blvd', '1', 28627);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1555', 'Natascha', to_date('02-08-1983', 'dd-mm-yyyy'), '439 Maureen Dri', '2', 29295, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1556', 'Charlie', to_date('25-05-1971', 'dd-mm-yyyy'), '79 Carolyn Road', '2', 37636);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1556', 'Stockard', to_date('23-05-1999', 'dd-mm-yyyy'), '91st Street', '2', 39779, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1557', 'Rade', to_date('05-06-1983', 'dd-mm-yyyy'), '673 Hagar Blvd', '1', 26854);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1557', 'Harrison', to_date('03-09-1988', 'dd-mm-yyyy'), '886 Mclean Stre', '2', 26222, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1558', 'Jude', to_date('26-09-1970', 'dd-mm-yyyy'), '77 Venora', '2', 19685);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1558', 'Juliana', to_date('24-10-1993', 'dd-mm-yyyy'), '40 Springfield ', '1', 32306, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1559', 'Oded', to_date('15-06-1973', 'dd-mm-yyyy'), '97 Colton Ave', '1', 6226);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1559', 'Helen', to_date('30-08-1985', 'dd-mm-yyyy'), '796 Donal Ave', '2', 8258, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1560', 'Edwin', to_date('16-12-1975', 'dd-mm-yyyy'), '50 Shorter Stre', '2', 12709);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1560', 'Bryan', to_date('05-07-1982', 'dd-mm-yyyy'), '9 Chinlund Stre', '2', 41500, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1561', 'Caroline', to_date('13-01-1990', 'dd-mm-yyyy'), '53 Kuraby', '1', 24105);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1561', 'Jessica', to_date('25-09-1989', 'dd-mm-yyyy'), '12 Baarn Blvd', '2', 16011, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1562', 'Pierce', to_date('14-05-1988', 'dd-mm-yyyy'), '72nd Street', '1', 22421);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1562', 'Philip', to_date('18-10-1994', 'dd-mm-yyyy'), '26 Julie Blvd', '2', 41815, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1563', 'Treat', to_date('11-08-1974', 'dd-mm-yyyy'), '34 Keaton Stree', '1', 21157);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1563', 'Michael', to_date('01-12-1985', 'dd-mm-yyyy'), '12 Lennie Road', '1', 23920, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1564', 'Kenny', to_date('20-04-1985', 'dd-mm-yyyy'), '21 Scott', '1', 43663);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1564', 'Mili', to_date('03-04-1991', 'dd-mm-yyyy'), '52 Leverkusen B', '1', 23088, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1565', 'Ossie', to_date('17-08-1985', 'dd-mm-yyyy'), '156 Olin Street', '1', 31993);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1565', 'Mia', to_date('18-04-1983', 'dd-mm-yyyy'), '483 Garcia Stre', '2', 8986, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1566', 'Vickie', to_date('03-01-1994', 'dd-mm-yyyy'), '81 Santorso Roa', '1', 10008);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1566', 'Ronnie', to_date('21-09-1994', 'dd-mm-yyyy'), '68 Burt Street', '2', 29716, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1567', 'Olympia', to_date('27-01-1979', 'dd-mm-yyyy'), '73 Vincent Driv', '2', 28421);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1567', 'Elijah', to_date('19-03-1975', 'dd-mm-yyyy'), '86 Kramer Stree', '1', 8697, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1568', 'Steve', to_date('21-01-1988', 'dd-mm-yyyy'), '98 D''Onofrio St', '1', 31384);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1568', 'Sheryl', to_date('22-12-1993', 'dd-mm-yyyy'), '48 Frost Street', '1', 7838, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1569', 'Lucy', to_date('30-07-1975', 'dd-mm-yyyy'), '42 Lawrence Str', '2', 33833);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1569', 'Sheryl', to_date('12-03-1984', 'dd-mm-yyyy'), '85 Chaka Ave', '1', 20771, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1570', 'Ernie', to_date('07-08-1997', 'dd-mm-yyyy'), '817 Gandolfini ', '2', 40037);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1570', 'Faye', to_date('13-09-1996', 'dd-mm-yyyy'), '718 Rossellini ', '2', 34544, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1571', 'Gaby', to_date('05-10-1972', 'dd-mm-yyyy'), '24 Allen Blvd', '1', 28900);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1571', 'Maxine', to_date('10-12-1974', 'dd-mm-yyyy'), '40 Seoul Ave', '1', 17787, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1572', 'Jared', to_date('13-10-1976', 'dd-mm-yyyy'), '338 Piven Stree', '1', 15303);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1572', 'Ronnie', to_date('30-06-1995', 'dd-mm-yyyy'), '88 Heston Stree', '1', 41076, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1573', 'Chubby', to_date('16-11-1977', 'dd-mm-yyyy'), '24 Sheena', '2', 7860);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1573', 'Nikka', to_date('15-12-1987', 'dd-mm-yyyy'), '100 Butler Blvd', '2', 23901, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1574', 'Charlie', to_date('18-01-1978', 'dd-mm-yyyy'), '75 Trejo Street', '2', 7084);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1574', 'Taryn', to_date('11-09-1981', 'dd-mm-yyyy'), '889 Hope Street', '2', 37261, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1575', 'Brendan', to_date('20-03-1988', 'dd-mm-yyyy'), '98 Julianna Dri', '1', 26333);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1575', 'Burton', to_date('13-08-1997', 'dd-mm-yyyy'), '279 Fort Lewis ', '2', 16571, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1576', 'Antonio', to_date('13-07-1980', 'dd-mm-yyyy'), '95 Wiest Street', '2', 18958);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1576', 'Tea', to_date('17-09-1982', 'dd-mm-yyyy'), '30 Margolyes St', '2', 31582, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1577', 'Robby', to_date('28-07-1998', 'dd-mm-yyyy'), '52nd Street', '1', 17537);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1577', 'Denis', to_date('18-02-1985', 'dd-mm-yyyy'), '22 DeLuise Stre', '2', 9315, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1578', 'Lois', to_date('24-07-1997', 'dd-mm-yyyy'), '24 Rickie', '2', 13691);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1578', 'Alfie', to_date('18-04-1992', 'dd-mm-yyyy'), '27 Connelly Roa', '2', 33364, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1579', 'Juliette', to_date('22-11-1985', 'dd-mm-yyyy'), '2 Denise Drive', '1', 20917);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1579', 'Lynette', to_date('29-06-1982', 'dd-mm-yyyy'), '546 Angelina St', '2', 18582, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1580', 'Charles', to_date('04-11-1987', 'dd-mm-yyyy'), '7 Winona Road', '2', 7452);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1580', 'Freddy', to_date('01-06-1994', 'dd-mm-yyyy'), '93 Ringwood Str', '1', 21062, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1581', 'Gordon', to_date('08-10-1987', 'dd-mm-yyyy'), '939 Rockwell', '2', 35940);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1581', 'Mandy', to_date('29-03-1986', 'dd-mm-yyyy'), '27 Kyle Street', '1', 18530, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1582', 'Joshua', to_date('06-10-1972', 'dd-mm-yyyy'), '2 Unger Ave', '2', 42736);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1582', 'Laurie', to_date('08-06-1970', 'dd-mm-yyyy'), '30 Armstrong Dr', '2', 28965, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1583', 'Rufus', to_date('25-07-1980', 'dd-mm-yyyy'), '59 Stowe Road', '2', 35792);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1583', 'Miriam', to_date('17-12-1989', 'dd-mm-yyyy'), '24 Rachid Drive', '1', 25770, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1584', 'Harrison', to_date('12-03-1983', 'dd-mm-yyyy'), '68 Trace Drive', '1', 27424);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1584', 'Woody', to_date('22-03-1994', 'dd-mm-yyyy'), '5 Ethan Street', '2', 32118, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1585', 'Forest', to_date('24-10-1976', 'dd-mm-yyyy'), '3 Winstone Road', '1', 15721);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1585', 'Carole', to_date('04-02-1996', 'dd-mm-yyyy'), '21st Street', '1', 23554, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1586', 'Gerald', to_date('21-10-1988', 'dd-mm-yyyy'), '38 Russell Road', '2', 29218);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1586', 'Denzel', to_date('01-09-1991', 'dd-mm-yyyy'), '36 Hugh Street', '1', 33165, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1587', 'Stewart', to_date('01-09-1971', 'dd-mm-yyyy'), '784 Tsettos', '2', 14848);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1587', 'Edie', to_date('31-07-1994', 'dd-mm-yyyy'), '83rd Street', '1', 31648, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1588', 'Roger', to_date('30-11-1988', 'dd-mm-yyyy'), '169 Natalie Ave', '1', 34959);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1588', 'Natalie', to_date('16-09-1986', 'dd-mm-yyyy'), '61 Stowe Road', '2', 18132, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1589', 'Gina', to_date('25-08-1987', 'dd-mm-yyyy'), '98 Foley Road', '2', 8271);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1589', 'Casey', to_date('13-07-1983', 'dd-mm-yyyy'), '885 Michael Roa', '1', 14363, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1590', 'Jann', to_date('03-08-1988', 'dd-mm-yyyy'), '1000 Pigott-Smi', '1', 39360);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1590', 'Keith', to_date('25-07-1985', 'dd-mm-yyyy'), '323 France Road', '1', 7141, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1591', 'Judi', to_date('08-10-1990', 'dd-mm-yyyy'), '61 DiBiasio Roa', '1', 17150);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1591', 'Larry', to_date('11-04-1980', 'dd-mm-yyyy'), '60 Emmett Road', '1', 41053, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1592', 'Anne', to_date('26-03-1993', 'dd-mm-yyyy'), '88 Jose Road', '1', 15435);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1592', 'Maura', to_date('08-05-1988', 'dd-mm-yyyy'), '49 Roberts Stre', '2', 28853, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1593', 'Mary Beth', to_date('29-04-1984', 'dd-mm-yyyy'), '40 Waits', '2', 41413);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1593', 'Ian', to_date('09-02-1991', 'dd-mm-yyyy'), '97 Madison Blvd', '2', 23169, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1594', 'Sean', to_date('05-04-1987', 'dd-mm-yyyy'), '40 Cage Street', '1', 7408);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1594', 'Bridgette', to_date('13-01-1990', 'dd-mm-yyyy'), '22 Ming-Na Driv', '2', 12292, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1595', 'Dermot', to_date('19-03-1979', 'dd-mm-yyyy'), '27 Iglesias Ave', '2', 8117);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1595', 'Chazz', to_date('16-10-1985', 'dd-mm-yyyy'), '13rd Street', '2', 13673, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1596', 'Mint', to_date('23-09-1994', 'dd-mm-yyyy'), '35 Aaron Road', '2', 42362);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1596', 'Mary', to_date('22-06-1989', 'dd-mm-yyyy'), '87 Daejeon', '2', 8392, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1597', 'Willie', to_date('08-01-1986', 'dd-mm-yyyy'), '614 Willis Road', '1', 9863);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1597', 'Kathleen', to_date('20-04-1985', 'dd-mm-yyyy'), '59 Elwes Ave', '1', 31296, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1598', 'Debi', to_date('06-07-1972', 'dd-mm-yyyy'), '30 Kinney Road', '2', 24136);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1598', 'Karon', to_date('14-10-1997', 'dd-mm-yyyy'), '72nd Street', '1', 27075, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1599', 'Mos', to_date('29-09-1982', 'dd-mm-yyyy'), '42 Breda', '1', 22610);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1599', 'Caroline', to_date('06-01-1983', 'dd-mm-yyyy'), '48 Rossellini S', '2', 42681, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1600', 'Sammy', to_date('25-03-1993', 'dd-mm-yyyy'), '43 Alpharetta D', '2', 35481);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1600', 'Harris', to_date('15-09-1973', 'dd-mm-yyyy'), '96 Stuermer Dri', '2', 38876, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1601', 'Charlize', to_date('18-06-1981', 'dd-mm-yyyy'), '97 Sorvino Stre', '2', 43847);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1601', 'Manu', to_date('09-08-1987', 'dd-mm-yyyy'), '85 Ice', '1', 8445, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1602', 'Jean-Luc', to_date('02-07-1999', 'dd-mm-yyyy'), '91 Leipzig Road', '1', 26017);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1602', 'Lionel', to_date('10-05-1995', 'dd-mm-yyyy'), '38 Pirapora bom', '2', 30145, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1603', 'Melanie', to_date('14-03-1988', 'dd-mm-yyyy'), '317 Phillips Bl', '2', 35827);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1603', 'Pamela', to_date('27-06-1974', 'dd-mm-yyyy'), '76 Weaver Ave', '1', 30229, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1604', 'Mira', to_date('03-11-1998', 'dd-mm-yyyy'), '27 Manu Road', '2', 41298);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1604', 'Delbert', to_date('23-06-1989', 'dd-mm-yyyy'), '48 Gettysburg', '2', 9579, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1605', 'Maria', to_date('01-10-1984', 'dd-mm-yyyy'), '100 Baez Blvd', '1', 32139);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1605', 'Val', to_date('24-11-1981', 'dd-mm-yyyy'), '75 Lange Street', '2', 7228, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1606', 'Stevie', to_date('08-01-1973', 'dd-mm-yyyy'), '16 First Street', '1', 19524);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1606', 'Michael', to_date('12-07-1973', 'dd-mm-yyyy'), '46 Merillee Blv', '1', 16846, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1607', 'Lou', to_date('12-03-1975', 'dd-mm-yyyy'), '20 Sirtis Drive', '2', 37577);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1607', 'Rowan', to_date('08-03-1974', 'dd-mm-yyyy'), '78 Pierce Road', '1', 37490, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1608', 'Adam', to_date('08-01-1972', 'dd-mm-yyyy'), '60 Birmensdorf ', '1', 38638);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1608', 'Emmylou', to_date('26-10-1987', 'dd-mm-yyyy'), '472 Martha Stre', '1', 38503, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1609', 'Rebeka', to_date('05-07-1974', 'dd-mm-yyyy'), '18 Casselberry ', '1', 27989);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1609', 'Michelle', to_date('24-04-1974', 'dd-mm-yyyy'), '699 Rotterdam S', '2', 19607, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1610', 'Donald', to_date('19-06-1984', 'dd-mm-yyyy'), '12 Mitchell Roa', '2', 8473);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1610', 'Fionnula', to_date('05-03-1983', 'dd-mm-yyyy'), '89 Vallauris Ro', '2', 21430, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1611', 'Vendetta', to_date('11-10-1996', 'dd-mm-yyyy'), '1 Crystal Stree', '2', 27596);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1611', 'Ewan', to_date('15-10-1977', 'dd-mm-yyyy'), '5 Miles Street', '1', 22667, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1612', 'First', to_date('15-01-1977', 'dd-mm-yyyy'), '20 Wiest', '1', 15114);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1612', 'Lydia', to_date('11-09-1996', 'dd-mm-yyyy'), '12 Botti Road', '1', 17722, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1613', 'Willem', to_date('03-03-1994', 'dd-mm-yyyy'), '74 Tucker', '1', 41819);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1613', 'Avril', to_date('04-03-1980', 'dd-mm-yyyy'), '97 Withers Stre', '2', 13537, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1614', 'Chaka', to_date('14-03-1995', 'dd-mm-yyyy'), '791 Glover Road', '1', 9592);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1614', 'Victoria', to_date('20-09-1981', 'dd-mm-yyyy'), '37 Exeter', '1', 7156, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1615', 'Matt', to_date('31-03-1971', 'dd-mm-yyyy'), '25 Lili', '2', 26368);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1615', 'Guy', to_date('09-06-1979', 'dd-mm-yyyy'), '87 Maceio Ave', '2', 23150, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1616', 'Loretta', to_date('11-02-1988', 'dd-mm-yyyy'), '760 Cherry Road', '1', 38312);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1616', 'Clay', to_date('15-12-1993', 'dd-mm-yyyy'), '44 Taha', '2', 6393, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1617', 'Karon', to_date('01-03-1980', 'dd-mm-yyyy'), '36 Allen Street', '1', 30495);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1617', 'Mili', to_date('16-04-1992', 'dd-mm-yyyy'), '63 Dolenz Stree', '1', 40333, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1618', 'Wendy', to_date('19-03-1998', 'dd-mm-yyyy'), '576 Loveless Dr', '2', 21572);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1618', 'Colleen', to_date('05-09-1985', 'dd-mm-yyyy'), '12nd Street', '2', 21364, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1619', 'Maxine', to_date('03-01-1982', 'dd-mm-yyyy'), '20 Elijah Stree', '1', 42751);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1619', 'Dennis', to_date('03-06-1991', 'dd-mm-yyyy'), '686 Lili Street', '1', 24023, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1620', 'Pete', to_date('23-12-1988', 'dd-mm-yyyy'), '214 Juneau Blvd', '1', 18233);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1620', 'Tim', to_date('24-10-1974', 'dd-mm-yyyy'), '2 Conshohocken ', '1', 26493, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1621', 'Merle', to_date('08-02-1998', 'dd-mm-yyyy'), '44 Gershon Ave', '1', 41525);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1621', 'Gary', to_date('17-12-1996', 'dd-mm-yyyy'), '27 Caguas Blvd', '1', 19110, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1622', 'Cherry', to_date('07-02-1992', 'dd-mm-yyyy'), '12nd Street', '1', 19258);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1622', 'Eugene', to_date('13-08-1998', 'dd-mm-yyyy'), '62nd Street', '2', 33432, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1623', 'Liam', to_date('20-05-1990', 'dd-mm-yyyy'), '84 Finn Ave', '1', 40000);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1623', 'Allan', to_date('09-04-1986', 'dd-mm-yyyy'), '37 Janssen Stre', '1', 28963, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1624', 'Sinead', to_date('07-07-1981', 'dd-mm-yyyy'), '82 Frakes Blvd', '2', 18282);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1624', 'Gene', to_date('20-09-1982', 'dd-mm-yyyy'), '44 Hjallerup St', '2', 23774, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1625', 'Rosanna', to_date('28-12-1992', 'dd-mm-yyyy'), '475 Pressly Str', '1', 9062);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1625', 'Roscoe', to_date('17-01-1970', 'dd-mm-yyyy'), '35 Rothenburg S', '2', 18941, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1626', 'Tanya', to_date('14-02-1998', 'dd-mm-yyyy'), '89 Steagall Str', '2', 32119);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1626', 'Arnold', to_date('12-12-1990', 'dd-mm-yyyy'), '32 Harris Blvd', '2', 12698, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1627', 'Glen', to_date('05-05-1982', 'dd-mm-yyyy'), '60 Woodbridge S', '2', 43725);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1627', 'Brothers', to_date('07-02-1977', 'dd-mm-yyyy'), '73 Candice', '1', 24736, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1628', 'Mekhi', to_date('10-04-1970', 'dd-mm-yyyy'), '19 Kadison Stre', '2', 42876);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1628', 'Isabella', to_date('05-04-1995', 'dd-mm-yyyy'), '312 Lerner Stre', '2', 38063, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1629', 'Jim', to_date('18-10-1990', 'dd-mm-yyyy'), '99 Fairborn Roa', '1', 16704);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1629', 'Crispin', to_date('20-02-1976', 'dd-mm-yyyy'), '68 Lorenz Ave', '1', 23943, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1630', 'Barry', to_date('06-06-1988', 'dd-mm-yyyy'), '53 Domino Drive', '2', 10026);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1630', 'Donna', to_date('16-09-1973', 'dd-mm-yyyy'), '40 Greenville S', '1', 36001, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1631', 'Wayne', to_date('24-04-1973', 'dd-mm-yyyy'), '72 Uden Street', '2', 27844);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1631', 'Seth', to_date('21-06-1997', 'dd-mm-yyyy'), '398 Graham Ave', '1', 35659, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1632', 'Rhett', to_date('13-12-1997', 'dd-mm-yyyy'), '72 Rua eteno Ro', '2', 32196);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1632', 'Nicholas', to_date('09-01-1979', 'dd-mm-yyyy'), '12 Sepulveda Bl', '2', 8900, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1633', 'Doug', to_date('04-08-1989', 'dd-mm-yyyy'), '6 Byrne Drive', '2', 28403);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1633', 'Ritchie', to_date('08-11-1970', 'dd-mm-yyyy'), '63 Hunter Road', '2', 31937, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1634', 'Lauren', to_date('28-08-1982', 'dd-mm-yyyy'), '599 Levine Stre', '2', 36048);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1634', 'Mark', to_date('12-07-1979', 'dd-mm-yyyy'), '60 Saucedo Driv', '1', 44287, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1635', 'First', to_date('02-03-1977', 'dd-mm-yyyy'), '64 Sweet Drive', '2', 13249);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1635', 'Clarence', to_date('24-07-1981', 'dd-mm-yyyy'), '39 Ittigen Driv', '2', 39743, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1636', 'Ronnie', to_date('09-12-1980', 'dd-mm-yyyy'), '6 Goran Road', '1', 9797);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1636', 'Jarvis', to_date('23-05-1987', 'dd-mm-yyyy'), '66 Shannyn Road', '1', 15359, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1637', 'Kathy', to_date('30-05-1990', 'dd-mm-yyyy'), '56 Dunaway Road', '1', 34652);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1637', 'Cliff', to_date('09-12-1987', 'dd-mm-yyyy'), '83 Larnelle Roa', '2', 10639, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1638', 'Sander', to_date('30-05-1982', 'dd-mm-yyyy'), '802 England Blv', '2', 7310);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1638', 'Devon', to_date('22-05-1974', 'dd-mm-yyyy'), '22 Jeff Road', '2', 20989, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1639', 'Faye', to_date('07-12-1989', 'dd-mm-yyyy'), '88 Don Road', '1', 41328);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1639', 'Dean', to_date('15-01-1979', 'dd-mm-yyyy'), '55 McLachlan St', '2', 14101, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1640', 'Helen', to_date('02-01-1973', 'dd-mm-yyyy'), '31 Turner Blvd', '2', 34371);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1640', 'Udo', to_date('10-12-1973', 'dd-mm-yyyy'), '71 Wood Ave', '2', 24535, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1641', 'Caroline', to_date('25-04-1999', 'dd-mm-yyyy'), '75 Wayne Road', '2', 16412);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1641', 'Colm', to_date('11-07-1971', 'dd-mm-yyyy'), '84 Overstreet S', '2', 31722, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1642', 'Clay', to_date('01-10-1986', 'dd-mm-yyyy'), '13 Molina Stree', '1', 6541);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1642', 'Andrea', to_date('08-04-1975', 'dd-mm-yyyy'), '25 Belo Horizon', '2', 32052, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1643', 'Emma', to_date('11-06-1978', 'dd-mm-yyyy'), '33rd Street', '1', 14851);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1643', 'Geoff', to_date('26-09-1974', 'dd-mm-yyyy'), '63rd Street', '2', 32534, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1644', 'Jonny', to_date('31-01-1998', 'dd-mm-yyyy'), '48 Graham Drive', '1', 18421);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1644', 'Richie', to_date('23-12-1986', 'dd-mm-yyyy'), '77 Hayek Street', '1', 30738, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1645', 'Eliza', to_date('16-06-1978', 'dd-mm-yyyy'), '58 Diffie Drive', '1', 18393);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1645', 'Claude', to_date('01-06-1987', 'dd-mm-yyyy'), '12 Ponty Ave', '2', 24180, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1646', 'Burt', to_date('19-01-1987', 'dd-mm-yyyy'), '75 Speaks Road', '1', 22579);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1646', 'Frankie', to_date('05-07-1970', 'dd-mm-yyyy'), '28 Harahan Stre', '2', 23757, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1647', 'Nikka', to_date('30-11-1995', 'dd-mm-yyyy'), '44 Boorem Drive', '2', 29793);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1647', 'Hugo', to_date('12-08-1990', 'dd-mm-yyyy'), '41 Northam Ave', '2', 27052, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1648', 'Nastassja', to_date('05-05-1973', 'dd-mm-yyyy'), '573 Squier Road', '1', 20411);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1648', 'Vertical', to_date('10-07-1994', 'dd-mm-yyyy'), '855 Obfelden St', '1', 34257, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1649', 'Christian', to_date('22-12-1974', 'dd-mm-yyyy'), '19 Clark Drive', '1', 38687);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1649', 'Bebe', to_date('27-06-1994', 'dd-mm-yyyy'), '52nd Street', '1', 30289, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1650', 'Dermot', to_date('02-06-1971', 'dd-mm-yyyy'), '19 Sander Drive', '1', 43493);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1650', 'Lynette', to_date('03-03-1997', 'dd-mm-yyyy'), '22 Nakai Blvd', '1', 12523, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1651', 'Jonathan', to_date('07-06-1988', 'dd-mm-yyyy'), '26 Quinones Str', '2', 43562);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1651', 'Giancarlo', to_date('24-10-1980', 'dd-mm-yyyy'), '22 Carradine St', '1', 22126, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1652', 'Mary Beth', to_date('13-02-1999', 'dd-mm-yyyy'), '96 Puckett Driv', '2', 31527);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1652', 'Catherine', to_date('28-06-1976', 'dd-mm-yyyy'), '69 Brendan Blvd', '2', 15014, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1653', 'Lucy', to_date('06-09-1978', 'dd-mm-yyyy'), '825 Reeve', '2', 12636);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1653', 'Kirsten', to_date('24-05-1982', 'dd-mm-yyyy'), '22nd Street', '2', 39197, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1654', 'Aidan', to_date('03-03-1990', 'dd-mm-yyyy'), '90 Niigata Road', '2', 25436);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1654', 'King', to_date('15-08-1973', 'dd-mm-yyyy'), '39 Dean Blvd', '1', 30917, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1655', 'Allan', to_date('21-12-1970', 'dd-mm-yyyy'), '13 Middletown S', '1', 40431);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1655', 'Fionnula', to_date('27-02-1982', 'dd-mm-yyyy'), '96 Gibbons Road', '2', 44975, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1656', 'Jill', to_date('23-05-1974', 'dd-mm-yyyy'), '41 Clint Ave', '2', 28683);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1656', 'Donal', to_date('15-08-1983', 'dd-mm-yyyy'), '122 Sawa', '2', 17455, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1657', 'Roy', to_date('15-10-1991', 'dd-mm-yyyy'), '28 Cartlidge', '2', 40797);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1657', 'Richard', to_date('25-04-1984', 'dd-mm-yyyy'), '1 Pastore Drive', '1', 7265, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1658', 'Maceo', to_date('05-10-1997', 'dd-mm-yyyy'), '88 Browne Ave', '2', 10382);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1658', 'Arturo', to_date('15-10-1990', 'dd-mm-yyyy'), '82 Karyo Ave', '1', 9995, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1659', 'Benicio', to_date('08-07-1979', 'dd-mm-yyyy'), '87 Reiner Ave', '2', 31077);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1659', 'Warren', to_date('09-08-1977', 'dd-mm-yyyy'), '210 Shatner Dri', '2', 6536, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1660', 'Marie', to_date('08-10-1993', 'dd-mm-yyyy'), '66 Berlin Stree', '1', 6065);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1660', 'Bryan', to_date('11-02-1994', 'dd-mm-yyyy'), '10 Chinnor', '1', 17863, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1661', 'Ashley', to_date('16-10-1985', 'dd-mm-yyyy'), '28 Renfro Road', '1', 7133);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1661', 'Frank', to_date('05-07-1984', 'dd-mm-yyyy'), '44 Tcheky Road', '2', 17681, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1662', 'CeCe', to_date('17-04-1982', 'dd-mm-yyyy'), '43 Devon Street', '1', 17175);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1662', 'Frances', to_date('19-09-1986', 'dd-mm-yyyy'), '43 Elisabeth Dr', '1', 15978, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1663', 'Julianne', to_date('17-08-1984', 'dd-mm-yyyy'), '527 Bogguss Roa', '2', 26002);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1663', 'Mickey', to_date('05-02-1988', 'dd-mm-yyyy'), '59 Mirren Drive', '1', 9392, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1664', 'Kenneth', to_date('27-07-1974', 'dd-mm-yyyy'), '91 Spall Street', '2', 38734);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1664', 'Maury', to_date('28-09-1980', 'dd-mm-yyyy'), '731 Zeta-Jones ', '1', 10379, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1665', 'Belinda', to_date('23-11-1991', 'dd-mm-yyyy'), '41 Tinsley Ave', '2', 27551);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1665', 'Sandra', to_date('28-05-1987', 'dd-mm-yyyy'), '42nd Street', '1', 32070, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1666', 'Nicky', to_date('27-04-1990', 'dd-mm-yyyy'), '282 Thames Ditt', '2', 22690);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1666', 'Tcheky', to_date('18-02-1974', 'dd-mm-yyyy'), '63 Debra Drive', '1', 31194, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1667', 'Rhea', to_date('19-08-1999', 'dd-mm-yyyy'), '318 Whoopi Road', '2', 16734);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1667', 'Ramsey', to_date('20-01-1971', 'dd-mm-yyyy'), '4 Jonny Road', '2', 24837, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1668', 'Tramaine', to_date('14-10-1974', 'dd-mm-yyyy'), '22 Satriani Str', '1', 32553);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1668', 'Sona', to_date('08-09-1995', 'dd-mm-yyyy'), '34 Swarthmore', '1', 14814, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1669', 'Ossie', to_date('19-03-1988', 'dd-mm-yyyy'), '31 Heche Road', '1', 37159);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1669', 'Patty', to_date('31-03-1991', 'dd-mm-yyyy'), '47 Alice Road', '1', 19565, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1670', 'Elias', to_date('08-11-1992', 'dd-mm-yyyy'), '61 Gordie Drive', '1', 24207);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1670', 'Owen', to_date('31-08-1982', 'dd-mm-yyyy'), '87 Crete Drive', '2', 10313, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1671', 'Faye', to_date('20-04-1998', 'dd-mm-yyyy'), '54 Oszajca Driv', '2', 30616);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1671', 'Dermot', to_date('06-01-1981', 'dd-mm-yyyy'), '25 Mos Ave', '2', 43292, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1672', 'Penelope', to_date('03-03-1987', 'dd-mm-yyyy'), '1 Bristol Road', '1', 18590);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1672', 'First', to_date('26-07-1995', 'dd-mm-yyyy'), '37 Heather Road', '1', 33632, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1673', 'Avenged', to_date('07-09-1984', 'dd-mm-yyyy'), '59 Julia Street', '1', 7753);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1673', 'Rowan', to_date('08-02-1990', 'dd-mm-yyyy'), '31 McElhone Roa', '1', 43987, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1674', 'Chrissie', to_date('06-07-1981', 'dd-mm-yyyy'), '15 Tualatin Roa', '2', 11030);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1674', 'Teena', to_date('15-11-1981', 'dd-mm-yyyy'), '49 Lance Street', '2', 18278, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1675', 'Geraldine', to_date('11-03-1993', 'dd-mm-yyyy'), '50 Chinlund Ave', '1', 18558);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1675', 'Betty', to_date('16-04-1978', 'dd-mm-yyyy'), '67 Berkley Blvd', '2', 40287, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1676', 'Andie', to_date('27-11-1982', 'dd-mm-yyyy'), '91 Colombo Driv', '1', 24751);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1676', 'Walter', to_date('22-10-1993', 'dd-mm-yyyy'), '98 Ermey Road', '1', 10605, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1677', 'Michelle', to_date('25-05-1997', 'dd-mm-yyyy'), '35 Baldwin Road', '1', 34760);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1677', 'Scott', to_date('09-01-1980', 'dd-mm-yyyy'), '95 Tea Road', '1', 39986, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1678', 'Uma', to_date('14-02-1994', 'dd-mm-yyyy'), '96 Borgnine Roa', '1', 11872);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1678', 'Johnette', to_date('24-09-1984', 'dd-mm-yyyy'), '74 Lauper Blvd', '1', 6334, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1679', 'Fionnula', to_date('11-05-1985', 'dd-mm-yyyy'), '5 Katie Drive', '2', 8295);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1679', 'Roscoe', to_date('11-04-1995', 'dd-mm-yyyy'), '80 Gagnon Road', '1', 6435, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1680', 'Garth', to_date('20-08-1977', 'dd-mm-yyyy'), '7 Flack Ave', '2', 36413);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1680', 'Collective', to_date('27-06-1973', 'dd-mm-yyyy'), '67 Shannon', '2', 44751, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1681', 'Selma', to_date('03-10-1980', 'dd-mm-yyyy'), '69 Le chesnay S', '2', 30101);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1681', 'Nora', to_date('21-12-1988', 'dd-mm-yyyy'), '76 Leo Street', '1', 9295, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1682', 'George', to_date('12-12-1986', 'dd-mm-yyyy'), '11st Street', '1', 28631);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1682', 'Liam', to_date('20-09-1989', 'dd-mm-yyyy'), '88 Goodall Road', '2', 30240, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1683', 'Karen', to_date('22-09-1996', 'dd-mm-yyyy'), '80 Brittany Dri', '1', 19688);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1683', 'Steve', to_date('04-03-1977', 'dd-mm-yyyy'), '83 Durning Road', '2', 16256, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1684', 'Celia', to_date('20-04-1994', 'dd-mm-yyyy'), '50 Lange Drive', '1', 22075);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1684', 'Lesley', to_date('15-08-1999', 'dd-mm-yyyy'), '80 Rory Drive', '1', 31127, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1685', 'Guy', to_date('07-02-1989', 'dd-mm-yyyy'), '7 Aniston Blvd', '2', 19482);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1685', 'Veruca', to_date('31-08-1985', 'dd-mm-yyyy'), '73rd Street', '1', 29288, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1686', 'Stockard', to_date('25-06-1985', 'dd-mm-yyyy'), '77 Chiba Road', '2', 14180);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1686', 'Kevin', to_date('22-02-1972', 'dd-mm-yyyy'), '702 Elisabeth S', '1', 9766, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1687', 'Lily', to_date('28-08-1977', 'dd-mm-yyyy'), '7 Hope Drive', '1', 37260);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1687', 'Bryan', to_date('29-08-1979', 'dd-mm-yyyy'), '292 Research Tr', '2', 21789, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1688', 'Susan', to_date('20-11-1975', 'dd-mm-yyyy'), '72 McGill Road', '2', 14776);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1688', 'Clea', to_date('07-12-1976', 'dd-mm-yyyy'), '51 Ford Street', '1', 26117, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1689', 'Xander', to_date('22-08-1976', 'dd-mm-yyyy'), '55 Bretzfeld-Wa', '2', 34649);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1689', 'Marc', to_date('15-02-1993', 'dd-mm-yyyy'), '48 Concordville', '1', 10046, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1690', 'Alice', to_date('02-09-1984', 'dd-mm-yyyy'), '62 Chinlund', '1', 17917);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1690', 'Amy', to_date('04-12-1993', 'dd-mm-yyyy'), '93rd Street', '1', 8280, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1691', 'Cameron', to_date('14-07-1996', 'dd-mm-yyyy'), '17 Rubinek', '2', 35939);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1691', 'Scarlett', to_date('03-01-1988', 'dd-mm-yyyy'), '55 Trevino Stre', '2', 42688, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1692', 'Frances', to_date('26-11-1973', 'dd-mm-yyyy'), '100 Kinnear Dri', '2', 28123);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1692', 'Ted', to_date('14-12-1971', 'dd-mm-yyyy'), '11 Lennox Stree', '1', 21768, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1693', 'Alicia', to_date('02-02-1999', 'dd-mm-yyyy'), '57 Towson Ave', '2', 23560);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1693', 'Pat', to_date('15-05-1986', 'dd-mm-yyyy'), '315 Chapel hill', '1', 30246, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1694', 'Pelvic', to_date('23-01-1975', 'dd-mm-yyyy'), '47 Dillane Ave', '2', 43377);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1694', 'Aimee', to_date('07-09-1984', 'dd-mm-yyyy'), '44 Cocker Drive', '2', 38341, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1695', 'Sylvester', to_date('09-11-1983', 'dd-mm-yyyy'), '35 Isaac Street', '1', 34526);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1695', 'Geggy', to_date('30-11-1992', 'dd-mm-yyyy'), '51 Flushing Roa', '1', 19693, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1696', 'Ruth', to_date('17-06-1987', 'dd-mm-yyyy'), '5 Fishburne Str', '2', 29837);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1696', 'Ewan', to_date('17-04-1997', 'dd-mm-yyyy'), '32nd Street', '1', 41325, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1697', 'Jose', to_date('09-09-1988', 'dd-mm-yyyy'), '41 Helen Street', '2', 39054);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1697', 'Terrence', to_date('21-02-1974', 'dd-mm-yyyy'), '75 Winstone Dri', '2', 30112, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1698', 'Rachel', to_date('11-12-1994', 'dd-mm-yyyy'), '48 Tooele Ave', '2', 29966);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1698', 'Ray', to_date('18-06-1974', 'dd-mm-yyyy'), '50 Madsen Ave', '2', 11809, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1699', 'Jonny', to_date('28-07-1994', 'dd-mm-yyyy'), '76 Estevez Road', '1', 37445);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1699', 'Geena', to_date('23-08-1974', 'dd-mm-yyyy'), '25 Brampton Roa', '2', 25901, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1700', 'Humberto', to_date('11-07-1986', 'dd-mm-yyyy'), '29 Farrell Stre', '2', 10294);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1700', 'Nina', to_date('16-12-1995', 'dd-mm-yyyy'), '79 Scott Drive', '2', 37431, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1701', 'Harriet', to_date('14-10-1970', 'dd-mm-yyyy'), '68 Giannini Roa', '2', 39319);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1701', 'Denis', to_date('14-09-1989', 'dd-mm-yyyy'), '80 McLean Road', '2', 31571, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1702', 'Rory', to_date('19-07-1995', 'dd-mm-yyyy'), '59 Sandoval Str', '2', 26089);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1702', 'Donna', to_date('17-12-1989', 'dd-mm-yyyy'), '76 Mexico City ', '2', 35051, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1703', 'Phoebe', to_date('09-02-1980', 'dd-mm-yyyy'), '18 Stiles', '1', 33171);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1703', 'Hector', to_date('10-07-1991', 'dd-mm-yyyy'), '5 Louisville Dr', '2', 41950, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1704', 'Morgan', to_date('21-11-1987', 'dd-mm-yyyy'), '9 Joaquin Road', '2', 41742);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1704', 'Kazem', to_date('08-05-1999', 'dd-mm-yyyy'), '356 Bergen Driv', '2', 10122, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1705', 'Garth', to_date('15-04-1997', 'dd-mm-yyyy'), '66 Utada Ave', '2', 11347);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1705', 'Al', to_date('22-04-1988', 'dd-mm-yyyy'), '24 Nantes Stree', '1', 8167, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1706', 'Donal', to_date('12-08-1999', 'dd-mm-yyyy'), '86 Balin Drive', '2', 34789);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1706', 'Shawn', to_date('09-12-1987', 'dd-mm-yyyy'), '690 Aidan Drive', '2', 16302, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1707', 'Toshiro', to_date('06-01-1973', 'dd-mm-yyyy'), '7 Rickles Ave', '1', 10270);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1707', 'Katrin', to_date('18-09-1989', 'dd-mm-yyyy'), '37 Jones Blvd', '1', 23896, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1708', 'Isabella', to_date('06-07-1974', 'dd-mm-yyyy'), '24 Van Shelton ', '2', 10746);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1708', 'Natalie', to_date('26-04-1991', 'dd-mm-yyyy'), '31 Cage Ave', '2', 29152, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1709', 'Nigel', to_date('16-01-1996', 'dd-mm-yyyy'), '46 Quentin Ave', '2', 30764);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1709', 'Chazz', to_date('01-09-1970', 'dd-mm-yyyy'), '978 Johnette Dr', '2', 10930, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1710', 'Anna', to_date('18-07-1970', 'dd-mm-yyyy'), '64 Kevn Road', '1', 24183);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1710', 'Owen', to_date('26-05-1982', 'dd-mm-yyyy'), '48 Maxwell Road', '1', 9670, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1711', 'Udo', to_date('14-10-1985', 'dd-mm-yyyy'), '85 McGoohan Roa', '2', 29904);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1711', 'Paula', to_date('20-07-1971', 'dd-mm-yyyy'), '42 Patricia Roa', '1', 7893, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1712', 'Balthazar', to_date('08-10-1986', 'dd-mm-yyyy'), '21 Rickles Stre', '2', 28366);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1712', 'Sam', to_date('25-08-1974', 'dd-mm-yyyy'), '36 Lizzy Street', '1', 13682, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1713', 'Lizzy', to_date('14-02-1993', 'dd-mm-yyyy'), '66 Loggins', '1', 12069);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1713', 'Max', to_date('21-12-1970', 'dd-mm-yyyy'), '93 LaPaglia', '1', 27066, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1714', 'Roddy', to_date('01-01-1977', 'dd-mm-yyyy'), '64 King of Prus', '2', 6201);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1714', 'Davy', to_date('04-11-1981', 'dd-mm-yyyy'), '63 Taylor Blvd', '1', 21998, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1715', 'Marley', to_date('08-08-1993', 'dd-mm-yyyy'), '48 MacLachlan R', '1', 21573);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1715', 'Jena', to_date('19-02-1978', 'dd-mm-yyyy'), '29 Duschel Road', '2', 22156, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1716', 'Rebecca', to_date('10-04-1994', 'dd-mm-yyyy'), '39 Randall Driv', '1', 31237);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1716', 'Suzy', to_date('15-06-1979', 'dd-mm-yyyy'), '3 Pirmasens Roa', '1', 23979, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1717', 'Mary', to_date('20-10-1981', 'dd-mm-yyyy'), '67 Yankovic Str', '2', 39471);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1717', 'Lonnie', to_date('18-08-1977', 'dd-mm-yyyy'), '504 Wolf Street', '1', 39722, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1718', 'Kyle', to_date('16-10-1982', 'dd-mm-yyyy'), '853 Lightfoot D', '1', 18324);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1718', 'Nikki', to_date('08-04-1986', 'dd-mm-yyyy'), '73rd Street', '2', 33104, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1719', 'Gord', to_date('18-08-1998', 'dd-mm-yyyy'), '76 Roberts Stre', '1', 19033);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1719', 'Gilberto', to_date('18-01-1980', 'dd-mm-yyyy'), '47 Gettysburg', '1', 31382, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1720', 'Gil', to_date('16-09-1974', 'dd-mm-yyyy'), '696 Dreieich St', '1', 40039);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1720', 'Winona', to_date('04-07-1995', 'dd-mm-yyyy'), '52 Johansson Bl', '1', 7049, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1721', 'Edward', to_date('16-03-1985', 'dd-mm-yyyy'), '64 Barnett Road', '2', 28597);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1721', 'Gabrielle', to_date('29-10-1983', 'dd-mm-yyyy'), '70 Franco Stree', '1', 40022, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1722', 'Rosanna', to_date('02-07-1995', 'dd-mm-yyyy'), '56 Ermey Drive', '1', 26282);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1722', 'Famke', to_date('09-11-1992', 'dd-mm-yyyy'), '43 Michael Stre', '1', 21570, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1723', 'Miko', to_date('03-01-1984', 'dd-mm-yyyy'), '5 Bonham', '2', 26074);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1723', 'Percy', to_date('30-03-1999', 'dd-mm-yyyy'), '539 Sarandon Ro', '1', 30395, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1724', 'Nikki', to_date('25-01-1997', 'dd-mm-yyyy'), '390 Santana Ave', '1', 39139);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1724', 'Demi', to_date('22-04-1995', 'dd-mm-yyyy'), '44 Chet Road', '1', 20753, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1725', 'Joanna', to_date('20-10-1993', 'dd-mm-yyyy'), '63 Huntsville R', '1', 13203);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1725', 'Ed', to_date('06-07-1972', 'dd-mm-yyyy'), '77 Rudd Drive', '2', 31844, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1726', 'Alicia', to_date('17-07-1971', 'dd-mm-yyyy'), '37 Canal Winche', '2', 12826);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1726', 'Merrill', to_date('26-12-1987', 'dd-mm-yyyy'), '354 Toyama Stre', '2', 10539, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1727', 'Dom', to_date('16-04-1998', 'dd-mm-yyyy'), '340 Annette Dri', '2', 19788);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1727', 'Judi', to_date('07-08-1984', 'dd-mm-yyyy'), '14 Tempest Ave', '2', 26119, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1728', 'Denise', to_date('08-11-1990', 'dd-mm-yyyy'), '858 Suwon Stree', '1', 32620);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1728', 'Freddy', to_date('29-10-1985', 'dd-mm-yyyy'), '150 Shawnee Str', '2', 36668, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1729', 'Nicole', to_date('12-04-1982', 'dd-mm-yyyy'), '19 Gates Drive', '1', 37336);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1729', 'Viggo', to_date('27-05-1970', 'dd-mm-yyyy'), '667 Nunn Road', '1', 37987, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1730', 'Jimmy', to_date('30-09-1975', 'dd-mm-yyyy'), '37 Breckin Stre', '2', 26879);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1730', 'Nathan', to_date('29-09-1993', 'dd-mm-yyyy'), '15 Salonga Driv', '2', 13936, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1731', 'Red', to_date('26-06-1976', 'dd-mm-yyyy'), '38 Giamatti Roa', '1', 8819);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1731', 'Marianne', to_date('20-02-1981', 'dd-mm-yyyy'), '30 Frank Road', '2', 14101, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1732', 'Emmylou', to_date('19-09-1989', 'dd-mm-yyyy'), '56 Grand Rapids', '2', 33682);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1732', 'Gavin', to_date('07-10-1997', 'dd-mm-yyyy'), '663 Alpharetta ', '2', 16813, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1733', 'Ernie', to_date('10-07-1975', 'dd-mm-yyyy'), '81 Gambon', '2', 8125);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1733', 'Jack', to_date('04-01-1997', 'dd-mm-yyyy'), '51st Street', '2', 32919, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1734', 'Raymond', to_date('02-08-1975', 'dd-mm-yyyy'), '92 Brooks Stree', '2', 40626);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1734', 'Chad', to_date('07-11-1988', 'dd-mm-yyyy'), '36 Crowell Driv', '1', 35017, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1735', 'Kay', to_date('29-01-1981', 'dd-mm-yyyy'), '26 Lavigne Road', '1', 30024);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1735', 'Orlando', to_date('31-07-1971', 'dd-mm-yyyy'), '819 Heslov Driv', '2', 21601, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1736', 'Rachael', to_date('23-07-1974', 'dd-mm-yyyy'), '321 Sisto Stree', '1', 18463);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1736', 'Dorry', to_date('29-12-1983', 'dd-mm-yyyy'), '57 Mulroney Dri', '1', 41970, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1737', 'Isaiah', to_date('08-12-1986', 'dd-mm-yyyy'), '23 Gilberto Str', '1', 30022);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1737', 'Dave', to_date('29-04-1988', 'dd-mm-yyyy'), '218 Diehl Drive', '2', 38451, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1738', 'Embeth', to_date('23-08-1994', 'dd-mm-yyyy'), '77 Ed Blvd', '2', 27573);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1738', 'Lucy', to_date('07-05-1994', 'dd-mm-yyyy'), '52 Squier Road', '1', 20048, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1739', 'Jake', to_date('28-07-1982', 'dd-mm-yyyy'), '69 Levy Street', '1', 26161);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1739', 'Mia', to_date('20-10-1983', 'dd-mm-yyyy'), '574 Sally Blvd', '2', 24452, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1740', 'Kathy', to_date('22-12-1976', 'dd-mm-yyyy'), '19 Stiller Road', '2', 31359);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1740', 'Charlize', to_date('25-11-1974', 'dd-mm-yyyy'), '48 Oshkosh Ave', '1', 34023, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1741', 'Isaiah', to_date('04-10-1981', 'dd-mm-yyyy'), '48 Lang Street', '2', 15838);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1741', 'Kyle', to_date('20-11-1980', 'dd-mm-yyyy'), '27 League city ', '1', 31550, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1742', 'Philip', to_date('15-07-1979', 'dd-mm-yyyy'), '34 Soest Road', '1', 8932);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1742', 'Hector', to_date('22-03-1981', 'dd-mm-yyyy'), '48 Freiburg', '1', 37084, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1743', 'Kenneth', to_date('11-06-1989', 'dd-mm-yyyy'), '5 Garza Drive', '1', 25984);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1743', 'Domingo', to_date('08-08-1991', 'dd-mm-yyyy'), '23 Shearer Driv', '1', 13273, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1744', 'Wade', to_date('17-03-1987', 'dd-mm-yyyy'), '63rd Street', '2', 21484);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1744', 'Goldie', to_date('09-04-1971', 'dd-mm-yyyy'), '19 Evans Road', '1', 14933, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1745', 'Al', to_date('19-01-1982', 'dd-mm-yyyy'), '93rd Street', '2', 27363);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1745', 'Garry', to_date('14-10-1983', 'dd-mm-yyyy'), '52 Newton-le-wi', '1', 30501, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1746', 'Chaka', to_date('13-09-1982', 'dd-mm-yyyy'), '556 Lodi Drive', '2', 33030);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1746', 'Owen', to_date('08-07-1990', 'dd-mm-yyyy'), '964 Raleigh Roa', '1', 22403, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1747', 'Claude', to_date('13-01-1989', 'dd-mm-yyyy'), '34 Phoenix', '1', 36731);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1747', 'Chad', to_date('29-03-1996', 'dd-mm-yyyy'), '7 Xander Street', '2', 20178, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1748', 'Frank', to_date('26-02-1983', 'dd-mm-yyyy'), '90 Chapeco Road', '2', 11051);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1748', 'Ashley', to_date('19-06-1986', 'dd-mm-yyyy'), '50 Coley Ave', '2', 32660, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1749', 'Ritchie', to_date('29-07-1998', 'dd-mm-yyyy'), '87 McGriff Driv', '2', 12217);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1749', 'Kathleen', to_date('05-10-1991', 'dd-mm-yyyy'), '352 Brisbane St', '2', 42957, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1750', 'Rose', to_date('23-07-1992', 'dd-mm-yyyy'), '19 Eliza Ave', '1', 27229);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1750', 'Christian', to_date('02-10-1987', 'dd-mm-yyyy'), '22nd Street', '1', 12445, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1751', 'Joaquim', to_date('08-07-1978', 'dd-mm-yyyy'), '97 Cardiff Driv', '2', 41116);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1751', 'Lari', to_date('18-01-1990', 'dd-mm-yyyy'), '61st Street', '1', 16751, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1752', 'Owen', to_date('20-01-1994', 'dd-mm-yyyy'), '33 Patricia Str', '2', 24394);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1752', 'Kathleen', to_date('09-06-1991', 'dd-mm-yyyy'), '953 Hewitt Driv', '1', 31073, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1753', 'Ceili', to_date('24-01-1994', 'dd-mm-yyyy'), '25 Snow Drive', '1', 42896);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1753', 'Adrien', to_date('15-10-1998', 'dd-mm-yyyy'), '34 Istanbul Ave', '2', 12515, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1754', 'Benicio', to_date('24-08-1976', 'dd-mm-yyyy'), '84 Joli Ave', '2', 21197);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1754', 'Gino', to_date('25-09-1981', 'dd-mm-yyyy'), '99 Morton Road', '1', 23606, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1755', 'Candice', to_date('08-02-1973', 'dd-mm-yyyy'), '588 Colton Road', '1', 29032);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1755', 'Meg', to_date('26-09-1993', 'dd-mm-yyyy'), '22 Jacksonville', '2', 14034, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1756', 'Jeroen', to_date('13-06-1976', 'dd-mm-yyyy'), '5 Tim Street', '1', 30328);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1756', 'Maury', to_date('25-04-1987', 'dd-mm-yyyy'), '52 Jeffery Stre', '1', 29513, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1757', 'Ellen', to_date('16-07-1979', 'dd-mm-yyyy'), '386 Hanks Ave', '2', 26590);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1757', 'Frankie', to_date('06-07-1971', 'dd-mm-yyyy'), '26 Schiff Drive', '1', 43137, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1758', 'Holland', to_date('30-03-1992', 'dd-mm-yyyy'), '79 Ty Blvd', '1', 21688);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1758', 'Helen', to_date('20-07-1977', 'dd-mm-yyyy'), '30 Mirren Road', '2', 22634, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1759', 'Mos', to_date('30-08-1972', 'dd-mm-yyyy'), '27 Luis Street', '1', 16820);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1759', 'Victoria', to_date('22-08-1977', 'dd-mm-yyyy'), '123 Pastore Str', '1', 10608, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1760', 'Fionnula', to_date('08-06-1998', 'dd-mm-yyyy'), '27 Whitley Driv', '1', 14252);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1760', 'Marley', to_date('26-04-1982', 'dd-mm-yyyy'), '5 Makowicz Road', '2', 42184, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1761', 'Lisa', to_date('09-06-1993', 'dd-mm-yyyy'), '28 Baez Street', '2', 35667);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1761', 'Gaby', to_date('03-02-1970', 'dd-mm-yyyy'), '21 Julia Road', '2', 13532, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1762', 'Tommy', to_date('15-10-1977', 'dd-mm-yyyy'), '901 McLachlan R', '1', 42133);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1762', 'Wendy', to_date('14-10-1977', 'dd-mm-yyyy'), '83rd Street', '1', 41772, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1763', 'Bernard', to_date('09-09-1994', 'dd-mm-yyyy'), '22 Austin Drive', '1', 26771);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1763', 'Tim', to_date('10-06-1989', 'dd-mm-yyyy'), '368 Cheshire Dr', '2', 7805, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1764', 'Whoopi', to_date('06-07-1972', 'dd-mm-yyyy'), '17 Tyne & Wear ', '2', 35284);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1764', 'Julianna', to_date('12-04-1994', 'dd-mm-yyyy'), '33 Cromwell', '2', 44988, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1765', 'Rene', to_date('24-06-1978', 'dd-mm-yyyy'), '43 Giancarlo Ro', '2', 43940);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1765', 'Madeline', to_date('01-02-1977', 'dd-mm-yyyy'), '46 Pleasure Dri', '1', 40579, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1766', 'Ryan', to_date('09-04-1996', 'dd-mm-yyyy'), '48 Soul Street', '1', 27538);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1766', 'Elijah', to_date('07-12-1984', 'dd-mm-yyyy'), '307 Ann Arbor S', '1', 39527, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1767', 'Julianna', to_date('29-08-1986', 'dd-mm-yyyy'), '457 Jonny Stree', '2', 18933);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1767', 'Patti', to_date('14-04-1994', 'dd-mm-yyyy'), '927 Zagreb Blvd', '1', 35499, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1768', 'CeCe', to_date('14-01-1971', 'dd-mm-yyyy'), '52 Madeline Roa', '1', 12929);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1768', 'Bobbi', to_date('06-12-1987', 'dd-mm-yyyy'), '63 Benoit Ave', '1', 43820, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1769', 'Luke', to_date('19-07-1974', 'dd-mm-yyyy'), '41 Kier Blvd', '2', 22191);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1769', 'Toshiro', to_date('10-10-1977', 'dd-mm-yyyy'), '38 Laguna Bbeac', '1', 12207, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1770', 'Sophie', to_date('29-01-1981', 'dd-mm-yyyy'), '50 Katrin Road', '1', 8439);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1770', 'Tal', to_date('30-10-1971', 'dd-mm-yyyy'), '86 Owen Ave', '1', 20687, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1771', 'Jeanne', to_date('29-04-1983', 'dd-mm-yyyy'), '17 Kate Blvd', '1', 42902);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1771', 'Greg', to_date('05-12-1974', 'dd-mm-yyyy'), '807 Hershey Str', '2', 41151, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1772', 'Andrew', to_date('22-07-1983', 'dd-mm-yyyy'), '69 Bugnon Stree', '2', 40280);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1772', 'Tramaine', to_date('30-08-1972', 'dd-mm-yyyy'), '2 Black Drive', '2', 7061, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1773', 'Burton', to_date('04-12-1985', 'dd-mm-yyyy'), '32 Millie Stree', '1', 29112);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1773', 'Kylie', to_date('17-06-1971', 'dd-mm-yyyy'), '43 Kiefer Ave', '2', 20672, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1774', 'Irene', to_date('21-09-1971', 'dd-mm-yyyy'), '34 Ralph Road', '1', 12365);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1774', 'Maura', to_date('27-04-1998', 'dd-mm-yyyy'), '81 Hingle Stree', '1', 29378, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1775', 'Cathy', to_date('28-11-1982', 'dd-mm-yyyy'), '22 Rose Drive', '1', 6867);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1775', 'Sam', to_date('27-04-1995', 'dd-mm-yyyy'), '82 Lionel Road', '2', 6271, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1776', 'Kathy', to_date('05-06-1991', 'dd-mm-yyyy'), '22 Rochester', '1', 26652);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1776', 'Tramaine', to_date('20-08-1973', 'dd-mm-yyyy'), '100 Arnold Road', '1', 44676, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1777', 'Philip', to_date('02-05-1979', 'dd-mm-yyyy'), '50 Johnnie Driv', '2', 30540);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1777', 'Hilton', to_date('25-09-1973', 'dd-mm-yyyy'), '72nd Street', '2', 31769, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1778', 'Devon', to_date('25-02-1985', 'dd-mm-yyyy'), '131 Bellerose S', '1', 10604);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1778', 'Rupert', to_date('11-10-1983', 'dd-mm-yyyy'), '54 Heslov Road', '2', 6311, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1779', 'Ashley', to_date('06-05-1995', 'dd-mm-yyyy'), '90 Enfield', '2', 36303);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1779', 'Liv', to_date('26-02-1978', 'dd-mm-yyyy'), '30 Ossie Road', '2', 43282, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1780', 'Larenz', to_date('23-09-1996', 'dd-mm-yyyy'), '43 Bratt Street', '2', 38586);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1780', 'Freddy', to_date('16-04-1976', 'dd-mm-yyyy'), '8 Rosie Road', '2', 36157, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1781', 'Tamala', to_date('13-11-1983', 'dd-mm-yyyy'), '15 Mel Ave', '2', 10353);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1781', 'Meg', to_date('19-12-1977', 'dd-mm-yyyy'), '18 Oded Road', '1', 11488, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1782', 'Neve', to_date('21-01-1981', 'dd-mm-yyyy'), '92 de Lancie Bl', '1', 23353);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1782', 'Gordon', to_date('31-03-1988', 'dd-mm-yyyy'), '11st Street', '1', 22065, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1783', 'Vince', to_date('29-03-1980', 'dd-mm-yyyy'), '91 Los Angeles', '2', 19090);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1783', 'Ivan', to_date('19-01-1997', 'dd-mm-yyyy'), '32nd Street', '2', 31914, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1784', 'Davey', to_date('11-10-1989', 'dd-mm-yyyy'), '38 Uetikon am S', '1', 7444);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1784', 'Gina', to_date('03-02-1984', 'dd-mm-yyyy'), '28 McCann Drive', '2', 44767, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1785', 'Samuel', to_date('03-07-1972', 'dd-mm-yyyy'), '58 Aniston Driv', '2', 7828);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1785', 'Cary', to_date('10-03-1975', 'dd-mm-yyyy'), '45 Hines Road', '1', 40501, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1786', 'Stephen', to_date('24-03-1971', 'dd-mm-yyyy'), '1 Alfred Road', '2', 19104);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1786', 'Lee', to_date('22-10-1976', 'dd-mm-yyyy'), '529 Burstyn Blv', '2', 23726, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1787', 'Rose', to_date('20-01-1974', 'dd-mm-yyyy'), '29 Jerusalem St', '2', 22997);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1787', 'Mike', to_date('29-12-1988', 'dd-mm-yyyy'), '89 O''Neill Road', '2', 42932, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1788', 'Marlon', to_date('17-04-1976', 'dd-mm-yyyy'), '89 Santa Cruz R', '2', 22517);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1788', 'Cheryl', to_date('11-11-1984', 'dd-mm-yyyy'), '75 Henry Drive', '1', 16607, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1789', 'Chantי', to_date('22-11-1998', 'dd-mm-yyyy'), '61 Olin', '2', 31758);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1789', 'Latin', to_date('21-03-1983', 'dd-mm-yyyy'), '73rd Street', '2', 37397, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1790', 'Rachel', to_date('17-12-1988', 'dd-mm-yyyy'), '93 Plymouth Mee', '2', 14329);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1790', 'Leon', to_date('14-04-1974', 'dd-mm-yyyy'), '29 Oldman Road', '1', 22330, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1791', 'Frank', to_date('09-06-1994', 'dd-mm-yyyy'), '6 Lillard Drive', '2', 10326);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1791', 'Louise', to_date('04-09-1977', 'dd-mm-yyyy'), '614 Tah Drive', '1', 38357, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1792', 'Rhea', to_date('01-08-1979', 'dd-mm-yyyy'), '24 New Haven St', '2', 8597);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1792', 'Dabney', to_date('18-08-1990', 'dd-mm-yyyy'), '614 McCain Road', '2', 43588, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1793', 'Julie', to_date('23-12-1998', 'dd-mm-yyyy'), '68 McCain Road', '1', 18589);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1793', 'Lari', to_date('04-10-1975', 'dd-mm-yyyy'), '2 Geoffrey Stre', '1', 41700, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1794', 'Colin', to_date('01-05-1996', 'dd-mm-yyyy'), '93 Kuraby Blvd', '1', 25998);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1794', 'Harvey', to_date('14-06-1977', 'dd-mm-yyyy'), '81 Judi Street', '1', 30390, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1795', 'Kris', to_date('05-09-1988', 'dd-mm-yyyy'), '27 Shue Drive', '1', 18341);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1795', 'Eric', to_date('28-02-1988', 'dd-mm-yyyy'), '39 Bielefeld St', '1', 14729, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1796', 'Jessica', to_date('24-05-1987', 'dd-mm-yyyy'), '15 Sacramento', '1', 34620);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1796', 'Amy', to_date('07-01-1984', 'dd-mm-yyyy'), '55 Arden Street', '2', 15345, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1797', 'Carrie-Anne', to_date('01-09-1995', 'dd-mm-yyyy'), '39 Celia Road', '2', 28970);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1797', 'Chi', to_date('11-05-1971', 'dd-mm-yyyy'), '47 Lucy Street', '2', 17904, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1798', 'Denny', to_date('29-03-1991', 'dd-mm-yyyy'), '42 Portland Str', '2', 19576);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1798', 'Suzanne', to_date('09-03-1982', 'dd-mm-yyyy'), '81 Chrissie Str', '1', 33169, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1799', 'Gin', to_date('04-06-1982', 'dd-mm-yyyy'), '63 Lari Street', '1', 38355);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1799', 'Willie', to_date('19-09-1973', 'dd-mm-yyyy'), '37 Hannover Ave', '2', 27063, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1800', 'Nikka', to_date('01-08-1980', 'dd-mm-yyyy'), '44 Dermot Road', '2', 16261);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1800', 'Deborah', to_date('12-11-1980', 'dd-mm-yyyy'), '239 Wehrheim Av', '1', 14148, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1801', 'Avenged', to_date('19-06-1986', 'dd-mm-yyyy'), '24 Irons Street', '1', 28898);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1801', 'Quentin', to_date('01-06-1983', 'dd-mm-yyyy'), '76 Leon Blvd', '1', 12505, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1802', 'Joan', to_date('16-11-1981', 'dd-mm-yyyy'), '23rd Street', '1', 8980);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1802', 'Queen', to_date('08-05-1986', 'dd-mm-yyyy'), '33rd Street', '2', 14090, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1803', 'Marlon', to_date('26-06-1977', 'dd-mm-yyyy'), '732 Cyndi Drive', '2', 23465);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1803', 'Maureen', to_date('09-06-1997', 'dd-mm-yyyy'), '100 Sihung-si R', '1', 43592, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1804', 'Stockard', to_date('24-11-1977', 'dd-mm-yyyy'), '75 Meppel Stree', '1', 21956);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1804', 'Chantי', to_date('24-11-1976', 'dd-mm-yyyy'), '38 Adamstown St', '1', 20933, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1805', 'Stephanie', to_date('25-02-1987', 'dd-mm-yyyy'), '22nd Street', '1', 29032);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1805', 'Wesley', to_date('17-01-1975', 'dd-mm-yyyy'), '83 Sorvino', '2', 22278, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1806', 'Katrin', to_date('30-06-1975', 'dd-mm-yyyy'), '644 Whitman Dri', '1', 18475);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1806', 'Sarah', to_date('03-04-1971', 'dd-mm-yyyy'), '761 Church Stre', '2', 15354, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1807', 'Heather', to_date('20-02-1976', 'dd-mm-yyyy'), '458 Blacksburg ', '1', 32501);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1807', 'Carolyn', to_date('25-03-1970', 'dd-mm-yyyy'), '71 Cruise', '1', 17987, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1808', 'Meryl', to_date('11-05-1983', 'dd-mm-yyyy'), '71 Daniel Ave', '1', 18936);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1808', 'Ned', to_date('11-06-1980', 'dd-mm-yyyy'), '39 Bacon Blvd', '2', 43730, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1809', 'Ramsey', to_date('14-07-1976', 'dd-mm-yyyy'), '130 Faithfull S', '2', 17542);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1809', 'Ethan', to_date('26-12-1976', 'dd-mm-yyyy'), '89 Firth Ave', '2', 23664, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1810', 'Trini', to_date('10-11-1990', 'dd-mm-yyyy'), '61st Street', '2', 44497);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1810', 'Loreena', to_date('26-09-1980', 'dd-mm-yyyy'), '23 Llewelyn Blv', '1', 44324, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1811', 'Balthazar', to_date('03-08-1974', 'dd-mm-yyyy'), '71st Street', '2', 21839);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1811', 'Trace', to_date('08-10-1973', 'dd-mm-yyyy'), '46 Lynne Ave', '2', 7895, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1812', 'Pablo', to_date('11-12-1987', 'dd-mm-yyyy'), '97 Tanon Road', '2', 16990);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1812', 'Kelly', to_date('31-10-1977', 'dd-mm-yyyy'), '14 Zappacosta D', '1', 36887, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1813', 'King', to_date('29-03-1994', 'dd-mm-yyyy'), '99 Lynskey', '2', 17492);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1813', 'Stevie', to_date('07-06-1990', 'dd-mm-yyyy'), '34 Moffat Road', '2', 22180, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1814', 'Suzi', to_date('19-11-1981', 'dd-mm-yyyy'), '952 Pigott-Smit', '2', 17278);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1814', 'Suzy', to_date('02-10-1985', 'dd-mm-yyyy'), '57 Morioka Road', '2', 24367, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1815', 'Carol', to_date('25-12-1978', 'dd-mm-yyyy'), '93 Oro Street', '2', 26026);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1815', 'Tramaine', to_date('26-11-1999', 'dd-mm-yyyy'), '733 Mellencamp ', '2', 11583, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1816', 'Azucar', to_date('19-11-1994', 'dd-mm-yyyy'), '5 Coward Street', '2', 23052);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1816', 'Rod', to_date('16-09-1985', 'dd-mm-yyyy'), '72nd Street', '1', 33203, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1817', 'Ruth', to_date('22-06-1989', 'dd-mm-yyyy'), '772 Zooey Blvd', '2', 29986);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1817', 'William', to_date('08-03-1980', 'dd-mm-yyyy'), '10 Susan Street', '2', 17781, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1818', 'Peabo', to_date('19-07-1970', 'dd-mm-yyyy'), '60 Lattimore Av', '2', 30197);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1818', 'Rhys', to_date('02-11-1993', 'dd-mm-yyyy'), '81 Gran Street', '2', 24202, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1819', 'Rade', to_date('14-04-1997', 'dd-mm-yyyy'), '56 Rucker Drive', '2', 35793);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1819', 'Tori', to_date('14-12-1984', 'dd-mm-yyyy'), '12nd Street', '1', 14519, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1820', 'Moe', to_date('09-11-1994', 'dd-mm-yyyy'), '45 Jude Ave', '1', 33394);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1820', 'Jude', to_date('18-10-1982', 'dd-mm-yyyy'), '39 Irene Drive', '1', 14595, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1821', 'Sophie', to_date('16-10-1973', 'dd-mm-yyyy'), '67 Goteborg Blv', '1', 43834);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1821', 'Todd', to_date('03-09-1986', 'dd-mm-yyyy'), '80 Tucker Stree', '2', 35938, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1822', 'Miko', to_date('12-12-1999', 'dd-mm-yyyy'), '770 Matt Street', '1', 12395);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1822', 'Ted', to_date('27-07-1971', 'dd-mm-yyyy'), '31 Oakland Stre', '1', 30071, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1823', 'Emmylou', to_date('04-10-1984', 'dd-mm-yyyy'), '57 D''Onofrio Bl', '1', 33093);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1823', 'Freda', to_date('04-01-1973', 'dd-mm-yyyy'), '19 Apple Ave', '1', 36859, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1824', 'Keith', to_date('10-04-1982', 'dd-mm-yyyy'), '20 Sugar Hill S', '1', 35070);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1824', 'Mika', to_date('04-01-1990', 'dd-mm-yyyy'), '37 Metcalf Blvd', '2', 34105, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1825', 'Howie', to_date('13-01-1982', 'dd-mm-yyyy'), '217 Olsztyn', '1', 26756);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1825', 'Kay', to_date('13-02-1988', 'dd-mm-yyyy'), '162 Augst', '1', 8444, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1826', 'Leslie', to_date('29-09-1984', 'dd-mm-yyyy'), '18 Mahoney Driv', '2', 12062);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1826', 'Carrie-Anne', to_date('25-02-1982', 'dd-mm-yyyy'), '41 Rhames Stree', '2', 6839, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1827', 'Clint', to_date('02-07-1973', 'dd-mm-yyyy'), '71 Winger', '2', 36975);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1827', 'Tyrone', to_date('23-09-1996', 'dd-mm-yyyy'), '59 Horton Stree', '1', 27544, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1828', 'Jerry', to_date('05-06-1999', 'dd-mm-yyyy'), '24 Fountain Hil', '2', 11037);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1828', 'Vienna', to_date('22-10-1996', 'dd-mm-yyyy'), '63 Charles Driv', '2', 23387, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1829', 'Cary', to_date('14-05-1981', 'dd-mm-yyyy'), '82nd Street', '1', 19413);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1829', 'Holly', to_date('11-11-1970', 'dd-mm-yyyy'), '21 Sal Drive', '2', 33974, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1830', 'Gran', to_date('01-12-1987', 'dd-mm-yyyy'), '423 Klugh Stree', '1', 18838);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1830', 'Ian', to_date('17-11-1999', 'dd-mm-yyyy'), '77 Suberg Road', '1', 24711, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1831', 'Azucar', to_date('02-04-1998', 'dd-mm-yyyy'), '52 Rockville St', '2', 10564);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1831', 'Mel', to_date('09-08-1974', 'dd-mm-yyyy'), '27 Sorocaba', '1', 44280, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1832', 'Crystal', to_date('16-09-1991', 'dd-mm-yyyy'), '752 Huntington ', '2', 23881);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1832', 'Wesley', to_date('07-02-1984', 'dd-mm-yyyy'), '6 Lloyd Street', '2', 20869, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1833', 'Colm', to_date('27-08-1972', 'dd-mm-yyyy'), '52 Snider Drive', '2', 33626);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1833', 'Etta', to_date('08-02-1973', 'dd-mm-yyyy'), '63 Suchet Road', '1', 10229, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1834', 'Wayman', to_date('02-04-1997', 'dd-mm-yyyy'), '15 Rotterdam Bl', '2', 24561);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1834', 'Elle', to_date('30-04-1982', 'dd-mm-yyyy'), '80 Hawke', '1', 39574, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1835', 'Marty', to_date('21-03-1998', 'dd-mm-yyyy'), '96 Williamstown', '2', 43510);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1835', 'Emerson', to_date('08-09-1987', 'dd-mm-yyyy'), '169 Linda Stree', '1', 10547, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1836', 'Paula', to_date('18-11-1980', 'dd-mm-yyyy'), '40 Waits Drive', '2', 42117);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1836', 'Collin', to_date('09-01-1973', 'dd-mm-yyyy'), '52 Edison Ave', '2', 33219, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1837', 'Terri', to_date('03-01-1998', 'dd-mm-yyyy'), '66 Cuba Drive', '1', 19302);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1837', 'Tara', to_date('25-01-1991', 'dd-mm-yyyy'), '33 Mel Road', '1', 37212, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1838', 'Joseph', to_date('12-08-1998', 'dd-mm-yyyy'), '25 Rip Street', '2', 28496);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1838', 'Alfie', to_date('08-03-1979', 'dd-mm-yyyy'), '42 Woodard Road', '2', 33564, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1839', 'April', to_date('16-12-1998', 'dd-mm-yyyy'), '8 Ty Road', '1', 22156);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1839', 'Trick', to_date('12-09-1996', 'dd-mm-yyyy'), '83 Nick Blvd', '1', 37118, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1840', 'Miko', to_date('04-05-1975', 'dd-mm-yyyy'), '51st Street', '2', 35317);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1840', 'Guy', to_date('28-04-1993', 'dd-mm-yyyy'), '72nd Street', '2', 34683, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1841', 'Emily', to_date('15-01-1980', 'dd-mm-yyyy'), '29 Ryan Road', '2', 17519);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1841', 'Dan', to_date('14-07-1999', 'dd-mm-yyyy'), '1 Tualatin Stre', '2', 16446, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1842', 'Christmas', to_date('30-08-1983', 'dd-mm-yyyy'), '43 Todd Drive', '1', 33030);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1842', 'Stephanie', to_date('15-05-1996', 'dd-mm-yyyy'), '57 Winona Stree', '2', 11342, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1843', 'Victoria', to_date('24-01-1987', 'dd-mm-yyyy'), '70 Valencia Blv', '1', 17002);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1843', 'Gino', to_date('11-03-1990', 'dd-mm-yyyy'), '21st Street', '1', 28622, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1844', 'Martin', to_date('07-09-1996', 'dd-mm-yyyy'), '68 Dorry Street', '1', 35672);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1844', 'Buddy', to_date('01-11-1982', 'dd-mm-yyyy'), '9 Renfro Street', '1', 36455, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1845', 'Aaron', to_date('07-06-1994', 'dd-mm-yyyy'), '27 Lowe Drive', '1', 12326);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1845', 'Gene', to_date('23-11-1978', 'dd-mm-yyyy'), '74 Spencer Driv', '2', 13808, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1846', 'Judge', to_date('04-05-1987', 'dd-mm-yyyy'), '57 Charlize Roa', '2', 29779);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1846', 'Stewart', to_date('24-03-1995', 'dd-mm-yyyy'), '53rd Street', '1', 36226, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1847', 'Helen', to_date('01-03-1996', 'dd-mm-yyyy'), '74 Ribisi Drive', '1', 10200);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1847', 'Susan', to_date('09-06-1990', 'dd-mm-yyyy'), '98 Davis', '2', 35937, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1848', 'Patrick', to_date('26-06-1998', 'dd-mm-yyyy'), '582 Boyle Ave', '2', 22058);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1848', 'Freddy', to_date('24-01-1993', 'dd-mm-yyyy'), '64 Randall Road', '2', 30695, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1849', 'Carrie', to_date('24-03-1977', 'dd-mm-yyyy'), '337 Beckinsale ', '2', 36765);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1849', 'Mint', to_date('14-09-1985', 'dd-mm-yyyy'), '30 Yaphet', '2', 22676, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1850', 'Dennis', to_date('07-03-1974', 'dd-mm-yyyy'), '40 Coppell Blvd', '1', 11282);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1850', 'Peabo', to_date('02-05-1998', 'dd-mm-yyyy'), '98 Billerica Ro', '1', 35089, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1851', 'Mia', to_date('11-03-1999', 'dd-mm-yyyy'), '371 Griffiths D', '1', 26269);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1851', 'Dennis', to_date('07-09-1977', 'dd-mm-yyyy'), '67 Orton Road', '2', 19141, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1852', 'Mekhi', to_date('25-01-1974', 'dd-mm-yyyy'), '45 Logue Road', '2', 40855);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1852', 'Randy', to_date('28-01-1988', 'dd-mm-yyyy'), '50 Valentin Roa', '1', 20760, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1853', 'Claire', to_date('13-01-1976', 'dd-mm-yyyy'), '92 Gallagher Av', '2', 36401);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1853', 'Rosanna', to_date('01-04-1993', 'dd-mm-yyyy'), '647 Robin Stree', '1', 6147, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1854', 'Millie', to_date('08-08-1979', 'dd-mm-yyyy'), '8 Newman Blvd', '2', 24015);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1854', 'Miki', to_date('04-04-1982', 'dd-mm-yyyy'), '9 Phillips Blvd', '1', 39580, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1855', 'Lucy', to_date('19-04-1982', 'dd-mm-yyyy'), '80 Soest Drive', '2', 26924);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1855', 'Rosie', to_date('12-01-1972', 'dd-mm-yyyy'), '31 Shearer Ave', '2', 24792, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1856', 'Jesus', to_date('26-10-1994', 'dd-mm-yyyy'), '229 Child Ave', '1', 33383);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1856', 'Louise', to_date('15-10-1973', 'dd-mm-yyyy'), '71 Holmes Stree', '1', 19965, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1857', 'Pete', to_date('29-04-1974', 'dd-mm-yyyy'), '44 von Sydow St', '2', 9932);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1857', 'Rachel', to_date('24-04-1998', 'dd-mm-yyyy'), '9 El Segundo Dr', '2', 6820, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1858', 'Karon', to_date('09-07-1995', 'dd-mm-yyyy'), '663 Canberra Ro', '2', 22990);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1858', 'Laurence', to_date('14-06-1983', 'dd-mm-yyyy'), '815 Dutton Road', '2', 19206, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1859', 'Uma', to_date('01-05-1983', 'dd-mm-yyyy'), '39 Courbevoie', '2', 39982);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1859', 'Patricia', to_date('14-07-1980', 'dd-mm-yyyy'), '930 Molly Blvd', '1', 36512, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1860', 'Samuel', to_date('12-05-1994', 'dd-mm-yyyy'), '33 Beckinsale A', '1', 27742);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1860', 'Lindsay', to_date('05-08-1974', 'dd-mm-yyyy'), '32nd Street', '1', 10361, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1861', 'Paul', to_date('01-02-1991', 'dd-mm-yyyy'), '45 Anderson Dri', '2', 27806);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1861', 'Jerry', to_date('22-06-1971', 'dd-mm-yyyy'), '85 Archer Road', '2', 44217, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1862', 'Vince', to_date('06-03-1976', 'dd-mm-yyyy'), '56 San Francisc', '2', 44669);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1862', 'Wes', to_date('24-01-1975', 'dd-mm-yyyy'), '78 Chaykin Stre', '1', 11041, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1863', 'Carole', to_date('28-02-1978', 'dd-mm-yyyy'), '5 Oro', '2', 6918);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1863', 'Mindy', to_date('02-05-1970', 'dd-mm-yyyy'), '98 Butler Drive', '2', 21596, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1864', 'Penelope', to_date('12-03-1974', 'dd-mm-yyyy'), '49 Miko', '1', 14069);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1864', 'Samantha', to_date('15-01-1983', 'dd-mm-yyyy'), '32 Curt Street', '1', 18299, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1865', 'Brendan', to_date('28-04-1995', 'dd-mm-yyyy'), '43 Longueuil Ro', '1', 18667);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1865', 'Oliver', to_date('02-07-1995', 'dd-mm-yyyy'), '216 Julie Road', '1', 40720, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1866', 'Illeana', to_date('12-03-1984', 'dd-mm-yyyy'), '13 Maura Road', '1', 20476);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1866', 'Tilda', to_date('17-03-1971', 'dd-mm-yyyy'), '57 Donelly Driv', '1', 33973, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1867', 'Kelli', to_date('14-01-1990', 'dd-mm-yyyy'), '46 Cole Street', '2', 29724);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1867', 'Jean-Claude', to_date('27-12-1988', 'dd-mm-yyyy'), '63rd Street', '1', 12673, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1868', 'Alec', to_date('25-08-1991', 'dd-mm-yyyy'), '306 Thewlis Blv', '2', 15640);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1868', 'Gloria', to_date('04-10-1996', 'dd-mm-yyyy'), '52 Varzea grand', '1', 30583, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1869', 'Lonnie', to_date('18-10-1997', 'dd-mm-yyyy'), '19 Melrose park', '1', 35389);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1869', 'Lloyd', to_date('26-09-1997', 'dd-mm-yyyy'), '7 Nora Street', '2', 24955, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1870', 'Danny', to_date('17-02-1990', 'dd-mm-yyyy'), '44 De Almeida A', '1', 39123);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1870', 'Roddy', to_date('06-02-1992', 'dd-mm-yyyy'), '7 Eric Street', '1', 23804, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1871', 'Frankie', to_date('03-02-1974', 'dd-mm-yyyy'), '83rd Street', '2', 42206);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1871', 'Vin', to_date('15-11-1986', 'dd-mm-yyyy'), '59 Moscow Road', '2', 8516, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1872', 'Jose', to_date('25-06-1974', 'dd-mm-yyyy'), '9 Perlman Drive', '1', 10500);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1872', 'Thin', to_date('09-03-1986', 'dd-mm-yyyy'), '70 Evans Road', '2', 36979, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1873', 'Udo', to_date('13-08-1989', 'dd-mm-yyyy'), '50 Ribisi Ave', '2', 29703);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1873', 'Moe', to_date('17-08-1988', 'dd-mm-yyyy'), '22 Winans Drive', '2', 25895, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1874', 'Celia', to_date('08-06-1983', 'dd-mm-yyyy'), '52 Oates Street', '1', 9730);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1874', 'Dylan', to_date('20-01-1972', 'dd-mm-yyyy'), '60 Jolie Street', '2', 21658, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1875', 'Paula', to_date('04-02-1974', 'dd-mm-yyyy'), '13rd Street', '1', 39106);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1875', 'Tony', to_date('28-05-1997', 'dd-mm-yyyy'), '100 Geoff Blvd', '1', 11231, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1876', 'Graham', to_date('16-06-1985', 'dd-mm-yyyy'), '38 Bacon Drive', '2', 37182);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1876', 'Gerald', to_date('28-07-1998', 'dd-mm-yyyy'), '90 Franklin Blv', '1', 44716, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1877', 'Naomi', to_date('31-07-1988', 'dd-mm-yyyy'), '15 Branagh Driv', '1', 40821);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1877', 'Gladys', to_date('09-02-1973', 'dd-mm-yyyy'), '52 Remy Road', '1', 16580, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1878', 'Jena', to_date('05-01-1978', 'dd-mm-yyyy'), '4 Craddock Ave', '1', 37977);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1878', 'Chi', to_date('15-02-1993', 'dd-mm-yyyy'), '3 Westerberg St', '1', 33203, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1879', 'Laurie', to_date('10-04-1997', 'dd-mm-yyyy'), '81st Street', '2', 25550);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1879', 'Kimberly', to_date('09-09-1999', 'dd-mm-yyyy'), '44 Dale Street', '2', 25177, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1880', 'Embeth', to_date('06-10-1972', 'dd-mm-yyyy'), '76 Michelle Dri', '2', 23521);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1880', 'Maceo', to_date('14-03-1993', 'dd-mm-yyyy'), '648 Chaka Ave', '1', 25425, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1881', 'David', to_date('28-08-1977', 'dd-mm-yyyy'), '1 Guzman Street', '2', 20840);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1881', 'Fairuza', to_date('10-04-1981', 'dd-mm-yyyy'), '629 Coyote Stre', '1', 20406, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1882', 'Cameron', to_date('09-09-1991', 'dd-mm-yyyy'), '65 Depp', '1', 28713);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1882', 'Carla', to_date('03-11-1972', 'dd-mm-yyyy'), '53 Levert Road', '1', 42867, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1883', 'Christina', to_date('12-02-1970', 'dd-mm-yyyy'), '120 Judy Blvd', '2', 25364);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1883', 'Gena', to_date('17-01-1985', 'dd-mm-yyyy'), '43 Laredo Ave', '2', 15418, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1884', 'Kyra', to_date('23-12-1976', 'dd-mm-yyyy'), '187 Hamilton', '2', 27291);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1884', 'Judge', to_date('25-02-1996', 'dd-mm-yyyy'), '903 Loretta', '2', 23190, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1885', 'Cate', to_date('12-08-1999', 'dd-mm-yyyy'), '101 Vienna Road', '1', 8985);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1885', 'Benicio', to_date('13-06-1990', 'dd-mm-yyyy'), '87 Reiner Ave', '2', 11104, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1886', 'Gates', to_date('04-10-1997', 'dd-mm-yyyy'), '70 Vaughan Road', '2', 41780);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1886', 'Eugene', to_date('14-11-1983', 'dd-mm-yyyy'), '30 Chung Street', '1', 42932, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1887', 'Remy', to_date('23-02-1998', 'dd-mm-yyyy'), '76 Bratislava S', '1', 7946);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1887', 'Hope', to_date('26-12-1987', 'dd-mm-yyyy'), '129 Paul Street', '2', 30863, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1888', 'Gaby', to_date('26-05-1985', 'dd-mm-yyyy'), '56 Mirren Stree', '2', 21003);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1888', 'Davis', to_date('21-06-1978', 'dd-mm-yyyy'), '5 Hamilton Road', '1', 7370, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1889', 'Ivan', to_date('21-04-1981', 'dd-mm-yyyy'), '89 Berlin-Adler', '1', 37123);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1889', 'Christine', to_date('15-10-1970', 'dd-mm-yyyy'), '93rd Street', '1', 16513, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1890', 'Illeana', to_date('27-11-1989', 'dd-mm-yyyy'), '96 Campbell Roa', '2', 34611);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1890', 'Don', to_date('23-04-1995', 'dd-mm-yyyy'), '9 Zevon Ave', '2', 25582, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1891', 'Carlos', to_date('11-11-1976', 'dd-mm-yyyy'), '84 Leigh Ave', '1', 34638);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1891', 'Christine', to_date('30-03-1994', 'dd-mm-yyyy'), '39 Holmes Ave', '2', 35244, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1892', 'Irene', to_date('12-06-1995', 'dd-mm-yyyy'), '365 Griffin Roa', '1', 12366);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1892', 'Loreena', to_date('12-11-1984', 'dd-mm-yyyy'), '721 Denis Drive', '1', 10598, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1893', 'Aaron', to_date('20-01-1984', 'dd-mm-yyyy'), '29 Botti Drive', '2', 22661);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1893', 'Rosco', to_date('10-11-1998', 'dd-mm-yyyy'), '36 Naomi Blvd', '2', 6239, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1894', 'Fionnula', to_date('04-01-1992', 'dd-mm-yyyy'), '65 Alex Street', '1', 43638);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1894', 'Carlos', to_date('04-10-1992', 'dd-mm-yyyy'), '340 Burrows Roa', '1', 15748, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1895', 'Tobey', to_date('25-01-1985', 'dd-mm-yyyy'), '53rd Street', '2', 14052);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1895', 'Ellen', to_date('19-07-1993', 'dd-mm-yyyy'), '80 Noumea Stree', '2', 21457, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1896', 'Nelly', to_date('08-11-1984', 'dd-mm-yyyy'), '93rd Street', '2', 36668);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1896', 'Taryn', to_date('13-12-1991', 'dd-mm-yyyy'), '514 Rosas Stree', '1', 40381, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1897', 'Seann', to_date('22-04-1992', 'dd-mm-yyyy'), '506 Runcorn Blv', '1', 32684);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1897', 'Cliff', to_date('07-03-1982', 'dd-mm-yyyy'), '51 Nizhnevartov', '2', 12833, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1898', 'Aimee', to_date('30-07-1984', 'dd-mm-yyyy'), '59 Chestnut Roa', '2', 13165);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1898', 'Alana', to_date('21-09-1978', 'dd-mm-yyyy'), '86 Leipzig Ave', '1', 11787, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1899', 'Judi', to_date('21-07-1981', 'dd-mm-yyyy'), '192 Collin Road', '1', 29311);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1899', 'Kiefer', to_date('31-07-1987', 'dd-mm-yyyy'), '873 Deschanel D', '2', 32459, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1900', 'Bill', to_date('21-04-1981', 'dd-mm-yyyy'), '268 Marietta Ro', '2', 40763);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1900', 'Chris', to_date('30-01-1987', 'dd-mm-yyyy'), '652 Gaby Road', '2', 6121, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1901', 'Rhys', to_date('13-08-1985', 'dd-mm-yyyy'), '16 Reilly Stree', '2', 21667);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1901', 'Bryan', to_date('17-01-1982', 'dd-mm-yyyy'), '20 Kasey Street', '2', 38479, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1902', 'Morgan', to_date('25-11-1974', 'dd-mm-yyyy'), '18 Negbaur Stre', '1', 14302);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1902', 'Ronny', to_date('20-05-1986', 'dd-mm-yyyy'), '63rd Street', '1', 22260, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1903', 'Emm', to_date('15-09-1997', 'dd-mm-yyyy'), '43 Waits Road', '1', 18668);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1903', 'Jessica', to_date('20-09-1971', 'dd-mm-yyyy'), '83 Neill Street', '1', 17338, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1904', 'Billy', to_date('22-04-1995', 'dd-mm-yyyy'), '83rd Street', '1', 15860);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1904', 'Brothers', to_date('17-03-1979', 'dd-mm-yyyy'), '16 Akins Ave', '1', 17865, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1905', 'Trick', to_date('19-07-1976', 'dd-mm-yyyy'), '72nd Street', '2', 23960);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1905', 'Gailard', to_date('24-07-1985', 'dd-mm-yyyy'), '4 Adler Blvd', '2', 19025, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1906', 'Lois', to_date('13-03-1997', 'dd-mm-yyyy'), '74 Gothenburg S', '1', 35293);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1906', 'Rachael', to_date('18-09-1971', 'dd-mm-yyyy'), '8 Mount Laurel ', '2', 31325, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1907', 'Liev', to_date('21-06-1994', 'dd-mm-yyyy'), '67 Frost Road', '1', 23236);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1907', 'Petula', to_date('07-04-1976', 'dd-mm-yyyy'), '100 Blanchett R', '1', 30365, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1908', 'Shelby', to_date('15-02-1983', 'dd-mm-yyyy'), '62 Chappelle Ro', '2', 28640);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1908', 'Garry', to_date('19-06-1996', 'dd-mm-yyyy'), '62 Shalhoub Str', '2', 26589, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1909', 'Harry', to_date('19-06-1981', 'dd-mm-yyyy'), '69 Chirignago D', '1', 35588);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1909', 'Michelle', to_date('17-04-1971', 'dd-mm-yyyy'), '24 Teng Ave', '1', 8020, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1910', 'Brittany', to_date('28-08-1992', 'dd-mm-yyyy'), '64 Aglukark Str', '2', 43126);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1910', 'Eugene', to_date('04-05-1977', 'dd-mm-yyyy'), '701 Waldbronn A', '1', 6863, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1911', 'Leelee', to_date('11-04-1980', 'dd-mm-yyyy'), '82nd Street', '2', 10448);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1911', 'Tony', to_date('18-05-1994', 'dd-mm-yyyy'), '16 Marlon Road', '2', 9752, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1912', 'Jimmy', to_date('14-11-1975', 'dd-mm-yyyy'), '72 Bruce Ave', '2', 36083);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1912', 'Charlie', to_date('17-07-1995', 'dd-mm-yyyy'), '50 Whitman Road', '2', 17083, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1913', 'Omar', to_date('26-02-1980', 'dd-mm-yyyy'), '42 Wakeling Ave', '2', 25966);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1913', 'Kristin', to_date('16-05-1999', 'dd-mm-yyyy'), '42 Huston Ave', '2', 12020, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1914', 'Rose', to_date('09-05-1998', 'dd-mm-yyyy'), '91 Lena Road', '2', 34652);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1914', 'Lesley', to_date('01-09-1989', 'dd-mm-yyyy'), '84 O''Donnell Bl', '1', 29050, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1915', 'Rachid', to_date('13-12-1970', 'dd-mm-yyyy'), '74 Huston Drive', '1', 30951);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1915', 'Emily', to_date('26-10-1982', 'dd-mm-yyyy'), '35 Wayne Street', '1', 31892, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1916', 'Edie', to_date('26-10-1976', 'dd-mm-yyyy'), '497 Rebeka Road', '1', 40386);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1916', 'Raul', to_date('07-05-1997', 'dd-mm-yyyy'), '69 Peet Road', '2', 24614, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1917', 'Ike', to_date('03-08-1993', 'dd-mm-yyyy'), '27 Gena Street', '2', 39588);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1917', 'Robin', to_date('10-09-1979', 'dd-mm-yyyy'), '58 Ryan Ave', '2', 10037, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1918', 'Harriet', to_date('06-07-1975', 'dd-mm-yyyy'), '5 Levine Road', '2', 32691);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1918', 'Michelle', to_date('01-08-1972', 'dd-mm-yyyy'), '94 Fairborn Roa', '2', 39376, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1919', 'Eric', to_date('25-06-1996', 'dd-mm-yyyy'), '9 Mirren Street', '1', 24687);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1919', 'Spencer', to_date('01-11-1992', 'dd-mm-yyyy'), '57 Gilliam Stre', '1', 9758, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1920', 'Allan', to_date('08-08-1972', 'dd-mm-yyyy'), '93 Delafield Ro', '1', 19806);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1920', 'Spike', to_date('19-03-1974', 'dd-mm-yyyy'), '274 Bryan Road', '2', 34228, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1921', 'Chaka', to_date('15-09-1981', 'dd-mm-yyyy'), '25 Clayton Stre', '2', 44525);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1921', 'Angelina', to_date('30-09-1997', 'dd-mm-yyyy'), '99 Timonium Str', '1', 18533, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1922', 'Remy', to_date('09-02-1970', 'dd-mm-yyyy'), '79 New York Cit', '2', 35860);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1922', 'Lynn', to_date('26-08-1992', 'dd-mm-yyyy'), '32 McPherson Ro', '1', 41804, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1923', 'Martha', to_date('20-05-1974', 'dd-mm-yyyy'), '763 Stampley Dr', '2', 20299);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1923', 'Pierce', to_date('08-09-1986', 'dd-mm-yyyy'), '23 Rippy Street', '1', 9298, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1924', 'Angela', to_date('29-04-1970', 'dd-mm-yyyy'), '545 Prowse', '1', 41136);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1924', 'Anjelica', to_date('08-07-1987', 'dd-mm-yyyy'), '88 Pearce Stree', '2', 27313, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1925', 'Cyndi', to_date('08-01-1992', 'dd-mm-yyyy'), '13rd Street', '2', 10908);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1925', 'Delbert', to_date('07-02-1994', 'dd-mm-yyyy'), '58 Beals', '2', 14086, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1926', 'Rickie', to_date('28-11-1994', 'dd-mm-yyyy'), '77 Khan Blvd', '2', 40144);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1926', 'Rich', to_date('03-01-1994', 'dd-mm-yyyy'), '67 Haysbert Dri', '1', 20774, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1927', 'Donal', to_date('06-10-1995', 'dd-mm-yyyy'), '44 Wayans Ave', '2', 35632);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1927', 'Machine', to_date('03-07-1995', 'dd-mm-yyyy'), '13rd Street', '1', 32768, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1928', 'Ming-Na', to_date('14-01-1974', 'dd-mm-yyyy'), '99 Bruneck Road', '1', 18963);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1928', 'Denny', to_date('16-05-1983', 'dd-mm-yyyy'), '93 Burmester Ro', '2', 33744, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1929', 'Jack', to_date('14-07-1998', 'dd-mm-yyyy'), '34 Linney Stree', '1', 38572);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1929', 'Gloria', to_date('24-03-1989', 'dd-mm-yyyy'), '53rd Street', '2', 12080, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1930', 'Dermot', to_date('01-07-1998', 'dd-mm-yyyy'), '12 Lakewood Dri', '2', 43416);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1930', 'Amanda', to_date('23-11-1989', 'dd-mm-yyyy'), '63rd Street', '1', 10631, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1931', 'Thomas', to_date('22-06-1975', 'dd-mm-yyyy'), '451 Peet Road', '1', 43999);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1931', 'Allan', to_date('23-10-1988', 'dd-mm-yyyy'), '76 Ozzy Drive', '1', 10560, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1932', 'Phil', to_date('30-06-1978', 'dd-mm-yyyy'), '831 Kweller Dri', '2', 18748);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1932', 'Wes', to_date('14-04-1972', 'dd-mm-yyyy'), '66 Hong', '1', 16273, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1933', 'Sydney', to_date('11-02-1979', 'dd-mm-yyyy'), '40 Raybon Drive', '1', 8410);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1933', 'Alessandro', to_date('14-12-1971', 'dd-mm-yyyy'), '122 Chorzףw Roa', '1', 26677, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1934', 'Trick', to_date('05-12-1985', 'dd-mm-yyyy'), '62 Harriet Stre', '2', 28286);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1934', 'Ice', to_date('06-12-1970', 'dd-mm-yyyy'), '68 Huntsville R', '2', 18283, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1935', 'Mickey', to_date('29-11-1981', 'dd-mm-yyyy'), '81 Lonsdale Str', '2', 30295);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1935', 'Frankie', to_date('22-03-1974', 'dd-mm-yyyy'), '81st Street', '1', 23982, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1936', 'Nathan', to_date('11-09-1992', 'dd-mm-yyyy'), '50 Chazz Road', '2', 22837);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1936', 'Lorraine', to_date('18-01-1983', 'dd-mm-yyyy'), '287 Bright Driv', '2', 39269, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1937', 'Taye', to_date('13-03-1972', 'dd-mm-yyyy'), '69 Peebles Road', '2', 10080);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1937', 'Oliver', to_date('17-12-1970', 'dd-mm-yyyy'), '644 Soroe Blvd', '2', 33064, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1938', 'Boz', to_date('04-07-1979', 'dd-mm-yyyy'), '34 Ringwood Str', '2', 43282);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1938', 'Saffron', to_date('05-11-1979', 'dd-mm-yyyy'), '72nd Street', '2', 31945, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1939', 'Kevin', to_date('19-03-1973', 'dd-mm-yyyy'), '67 Doncaster Ro', '1', 26631);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1939', 'Hikaru', to_date('16-11-1974', 'dd-mm-yyyy'), '147 McGoohan St', '1', 31264, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1940', 'King', to_date('14-05-1978', 'dd-mm-yyyy'), '42 Chesnutt', '2', 30858);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1940', 'Derrick', to_date('16-04-1994', 'dd-mm-yyyy'), '378 Benjamin Dr', '1', 17712, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1941', 'Fionnula', to_date('15-03-1974', 'dd-mm-yyyy'), '1 Lindsey Ave', '2', 12876);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1941', 'Darius', to_date('06-11-1999', 'dd-mm-yyyy'), '37 Thin Road', '2', 22359, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1942', 'Joe', to_date('18-02-1986', 'dd-mm-yyyy'), '795 Nicolas Str', '2', 8692);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1942', 'Maureen', to_date('25-07-1979', 'dd-mm-yyyy'), '80 Weiss Street', '2', 6337, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1943', 'Aimee', to_date('06-09-1998', 'dd-mm-yyyy'), '43 Ryan Drive', '1', 32817);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1943', 'Carlene', to_date('25-05-1993', 'dd-mm-yyyy'), '115 Goldwyn Roa', '1', 40272, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1944', 'Ani', to_date('01-06-1994', 'dd-mm-yyyy'), '322 Natacha Ave', '1', 12505);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1944', 'Hope', to_date('28-02-1992', 'dd-mm-yyyy'), '29 Dale Drive', '2', 41614, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1945', 'Vince', to_date('05-02-1990', 'dd-mm-yyyy'), '63rd Street', '2', 20290);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1945', 'Maury', to_date('16-05-1983', 'dd-mm-yyyy'), '54 Reading Road', '2', 32341, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1946', 'Lonnie', to_date('25-11-1992', 'dd-mm-yyyy'), '94 Ruffalo Stre', '2', 35166);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1946', 'Warren', to_date('30-05-1981', 'dd-mm-yyyy'), '38 Wageningen R', '2', 29151, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1947', 'Aida', to_date('29-08-1973', 'dd-mm-yyyy'), '15 Sendai Ave', '1', 25183);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1947', 'Simon', to_date('07-11-1974', 'dd-mm-yyyy'), '15 Sirtis Road', '2', 20408, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1948', 'Nicholas', to_date('20-07-1994', 'dd-mm-yyyy'), '97 Colombo Blvd', '2', 13613);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1948', 'Juice', to_date('17-08-1999', 'dd-mm-yyyy'), '85 Cedar Rapids', '1', 29772, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1949', 'Lari', to_date('16-04-1999', 'dd-mm-yyyy'), '27 Patton Road', '2', 17681);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1949', 'Lea', to_date('09-11-1989', 'dd-mm-yyyy'), '84 Griffith Roa', '2', 37813, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1950', 'Philip', to_date('30-06-1990', 'dd-mm-yyyy'), '28 Geneve Blvd', '1', 16621);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1950', 'Steve', to_date('03-08-1997', 'dd-mm-yyyy'), '40 Rhona Road', '1', 32817, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1951', 'Sam', to_date('24-07-1995', 'dd-mm-yyyy'), '259 Schiff Blvd', '2', 38251);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1951', 'Swoosie', to_date('16-10-1982', 'dd-mm-yyyy'), '18 LaPaglia Blv', '1', 12283, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1952', 'Faye', to_date('09-07-1988', 'dd-mm-yyyy'), '93 Blige Drive', '1', 18185);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1952', 'Clive', to_date('19-05-1970', 'dd-mm-yyyy'), '28 Ottawa Ave', '2', 24461, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1953', 'Kelli', to_date('21-06-1976', 'dd-mm-yyyy'), '52nd Street', '1', 36693);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1953', 'Gino', to_date('03-11-1996', 'dd-mm-yyyy'), '34 Yomgok-dong ', '1', 29372, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1954', 'Hector', to_date('20-03-1980', 'dd-mm-yyyy'), '2 Reston Ave', '2', 9579);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1954', 'Lorraine', to_date('08-11-1979', 'dd-mm-yyyy'), '23 Buscemi', '1', 15502, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1955', 'Edwin', to_date('16-07-1981', 'dd-mm-yyyy'), '47 Merchant Roa', '2', 16532);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1955', 'Brendan', to_date('10-09-1990', 'dd-mm-yyyy'), '36 Rachid', '1', 43996, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1956', 'Mitchell', to_date('12-12-1998', 'dd-mm-yyyy'), '52nd Street', '1', 37306);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1956', 'Judd', to_date('02-09-1988', 'dd-mm-yyyy'), '90 Adam Road', '2', 18615, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1957', 'Kiefer', to_date('03-08-1977', 'dd-mm-yyyy'), '19 Burt Street', '2', 31524);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1957', 'Naomi', to_date('04-02-1998', 'dd-mm-yyyy'), '74 Morioka Stre', '2', 42652, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1958', 'Corey', to_date('15-12-1992', 'dd-mm-yyyy'), '32 Tobey Road', '1', 33857);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1958', 'Donal', to_date('13-04-1992', 'dd-mm-yyyy'), '999 Bello Stree', '2', 31882, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1959', 'Cate', to_date('21-12-1992', 'dd-mm-yyyy'), '27 Nick Road', '1', 18563);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1959', 'Eugene', to_date('18-10-1991', 'dd-mm-yyyy'), '30 Corona Drive', '1', 32098, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1960', 'Lisa', to_date('22-10-1980', 'dd-mm-yyyy'), '15 Rik Road', '1', 26862);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1960', 'Rose', to_date('13-06-1999', 'dd-mm-yyyy'), '81st Street', '2', 9345, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1961', 'Hilary', to_date('04-04-1979', 'dd-mm-yyyy'), '91 Rizzo Drive', '2', 20305);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1961', 'Lila', to_date('18-05-1990', 'dd-mm-yyyy'), '713 Clarence', '2', 33346, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1962', 'Eugene', to_date('24-06-1995', 'dd-mm-yyyy'), '73 Domino Stree', '1', 7550);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1962', 'Pat', to_date('27-09-1971', 'dd-mm-yyyy'), '279 Pretoria Ro', '2', 26820, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1963', 'Nikki', to_date('17-05-1973', 'dd-mm-yyyy'), '31 Phoebe Road', '1', 40155);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1963', 'CeCe', to_date('24-04-1973', 'dd-mm-yyyy'), '13 Uma Street', '1', 31438, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1964', 'Harrison', to_date('10-04-1978', 'dd-mm-yyyy'), '43 DeVito Drive', '2', 42119);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1964', 'Buddy', to_date('30-03-1996', 'dd-mm-yyyy'), '56 Tia Blvd', '2', 25659, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1965', 'Jim', to_date('14-11-1981', 'dd-mm-yyyy'), '85 Thomas Stree', '1', 9441);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1965', 'Loreena', to_date('27-05-1973', 'dd-mm-yyyy'), '72 Tankard Road', '2', 18380, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1966', 'Jon', to_date('07-11-1997', 'dd-mm-yyyy'), '40 April Street', '2', 35486);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1966', 'Jeremy', to_date('18-12-1998', 'dd-mm-yyyy'), '418 Silverman B', '2', 22354, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1967', 'Debi', to_date('17-10-1989', 'dd-mm-yyyy'), '770 Squier Blvd', '2', 35377);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1967', 'Anna', to_date('07-10-1987', 'dd-mm-yyyy'), '54 Harahan Road', '2', 34898, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1968', 'Dom', to_date('17-10-1994', 'dd-mm-yyyy'), '63rd Street', '1', 16085);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1968', 'Salma', to_date('22-04-1981', 'dd-mm-yyyy'), '64 Pantoliano S', '1', 42319, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1969', 'Derrick', to_date('07-05-1976', 'dd-mm-yyyy'), '11st Street', '1', 22743);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1969', 'Lila', to_date('16-09-1985', 'dd-mm-yyyy'), '82nd Street', '1', 19223, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1970', 'Tramaine', to_date('14-06-1995', 'dd-mm-yyyy'), '79 Burr Ridge', '2', 6218);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1970', 'Bobbi', to_date('28-12-1979', 'dd-mm-yyyy'), '54 Bentley', '1', 37522, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1971', 'Andrae', to_date('01-09-1991', 'dd-mm-yyyy'), '73rd Street', '1', 30190);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1971', 'Isabella', to_date('09-11-1972', 'dd-mm-yyyy'), '92nd Street', '2', 25193, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1972', 'Cornell', to_date('30-10-1977', 'dd-mm-yyyy'), '64 Roy Parnell ', '2', 17027);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1972', 'Kay', to_date('05-10-1977', 'dd-mm-yyyy'), '46 Campana Driv', '2', 41944, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1973', 'Winona', to_date('08-05-1997', 'dd-mm-yyyy'), '13 Carrie-Anne ', '1', 13263);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1973', 'Andrea', to_date('23-04-1993', 'dd-mm-yyyy'), '72 Teng Road', '1', 21739, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1974', 'Dabney', to_date('16-08-1970', 'dd-mm-yyyy'), '75 Farrell Driv', '2', 7626);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1974', 'King', to_date('14-08-1970', 'dd-mm-yyyy'), '77 Or-yehuda Ro', '1', 28806, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1975', 'Linda', to_date('10-08-1979', 'dd-mm-yyyy'), '53 Phil', '1', 19250);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1975', 'Jonathan', to_date('07-09-1971', 'dd-mm-yyyy'), '428 Downey Ave', '2', 32662, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1976', 'Chuck', to_date('16-08-1974', 'dd-mm-yyyy'), '12 Ashdod Road', '2', 43132);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1976', 'Terrence', to_date('11-03-1983', 'dd-mm-yyyy'), '584 Silverdale ', '1', 9161, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1977', 'Rachel', to_date('19-03-1974', 'dd-mm-yyyy'), '804 Kim Ave', '1', 26847);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1977', 'Robbie', to_date('26-11-1970', 'dd-mm-yyyy'), '88 Caroline Str', '1', 26151, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1978', 'Lance', to_date('05-04-1975', 'dd-mm-yyyy'), '14 Travers Stre', '2', 23163);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1978', 'Milla', to_date('05-03-1989', 'dd-mm-yyyy'), '62 Cole Drive', '2', 24361, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1979', 'Swoosie', to_date('16-03-1978', 'dd-mm-yyyy'), '391 Leguizamo D', '1', 37071);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1979', 'Chalee', to_date('26-11-1996', 'dd-mm-yyyy'), '77 Wong Street', '1', 36004, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1980', 'Daryle', to_date('12-12-1999', 'dd-mm-yyyy'), '8 Juliette Stre', '1', 11934);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1980', 'Thin', to_date('31-12-1993', 'dd-mm-yyyy'), '873 Calle Drive', '1', 40081, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1981', 'Andie', to_date('26-06-1981', 'dd-mm-yyyy'), '5 Harnes Street', '2', 41362);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1981', 'Laurence', to_date('23-09-1998', 'dd-mm-yyyy'), '63 Carrie Road', '1', 21600, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1982', 'Martin', to_date('27-03-1996', 'dd-mm-yyyy'), '36 Boz Street', '1', 11656);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1982', 'Stevie', to_date('03-08-1981', 'dd-mm-yyyy'), '85 Seann Road', '2', 25372, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1983', 'Diane', to_date('18-05-1978', 'dd-mm-yyyy'), '90 Long Island ', '1', 32092);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1983', 'Robby', to_date('11-10-1979', 'dd-mm-yyyy'), '73 Galecki Road', '2', 32296, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1984', 'Alan', to_date('02-10-1976', 'dd-mm-yyyy'), '12nd Street', '1', 12341);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1984', 'Molly', to_date('04-04-1990', 'dd-mm-yyyy'), '45 Vanessa Blvd', '1', 34101, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1985', 'Aaron', to_date('26-04-1981', 'dd-mm-yyyy'), '24 Santa Cruz R', '1', 44955);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1985', 'Rufus', to_date('10-12-1971', 'dd-mm-yyyy'), '36 Silverman St', '2', 27174, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1986', 'Wayman', to_date('14-12-1997', 'dd-mm-yyyy'), '74 Moraz Road', '1', 28928);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1986', 'Petula', to_date('31-08-1997', 'dd-mm-yyyy'), '683 Rod Drive', '1', 35547, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1987', 'Judi', to_date('23-01-1994', 'dd-mm-yyyy'), '50 Dwight Stree', '1', 10844);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1987', 'Meg', to_date('30-06-1978', 'dd-mm-yyyy'), '65 Williams Roa', '1', 15694, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1988', 'Dwight', to_date('02-07-1981', 'dd-mm-yyyy'), '24 LaSalle', '1', 12981);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1988', 'Pamela', to_date('19-07-1991', 'dd-mm-yyyy'), '693 Collie Road', '2', 33289, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1989', 'Judy', to_date('20-12-1987', 'dd-mm-yyyy'), '904 Heath Ave', '1', 19439);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1989', 'Isabella', to_date('30-10-1994', 'dd-mm-yyyy'), '59 Hawthorne', '2', 27165, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1990', 'Ryan', to_date('23-05-1990', 'dd-mm-yyyy'), '92nd Street', '2', 39306);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1990', 'Lara', to_date('10-01-1985', 'dd-mm-yyyy'), '59 King Road', '2', 18208, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1991', 'Clint', to_date('11-08-1971', 'dd-mm-yyyy'), '44 Fukushima Av', '1', 12958);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1991', 'Johnette', to_date('28-07-1999', 'dd-mm-yyyy'), '3 Nik Ave', '1', 29574, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1992', 'Mandy', to_date('04-02-1980', 'dd-mm-yyyy'), '74 Cassel Drive', '1', 35929);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1992', 'Judd', to_date('17-05-1983', 'dd-mm-yyyy'), '657 Durning Roa', '1', 37081, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1993', 'Javon', to_date('19-09-1983', 'dd-mm-yyyy'), '92nd Street', '1', 12682);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1993', 'Mitchell', to_date('29-02-1992', 'dd-mm-yyyy'), '62nd Street', '2', 10823, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1994', 'Miko', to_date('08-06-1984', 'dd-mm-yyyy'), '55 Williams Ave', '2', 18452);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1994', 'Alfie', to_date('16-07-1977', 'dd-mm-yyyy'), '97 Catherine Av', '1', 8691, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1995', 'Tobey', to_date('01-05-1985', 'dd-mm-yyyy'), '2 Daejeon Road', '2', 43782);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1995', 'Thin', to_date('06-05-1976', 'dd-mm-yyyy'), '10 Schiavelli A', '2', 29527, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1996', 'Ronny', to_date('09-01-1973', 'dd-mm-yyyy'), '73 Avital', '1', 11404);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1996', 'Rich', to_date('10-05-1996', 'dd-mm-yyyy'), '73 Toni Road', '2', 36098, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1997', 'Vince', to_date('26-06-1970', 'dd-mm-yyyy'), '78 Shepherd Dri', '1', 21902);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1997', 'Adina', to_date('17-12-1980', 'dd-mm-yyyy'), '679 Balk Street', '1', 10898, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1998', 'Spike', to_date('01-01-1999', 'dd-mm-yyyy'), '67 Houma Drive', '2', 20790);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1998', 'Eddie', to_date('22-07-1996', 'dd-mm-yyyy'), '23 West Chester', '2', 30039, '1000');
 
-insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY)
-values ('1999', 'Karon', to_date('11-06-1981', 'dd-mm-yyyy'), '9 Paltrow Drive', '2', 20939);
+insert into WOLPERT.PERSONDETAILS (WORKERID, WORKERNAME, BIRTHDAY, ADDRESS, GENDER, SALARY, MANAGER_OF_WORKERID)
+values ('1999', 'Crispin', to_date('12-05-1996', 'dd-mm-yyyy'), '97 Kretschmann ', '2', 19106, '1000');
 
+commit;
 
